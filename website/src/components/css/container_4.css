@@ -1,0 +1,34 @@
+.container4{
+    background-color:#E7A908;
+
+}
+
+.container-4-child-heading
+{
+margin-left: 3vw;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 6vw;
+line-height: 8vw;
+color: #000000;
+}
+.container-4-parent
+{
+    display: flex;
+}
+img{
+    height:28vw;
+    width:20vw; 
+    margin-left:6vw;    
+}
+.container-4-child-body{
+    margin-left:3vw;
+    margin-top: 2vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.8vw;
+    line-height: 4vw;
+    color:white;
+}

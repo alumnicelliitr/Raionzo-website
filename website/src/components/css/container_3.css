@@ -1,0 +1,42 @@
+.container3{
+    background-color: white;
+}
+
+.container-3-child-heading
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    float:right;
+    color: #E7A908;
+    margin-right: 3vw;
+
+}
+.container-3-parent
+{
+    display:inline-flex;
+}
+.container-3-child
+{
+    height:25vw;
+    width:25vw;  
+}
+.container-3-child-1
+{
+    flex:1;
+}
+.container-3-child-2
+{
+    flex:3;
+}
+.container-3-child-body
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vw;
+    text-align: right;
+    color: #000000;
+    line-height: 1.5em;
+}
