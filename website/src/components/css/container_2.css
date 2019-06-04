@@ -1,0 +1,98 @@
+.container-2-parent
+{
+    display:flex;
+    justify-content: space-between;
+    background-color:#E7A908;
+    margin-top:2rem;
+    
+}
+
+.container-2-child-heading
+{
+    margin-left:3vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vw; 
+    color: #FFFFFF;
+    
+}
+.container-2-child-date
+{   
+margin-left:3vw;
+margin-top:5vw;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 3vw;
+line-height: 2vw;
+color: #000000;
+}
+.container-2-child-button
+{
+    margin-left:3vw;
+    display: flex;
+    margin-top: 5vw;
+    border-color: #FFFFFF;
+}
+.container-2-child-button-1
+{   height: 5vw;
+    width: 12vw;
+    background-color: Transparent;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-color:#FFFFFF;
+    border-radius:5%;
+    font-size: 2vw;
+}
+.container-2-child-button-2
+{   height: 5vw;
+    width: 12vw;
+    margin-left: 2vw;
+    background-color: Transparent;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius:5%;
+    border-color:white;
+    font-size: 2vw;
+
+}
+.container-2-child-2{
+    margin-right:3rem;
+}
+.container-2-child-presentedby
+{   margin-top: 1vw; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;   
+}
+.container-2-child-logos{
+    margin-left:-10px; 
+}
+.container-2-child-logo
+
+{
+margin-top: 1vw;
+ width: 10vw;
+height: 10vw;
+}
+.registernow
+{
+margin-top: 1.5vw; 
+width: 18vw;
+height: 5vw;   
+color:white;
+background: #000000;
+box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+border-color:black  ;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 2vw;
+}
