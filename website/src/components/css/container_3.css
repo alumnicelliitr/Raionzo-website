@@ -21,6 +21,8 @@
 {
     height:25vw;
     width:25vw;  
+    margin-left: 2vw;
+    margin-top: 2vw;
 }
 .container-3-child-1
 {
@@ -38,5 +40,22 @@
     font-size: 3vw;
     text-align: right;
     color: #000000;
-    line-height: 1.5em;
+    line-height: 5vw;
+}
+@media only screen and (max-width:600px)
+{
+    .container-3-child-heading{
+        font-size: 5vw;
+    }
+    .container-3-child-body
+    {
+        font-size:3vw;
+        line-height: 5vw;  
+        font-weight: 300;
+    }
+    .container-3-child
+    {
+    height:35vw;
+    width:35vw;
+    }
 }

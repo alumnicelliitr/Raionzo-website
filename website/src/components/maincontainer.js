@@ -12,20 +12,20 @@ function MainContainer() {
         <CONTAINER1 heading="Raionzo" colr="black"/>
         <CONTAINER2 />
         
-        <div className="triangle-topleft"></div>    
-        <div className="straightline"></div> 
+        <div className="triangle-topleft-0"></div>    
+        <div className="straightline-0"></div> 
         <div className="triangle-bottomright-0"></div>
         
         <CONTAINER3/>
-        <div className="straightlineblack"></div>  
+        <div className="straightlineblack-1"></div>  
         <div className="triangle-topleft-1"></div> 
-        <div className="triangle-bottomright"></div> 
+        <div className="triangle-bottomright-1"></div> 
         
         
         <CONTAINER4/>
         <div className="triangle-topleft-2"></div> 
-        <div className="triangle-bottomright1"></div>
-        </div>
+        <div className="triangle-bottomright-2"></div>
+  </div>
   );
 }
 
