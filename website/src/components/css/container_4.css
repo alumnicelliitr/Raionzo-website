@@ -1,26 +1,26 @@
-.container4{
+.container4
+{
     background-color:#E7A908;
-
 }
 
 .container-4-child-heading
 {
-margin-left: 3vw;
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 6vw;
-line-height: 8vw;
-color: #000000;
-}
+    margin-left: 3vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6vw;
+    line-height: 8vw;
+    color: #000000;
+    }
 .container-4-parent
 {
     display: flex;
 }
-img{
+.container-4-image{
     height:28vw;
-    width:20vw; 
-    margin-left:6vw;    
+    width:24vw; 
+    margin-left:3vw;    
 }
 .container-4-child-body{
     margin-left:3vw;
@@ -28,7 +28,24 @@ img{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 2.8vw;
+    font-size: 3vw;
     line-height: 4vw;
     color:white;
+}
+@media only screen and (max-width:600px)
+{
+    .container-4-child-heading{
+        font-size: 5vw;
+    }
+    .container-4-child-body
+    {
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+    .container-4-image{
+        height:32vw;
+        width:32vw; 
+        margin-left:2vw;   
+    }
 }

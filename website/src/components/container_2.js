@@ -1,8 +1,6 @@
 import React from 'react';
 import './css/container_2.css';
-
 import iitrlogo from './images/iitrlogo.png';
-
 import iarclogo from './images/iarclogo.png';
 
 class CONTAINER2 extends React.Component {
@@ -19,10 +17,10 @@ class CONTAINER2 extends React.Component {
             </div>
             <div className="container-2-child-2" >
                 <div className="container-2-child-presentedby"> Presented By</div>
-                <div classNaame="container-2-parent-logo">
+                <div className="container-2-parent-logo">
                   <div className="container-2-child-logos ">
-                    <img className="container-2-child-logo " src={iarclogo}/>
-                    <img className="container-2-child-logo " src={iitrlogo}/>
+                    <img className="container-2-child-logo-1 " src={iarclogo} alt=""/>
+                    <img className="container-2-child-logo-2" src={iitrlogo} alt=""/>
                   </div>
                 </div>
                 <div className="registernowbutton">
