@@ -23,6 +23,8 @@ function MainContainer() {
         
         
         <CONTAINER4/>
+        <div className="straightlineblack-2"></div> 
+        <div className="straightlinewhite-2"></div>  
         <div className="triangle-topleft-2"></div> 
         <div className="triangle-bottomright-2"></div>
   </div>
