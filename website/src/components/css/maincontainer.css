@@ -5,12 +5,12 @@
 }
 .straightline-0
 {
-    z-index:1;
-    border:.4vw solid black;
-    margin-bottom:3.5vw;
-    transform: rotate(-6deg);
-    background-color: black;
-}
+      z-index:1;
+      border:.4vw solid black;
+      margin-bottom:3.5vw;
+      transform: rotate(-6deg);
+      background-color: black;
+  }
 .triangle-topleft-0
  {
         width: 0;
@@ -52,9 +52,25 @@
     transform: rotate(-6deg);
     background-color: #E7A908;
 }
+.straightlineblack-2{
+  z-index:1;
+  border:.4vw solid black;
+  margin-top:1vw;
+  transform: rotate(-6deg);
+  background-color:black;
+
+}
+.straightlinewhite-2
+{
+  z-index:1;
+  border:.4vw solid white;
+  margin-bottom:-5vw;
+  transform: rotate(-6deg);
+  background-color:white;
+}
      
 .triangle-topleft-2
- {
+ {  
         width: 0;
         height: 0;
         border-top: 10vw solid #E7A908;
@@ -66,6 +82,7 @@
         height: 0;
         border-bottom: 10vw solid black;
         border-left: 99vw solid transparent;
+        margin-top: -10vw;
 }
 @media only screen and (max-width:600px)
 {
