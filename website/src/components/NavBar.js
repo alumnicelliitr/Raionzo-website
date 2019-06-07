@@ -13,7 +13,9 @@ class NavBar extends Component {
 				<NavLink name="Events" />
 				<NavLink name="Schedule" />
 				<NavLink name="Contact Us" />
+
 			</div>
+			
 			<div className="reg-link">Register</div>
 			</div>
 		);

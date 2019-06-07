@@ -160,6 +160,16 @@
 		grid-template-columns: 90%;
 		padding: 6em 4em 0em 4em;
 	}
+
+	.footer-cont-all{
+		font-size: 3vw;
+	}
+	.footer-raionzo-head{
+		font-size: 5vw;
+	}
+	.footer-subhead{
+		font-size: 5vw;
+	}
 }
 
 @media only screen and (max-width: 400px){
