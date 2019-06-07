@@ -1,0 +1,184 @@
+.footer{
+	padding: 6em 7em 0em 7em;
+	background-color: black;
+	color: white;
+	display: grid;
+	grid-template-columns: 24% 19% 22% 13% 22%;
+}
+
+.grid-item{
+	margin-bottom: 4em;
+}
+
+.footer-raionzo-head{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 49px;
+	color: #E7A908;
+}
+
+.footer-cont-all{
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.footer-raionzo-cont{
+	margin-top: 1.5em;
+}
+
+.footer-list{
+	display: flex;
+	flex-direction: column;
+	margin-top: 2em;
+	justify-content: space-between;
+}
+
+.footer-list-links{
+	height: 180px;
+}
+
+.footer-list-events{
+	height: 220px;
+}
+
+.footer-list-help{
+	height: 70px;
+}
+
+.footer-subhead{
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	color: #E7A908;
+}
+
+.footer-child-1{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.contact-img{
+	height: 32px;
+	width: auto;
+	margin-right: 2em;
+}
+
+.footer-contact-data{
+	padding: 1em 0 1em 0;
+	vertical-align: middle;
+}
+
+.footer-links, .footer-events{
+	padding-top: 0.3em;
+}
+
+.footer-help{
+	padding-top: 0.3em;
+}
+
+.footer-follow{
+	padding-top: 0.4em;
+}
+
+.footer-follow-cont{
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.follow-links{
+	margin-top: 1.2em;
+}
+
+.follow-img{
+	margin-right: 1em;
+}
+
+.div3{
+	display: none;
+}
+
+@media only screen and (max-width: 1240px){
+	.div3{
+		display: block;
+	}
+
+	.div2, .div4{
+		display: none;
+	}
+
+	.footer{
+		grid-template-columns: 35% 30% 35%;
+	}
+}
+
+@media only screen and (max-width: 1010px){
+	.div3{
+		display: block;
+	}
+
+	.div2, .div4{
+		display: none;
+	}
+
+	.footer{
+		grid-template-columns: 40% 20% 40%;
+		padding: 6em 5em 0em 5em;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.empty-div{
+		display: none;
+	}
+
+	.footer{
+		grid-template-columns: 60%;
+		padding: 6em 5em 0em 5em;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.empty-div{
+		display: none;
+	}
+
+	.footer{
+		grid-template-columns: 90%;
+		padding: 6em 4em 0em 4em;
+	}
+
+	.footer-cont-all{
+		font-size: 3vw;
+	}
+	.footer-raionzo-head{
+		font-size: 5vw;
+	}
+	.footer-subhead{
+		font-size: 5vw;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.empty-div{
+		display: none;
+	}
+
+	.footer{
+		grid-template-columns: 90%;
+		padding: 6em 3em 0em 3em;
+	}
+}
