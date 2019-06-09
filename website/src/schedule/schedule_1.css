@@ -1,0 +1,40 @@
+.eventschedule_container
+{
+    margin-top: 4vw;
+}
+.eventschedule_info{
+    display:flex;
+    align-items: center;
+}
+
+.eventschedule_line_0{
+    width: 5vw;
+    height: 0px;
+    border: .2vw solid #000000;
+    margin-left: 0;
+}
+.eventschedule_heading{
+
+margin-left: 2vw;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 3.5vw;
+line-height: 4vw;
+text-shadow: #000000 ;
+
+}
+.eventschedule_line_1
+{margin-left: 2vw;
+    
+width:50vw;
+height: 0px;    
+border: .2vw solid #000000;
+}
+.eventschedule_circle_1
+{
+    height:2vw;
+    width:2vw;
+    border:.2vw solid black;
+    border-radius:50%;
+}
