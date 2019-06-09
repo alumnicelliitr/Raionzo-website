@@ -1,6 +1,6 @@
 import React from 'react';
 import './events.css';
-import arrow from '../images/arrow.png';
+import arrow from '../components/images/arrow.png';
 function Contain1(props){
 	 return  (	<div className="box1" key={props.index}>
 	 	                      <img className="pd1" src={props.icon} alt='one'/>

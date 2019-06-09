@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import im from '../images/im.png';
+import im from '../components/images/im.png';
 import './events.css';
-import one from '../images/one.png';
-import two from '../images/two.png';
-import three from '../images/three.png';
-import four from '../images/four.png';
-import five from '../images/five.png';
-import six from '../images/six.png';
+import one from '../components/images/one.png';
+import two from '../components/images/two.png';
+import three from '../components/images/three.png';
+import four from '../components/images/four.png';
+import five from '../components/images/five.png';
+import six from '../components/images/six.png';
 import Contain from './contain';
 import Contain1 from './contain1';
 
