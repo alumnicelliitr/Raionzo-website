@@ -18,14 +18,14 @@ const routing = (
                 <div className="nav-links">
                     <Link  to ="/"><NavLink name="Home" /></Link>
                     <Link ><NavLink name="Events" /></Link>
-                    <Link to="/schedule/schedule_container"><NavLink name="Schedule" /></Link>
+                    <Link to="/schedule/"><NavLink name="Schedule" /></Link>
                     <Link ><NavLink name="Contact Us" /></Link>
                 </div>
 			    <div className="reg-link">Register</div>
 	
     		</div>
             <Route exact path="/" component={App} />
-            <Route path="/schedule/schedule_container" component={SCHEDULE} />
+            <Route path="/schedule/" component={SCHEDULE} />
             
             <Footer/>
     </Router>
