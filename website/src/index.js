@@ -8,6 +8,7 @@ import raionzoLogo from './components/images/raionzologo.png';
 import NavLink from './components/navlink.js';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import Footer from './components/Footer.js'
+import events from './Events/events.js'
 
 
 const routing = (
@@ -17,7 +18,7 @@ const routing = (
                 <div className="head">Raionzo</div>
                 <div className="nav-links">
                     <Link  to ="/"><NavLink name="Home" /></Link>
-                    <Link ><NavLink name="Events" /></Link>
+                    <Link to ="/Events/events"><NavLink name="Events" /></Link>
                     <Link to="/schedule/"><NavLink name="Schedule" /></Link>
                     <Link ><NavLink name="Contact Us" /></Link>
                 </div>
@@ -26,6 +27,7 @@ const routing = (
     		</div>
             <Route exact path="/" component={App} />
             <Route path="/schedule/" component={SCHEDULE} />
+            <Route path="/Events/" component={events} />
             
             <Footer/>
     </Router>
