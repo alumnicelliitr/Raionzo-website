@@ -1,0 +1,122 @@
+
+
+.eventcontainer1
+{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+
+
+.eventcontainer1-heading{
+font-style: normal;
+font-weight: bold;
+font-size: 4.5vw;
+line-height: 6vw;
+color:#E7A908;
+margin-left: 4vw;
+}
+
+.eventcontainer1-subcontainer-eventinfo{
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5vw;
+line-height: 3vw;
+margin-left: ;
+width: 40vw;
+margin-top: 2vw;
+}
+
+
+
+.eventcontainer1-button
+{ margin-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4vw;
+}
+
+.eventcontainer1-subcontainer-image
+  {
+  height:20vw;
+  widows: 28vw;
+  margin-left:20vw ;
+  }
+.eventcontainer1-subcontainer-registernow
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 4vw;
+    text-align: center;
+    background-color: #E7A908;
+    color: #FFFFFF;
+    margin-right: 4vw;
+    width: 20vw;
+    height: 5vw;
+    border: #E7A908;
+    border-radius: 1vw;
+}
+
+.eventcontainer1-subcontainer-button-1{
+    background: #000000;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 4vw;
+    text-align: center;
+    width: 12vw;
+    height: 5vw;
+    color: #E7A908;
+    border: #000000;
+    }
+
+
+.eventcontainer1-subcontainer-button-2{
+    background: #000000;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 4vw;
+    text-align: center;
+    width: 12vw;
+    height: 5vw;
+    color: #E7A908;
+    border: #000000;
+    margin-left:2vw;
+ }
+
+    @media only screen and (max-width:600px)
+    {
+      .eventcontainer1-subcontainer-eventinfo
+      {
+        font-size: 3vw;
+        margin-top: 2vw;
+        line-height: 4vw; 
+      }
+      .eventcontainer1-subcontainer-image
+      {
+      height:24vw;
+      width:24vw;
+      margin-right: 1vw;
+      }
+      .eventcontainer1-subcontainer-button-1{
+        height:6.5vw;
+        width:16vw;
+      }
+      .eventcontainer1-subcontainer-button-2{
+        height:6.5vw;
+        width:16vw;
+      }
+      .eventcontainer1-subcontainer-registernow
+      {
+        height:6.5vw;
+        width:24vw;
+      }
+    } 

@@ -27,11 +27,11 @@ class  SCHEDULE extends React.Component {
       if(this.state.isActive===false)
       {
          return(<div>
-           <EVENTSCHEDULE scheduledeventname="Leadership Talk"/>
+           <EVENTSCHEDULE length="50vw" scheduledeventname="Leadership Talk"/>
            <SCHEDULEDATA scheduletimming="10AM" scheduleplace="LHC103" scheduledeventname="Name of Speakers"/>
-           <EVENTSCHEDULE scheduledeventname="Panel Discussion"/>
+           <EVENTSCHEDULE length="50vw" scheduledeventname="Panel Discussion"/>
            <SCHEDULEDATA scheduletimming="2PM" scheduleplace="LHC103" scheduledeventname="International Affairs of India "/>
-           <EVENTSCHEDULE scheduledeventname="workshop"/>
+           <EVENTSCHEDULE length="58vw" scheduledeventname="Workshop"/>
            <SCHEDULEDATA scheduletimming="3-7 PM" scheduleplace="LHC 103" scheduledeventname="Finance"/>
            <SCHEDULEDATA scheduletimming="3-7 PM" scheduleplace="LHC 102" scheduledeventname="Design"/>
            </div>)
@@ -40,14 +40,15 @@ class  SCHEDULE extends React.Component {
       {
        return(
          <div>
-                   <EVENTSCHEDULE scheduledeventname="Panel Discussion"/>
+                   <EVENTSCHEDULE length="48vw" scheduledeventname="Panel Discussion"/>
                    <SCHEDULEDATA scheduletimming="10AM" scheduleplace="LHC103" scheduledeventname="Name of Speakers"/>
-                   <EVENTSCHEDULE scheduledeventname="Placement and Internship Talks"/>
+                   <EVENTSCHEDULE length="25vw" scheduledeventname="Placement and Internship Talks"/>
                    <SCHEDULEDATA scheduletimming="2PM" scheduleplace="LHC103" scheduledeventname="xyz "/>
-                   <EVENTSCHEDULE scheduledeventname="workshop"/>
+                   <EVENTSCHEDULE length="57vw" scheduledeventname="workshop"/>
                    <SCHEDULEDATA scheduletimming="3-7 PM" scheduleplace="LHC 103" scheduledeventname="ML"/>
                    <SCHEDULEDATA scheduletimming="3-7 PM" scheduleplace="LHC 102" scheduledeventname="Web-D"/>
-                   <EVENTSCHEDULE scheduledeventname="Cult Night"/>
+                   <EVENTSCHEDULE length="56vw"scheduledeventname="Cult Night"/>
+                   <SCHEDULEDATA scheduletimming="a-b PM" scheduleplace="abc" scheduledeventname="abc"/>
          </div>
        )
       }
