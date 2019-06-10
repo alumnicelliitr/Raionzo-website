@@ -9,3 +9,9 @@
 	padding: 0.5em;
 	margin: 0 0.5em 0 0.5em;
 }
+
+@media only screen and (max-width: 600px){
+.nav-link{
+	font-size: 11px;
+}
+}

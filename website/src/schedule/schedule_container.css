@@ -9,7 +9,9 @@ font-size: 6vw;
 line-height: 7vw;
 color: #E7A908;
 text-align: center;
-text-shadow:4px 2px black;
+text-shadow:.3vw .3vw black;
+margin-top: .5vw;
+margin-bottom: 1vw;
 }
 .schedule_switchbar
 {

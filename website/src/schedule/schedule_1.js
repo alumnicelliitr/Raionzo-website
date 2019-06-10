@@ -10,7 +10,7 @@ class  EVENTSCHEDULE extends React.Component {
             <div className="eventschedule_info">
                 <div className="eventschedule_line_0"></div>
                 <div className="eventschedule_heading">{this.props.scheduledeventname}</div>
-                <div className="eventschedule_line_1"></div>  
+                <div className="eventschedule_line_1" style={{width:`${this.props.length}`}}></div>  
                 <div className="eventschedule_circle_1"></div>
             </div>    
         </div>
