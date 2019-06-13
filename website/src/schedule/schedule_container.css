@@ -31,6 +31,8 @@ justify-content: space-between;
     font-size: 4vw;
     line-height: 5vw;   
     color: #FFFFFF;
+    display: inline-flex;
+    cursor: pointer;
 }
 .schedulebutton
 {
@@ -43,6 +45,7 @@ justify-content: space-between;
     line-height: 5vw;
     color: #FFFFFF;
     opacity: 0.4;
+    cursor: pointer;
 }
 .activescheduleclass
 {
@@ -54,4 +57,5 @@ justify-content: space-between;
     font-weight: normal;
     font-size: 4vw;
     line-height: 5vw;
+    cursor: pointer;
 }
