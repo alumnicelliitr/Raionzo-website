@@ -88,18 +88,18 @@ function Contact() {
 				<table>
 					<tbody>
 						<tr>
-							<td className="footer-contact-data"><img src={footeradd} className="contact-img" /></td>
+							<td className="footer-contact-data"><img src={footeradd} alt="Location" className="contact-img" /></td>
 							<td className="footer-contact-data">Raionzo Office, Student Activity Centre, IIT Roorkee, Uttrakhand, India</td>
 						</tr>
 						<tr>
-							<td className="footer-contact-data"><img src={footerno} className="contact-img" /></td>
+							<td className="footer-contact-data"><img src={footerno} alt="Phone" className="contact-img" /></td>
 							<td className="footer-contact-data">
 								<div className="conatct-no">+91 987 6543 722</div>
 								<div className="conatct-no">+91 854 8736 478</div>
 							</td>
 						</tr>
 						<tr>
-							<td className="footer-contact-data"><img src={footerweb} className="contact-img" /></td>
+							<td className="footer-contact-data"><img src={footerweb} alt="Website" className="contact-img" /></td>
 							<td className="footer-contact-data">@website_link</td>
 						</tr>
 					</tbody>
@@ -131,9 +131,9 @@ function Follow() {
 			<div className="footer-follow-cont footer-cont-all">
 				Follow us on
 				<div className="follow-links">
-					<img src={footerfb} className="follow-img" />
-					<img src={footerlinkedin} className="follow-img" />
-					<img src={footerinsta} className="follow-img" />
+					<img src={footerfb} alt="Facebook" className="follow-img" />
+					<img src={footerlinkedin} alt="LinkedIn" className="follow-img" />
+					<img src={footerinsta} alt="Instagram" className="follow-img" />
 				</div>
 			</div>
 		</div>
