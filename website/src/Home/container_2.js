@@ -1,7 +1,7 @@
 import React from 'react';
-import './css/container_2.css';
-import iitrlogo from './images/iitrlogo.png';
-import iarclogo from './images/iarclogo.png';
+import './container_2.css';
+import iitrlogo from './../components/images/iitrlogo.png';
+import iarclogo from './../components/images/iarclogo.png';
 
 class CONTAINER2 extends React.Component {
     render() {

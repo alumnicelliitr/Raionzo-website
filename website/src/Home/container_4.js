@@ -1,6 +1,6 @@
 import React from 'react';
-import './css/container_4.css';
-import iarcblack from './images/iarcblack.png'
+import './container_4.css';
+import iarcblack from './../components/images/iarcblack.png'
 
 
 class CONTAINER4 extends React.Component {

@@ -1,6 +1,6 @@
 import React from 'react';
-import './css/container_3.css';
-import group from './images/Group.png'
+import './container_3.css';
+import group from './../components/images/Group.png'
 
 
 class CONTAINER3 extends React.Component {

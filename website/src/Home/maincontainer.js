@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './css/maincontainer.css';
+import './maincontainer.css';
 import CONTAINER1 from './container_1';
 import CONTAINER2 from './container_2';
 import CONTAINER3 from './container_3';

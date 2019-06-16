@@ -1,6 +1,6 @@
 import React from 'react';
-import im from './images/im.png'
-import './css/container_1.css';
+import im from './../components/images/im.png'
+import './container_1.css';
 
 
 function CONTAINER1(props) {
