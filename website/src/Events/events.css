@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 4600px;
+    height: 3150px;
     background: #E7A908;
 }
 .first
@@ -10,7 +10,7 @@
     display: flex;
     align-items: flex-end;
     flex-direction: row;
-    height: 4%;
+    height: 6%;
     width: 100%;
 }
 h1 {margin: 0% 2% 0% 2%;
@@ -18,7 +18,7 @@ h1 {margin: 0% 2% 0% 2%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
-    font-size: 100px;
+    font-size: 90px;
     line-height: 74px;
     color: #FFFFFF;
 }
@@ -37,23 +37,23 @@ h1 {margin: 0% 2% 0% 2%;
     height: 147px;
 }
 .txt {
-     padding: 36px 0px 0px 0px; 
-    height: 4%;
-    width: 80%;
+     padding: 36px 0px 0px 0px;
+    height: 3%;
+    width: 70%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 45px;
+    font-size: 30px;
     line-height: 46px;
     color: #FFFFFF;
-    margin: 5% 0% 0% 6%;
+    margin: 1% 0% 1% 6%;
 }
 .box1{
     display: flex;
     flex-wrap: wrap;
     height: 12%;
     width: 92%;
-    margin: 4%;
+    margin: 3% 4% 2% 4%;
     background-color: #FFFFFF;
     border-radius: 10px;
 }
@@ -65,40 +65,41 @@ h1 {margin: 0% 2% 0% 2%;
 }
 .num{
     z-index: 1;
-    margin:4%;
-    padding: 10% 3%;
-    font-size: 200px;
+    margin: 4%;
+    padding: 8% 3%;
+    font-size: 176px;
     height: 10%;
     width: 40%;
-    color:#F8E5B5;
+    color: #F8E5B5;
 }
 h2{ z-index: 2;
     margin: 0% 0% 0% -38%;
     height: 34%;
     font-family: Montserrat;
     font-style: bold;
-    font-size: 64px;
+    font-size: 44px;
     padding-top: 15%;
     width: 83%;
 }
 .pd {
     height: 57%;
-    width: 26%;
-    padding: 6% 6% 3% 14%;
-}
-.pd1{height: 57%;
     width: 20%;
-    padding: 6% 22% 3% 4%;
+    padding: 7% 6% 7% 14%;
 }
-.arrow{
-    width: 26%;
-    height: 16px;
-    margin: 6% 0% 0% 13%;
+.pd1 {
+    height: 57%;
+    width: 16%;
+    padding: 7% 21% 7% 9%;
 }
-.btnn{
-    margin: 8px 0px 0px 5px;
+.arrow {
+    width: 20%;
+    height: 15px;
+    margin: 4% 0% 0% 26%;
+}
+.btnn {
+    margin: 0px 0px 0px 5px;
     width: 50%;
-    color: white;  
+    color: white;
     font-size: 24px;
 }
 .btn1 {
@@ -106,31 +107,30 @@ h2{ z-index: 2;
     flex-wrap: wrap;
     color: white;
     background-color: #E7A908;
-    height: 8%;    
+    height: 6%;
     margin: -4% 6% 0% 6%;
     border-radius: 8px;
     padding: 2% 3%;
-    width: 18%;
-    width: 28%;
-    font-size: 24px;
+    width: 21%;
+    font-size: 20px;
 }
 .btn2 {
-        line-height: 42px;
+        line-height: 27px;
     color: white;
     background-color: black;
-    height: 8%;
+    height: 6%;
     margin: -4% 6% 0% 6%;
     border-radius: 8px;
-    padding: 2% 11%;
-    width: 16%;
-    font-size: 24px;
+    padding: 2% 7%;
+    width: 14%;
+    font-size: 22px;
 }
-.num2{
+.num2 {
     z-index: 1;
-    margin:0%;
-    padding: 15% 4%;
-    margin: 0% 0% 0% -22%;
-    font-size: 200px;
+    margin: 0%;
+    padding: 10% 4%;
+    margin: 0% 0% 0% -20%;
+    font-size: 176px;
     height: 10%;
     width: 23%;
     color: #F8E5B5;
@@ -138,9 +138,12 @@ h2{ z-index: 2;
 .two {
     text-align: end;
     width: 82%;
-    margin: -1% 0% 0% -2%;
+    margin: -1% 0% 0% 6%;
 }
-.bb{
+.bb1{
+    margin: -6% 6% 0% 25%;
+}
+.bb2{
     margin: -6% 6% 0% 6%;
 }
 
@@ -148,6 +151,9 @@ h2{ z-index: 2;
 @media only screen and (max-width: 1305px)  {
 .box {
     height: 53px;
+}
+.first{
+    height: 4%;
 }
 h1{
     line-height: 57px;
@@ -159,14 +165,22 @@ h1{
 }
 .txt{
     height: 5%;
-    font-size:39px;
+    font-size:30px;
 }
 .imgg{
     height: 108px;
 }
 .eone{
-    height: 4106px;
+    height: 3000px;
 }
+.btnn{
+    font-size: 21px;
+}
+.btn2{
+     font-size: 21px;
+     line-height: 22px;
+}
+
 }
 
 @media only screen and (max-width: 1000px)
@@ -174,30 +188,40 @@ h1{
     h1{
         font-size: 60px;
     }
-    .txt{
-        font-size: 30px;
-    }
+    .txt {
+    font-size: 26px;
+    line-height: 43px;
+}
     h2{
-        font-size: 54px;margin-top: 5%;
+        font-size: 40px;margin-top: 5%;
 
     }
-    .num{
+    .num,.num2{
      margin-top: 8%;
+     font-size: 150px;
     }
     .pd{
-     width: 35%;
+     width: 30%;
     padding: 6% 6% 3% 5%;
     }
     .btnn{
-        font-size: 21px;
+        font-size: 19px;
     }
+    .bb1{
+    margin: -6% 6% 0% 14%;
+}
     .arrow{
             width: 21%;
-    height: 16px;
-    margin: 9% 0% 0% 22%;
+    height: 12px;
+    margin: 4% 0% 0% 22%;
+    }
+    .btn1{
+        width: 26%;
+        padding: 2% 2%;
     }
     .btn2{
-        font-size: 21px;
+        width: 18%;
+        font-size: 19px;
     }
     .pd1 {
     width: 26%;
@@ -205,73 +229,97 @@ h1{
 }   .two {
     width: 91%;
     margin: -1% 0% 0% -21%;
-}.eone{height: 3245px;}
+}.eone{height: 2700px;}
+.first {
+    height: 5%;
+}
+.box1{    margin: 4% 4% 2% 4%;}
 }
 @media only screen and (max-width: 800px){
 h1{
     font-size: 52px;
     margin:0% 4% 0% 1%;
 }
+.box1{    margin: 5% 4% 2% 4%;}
 .txt {
     font-size: 24px;
     line-height: 35px;
 }
 .num,.num2{
-    font-size: 161px;
+    font-size: 140px;
 }
+.btn1{width:30%;}
+
 h2{
-    font-size: 42px;
+    font-size: 35px;
+    margin-top: 6%;
 }
-.btnn{font-size: 18px;}
-.btn2{font-size: 18px;
-      line-height: 35px;}
+.btnn{font-size: 17px;}
+.btn2 {
+    padding: 2% 8%;
+    width: 19%;
+    font-size: 17px;
+    line-height: 20px;
+}
 .arrow {
     width: 20%;
-    height: 13px;
-    margin: 11% 0% 0% 25%;
-}    
-.eone{height: 2600px;
+    height: 12px;
+    margin: 3% 0% 0% 18%;
+}   
+.eone{height: 2300px;
 }
 }
 @media only screen and (max-width: 625px){
 .imgg{
         width: 67%;
     }
+.first{
+    height: 6%;
+}
 h1{
         font-size: 45px;
         width: 25%;
     }
-.txt{
+.txt{   width: 80%;
+        height: 6%;
+        font-size: 22px;
         padding-top: 22px;
         line-height: 29px;
     }
 .eone{
-        height: 2200px;
+        height: 1900px;
     }
 .btn1,.btn2{margin-top: 2%;}
 h2 {
-    font-size: 33px;
+    font-size: 30px;
     padding-top: 57px;
 }
-.num,.num2{font-size: 140px}
+.num,.num2{font-size: 125px}
 .two{
-        margin-left:-21%;
+        margin-left:-9%;
     }
-.pd1{padding-top: 10%;}
+.pd1{width: 22%;
+    padding-top: 10%;}
 .pd{padding: 10% 0% 3% 0%;
-    width: 33%;}       
+    width: 28%;}       
 .side1{width: 66%;}
 .pd1{padding-right: 4%;}
+.btnn{
+    margin: 4px 0px 0px 3px;
+}
 .btn1 {
     width: 33%;
     line-height: 10px;
     margin-right: 5%;
 }
-.arrow{margin-top: 4%;}
+.arrow{margin-top: 1%;}
 .btn2{
-    line-height: 24px;
+    line-height: 17px;
     padding: 2% 10%;
     width: 18%;
+}
+.bb2 {
+    margin: 2% 0% 0% 4%;
 }
 }
 @media only screen and (max-width: 450px){
@@ -279,26 +327,31 @@ h2 {
 h1{line-height: 41px;
    font-size: 35px;}
 .imgg{height: 74px;}
-.txt{font-size: 20px;
+.txt{font-size: 18px;
     text-align: center;
      line-height: 20px}
+     .two {
+    margin-left: -10%;
+}
+
 .btnn {
     font-size: 13px;
-    line-height: 9px;
+    line-height: 6px;
 }
 .arrow{
     width: 19%;
     height: 45%;
-    padding-top: 3px;
+    padding-top: 2px;
 }
-.btn2{font-size: 13px;}
+.btn2{font-size: 13px;
+      line-height: 14px;}
 h2{
     font-size: 27px;
     padding-top: 46px;
 }
 .num,.num2{font-size: 100px;}
 .eone {
-    height: 1945px;
+    height: 1600px;
 }
 }
 @media only screen and (max-width: 375px)  {
@@ -310,16 +363,17 @@ h1{line-height: 32px;
 .imgg{height: 60px;
       width: 63%;}
 .txt {
-    height: 7%;
+    height: 6%;
     font-size: 16px;
     line-height: 16px;
     width: 88%;
 }
-h2 {
-    font-size: 17px;
-    padding-top: 37px;
+h2 {height: 27%;
+    font-size: 20px;
+    padding-top: 21px;
 }
 .num, .num2 {
+    margin-top: 3%;
     font-size: 72px;
 }
 .pd {
@@ -328,29 +382,32 @@ h2 {
     height: 46%;
 }
 .eone{
-    height: 1575px;}
+    height: 1300px;}
 .btn1{
-    font-size: 10px;
     font-weight: 700;
-    line-height: 1px;
     width: 40%;
+    height: 6%;
 }
-.btn2{
-    width: 26%;
+.btn2 {
+    width: 36%;
     font-weight: 700;
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 10px;
+    line-height: 10px;
+    height:6%;
+    padding: 2% 4%;
 }
-.arrow{
-        margin-left: 21%;
-    width: 19%;
-    height: 45%;
-    padding-top: 2px;
+.arrow {
+    margin-left: 21%;
+    width: 15%;
+    height: 90%;
+    padding-top: 1px;
 }
-.btnn{    font-size: 11px;
-    line-height: 4px;}
-.bb{margin-left: 45%;}
-
+.btnn{    font-size: 10px;
+    line-height: 1px;}
+.bb2,.bb1 {
+    margin: 2% 0% 0% 51%;
+}
+.two{padding-top: 35px;}
 }
 
 

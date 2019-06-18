@@ -7,10 +7,10 @@ function Contain1(props){
     		                     <div className="side1">
     		                          <h2 className="two">{props.head}</h2>
     		                          <h1 className="num2">0{props.num}</h1>
-    		                          <div className="btn1 bb">
+    		                          <div className="btn1 bb1">
                                      <p className='btnn'>EXPLORE</p>
                                      <img className='arrow' src={arrow} alt='arrow'/></div>
-    		                          <div className="btn2 bb">REGISTER</div>
+    		                          <div className="btn2 bb2">REGISTER</div>
     		                      </div>    
     		                      
     		                  </div>

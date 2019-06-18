@@ -1,0 +1,197 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.icons {
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    height: 100px;
+    align-items: center;
+    background-color: white;
+}
+.icon1{
+	background-color: #F0F0F0;
+    width: 34px;
+    height: 34px;
+    border-radius: 31px;
+    margin-left: 6%;
+}
+.icon2 {
+	color: black;
+	text-align: center;
+    line-height: 47px;
+    font-size: 20px;
+    background-color: #F0F0F0;
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+    margin-left: 6%;
+
+}
+.icon3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-size: 38px;
+    background-color: #E7A908;
+    width: 68px;
+    height: 68px;
+    border-radius: 52px;
+    margin-left: 6%;
+
+}
+.icon4{
+	color: black;
+	text-align: center;
+    line-height: 47px;
+    font-size: 20px;
+	 background-color: #F0F0F0;
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+    margin-left: 6%;
+
+}
+.icon5{
+	text-align: center;
+    line-height: 49px;
+    background-color: #E7A908;
+    width: 34px;
+    height: 34px;
+    border-radius: 31px;
+    margin-left: 6%;
+}
+.timing{
+	justify-content: center;
+	height: 260px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.timing-icons{
+	margin-top: 15%;
+}
+.date{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+	background-color: black;
+    height: 100%;
+    width: 18%;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0% 3%;
+}
+.nam{
+	margin-top: 4%;
+	font-size: 40px;
+	color: #E7A908;
+}
+.dat {
+    margin: -8%;
+    line-height: 34px;
+    color: white;
+    font-size: 24px;
+}
+.IA{
+	margin:0% 2%;
+	width: 40%;
+	background-color: black;
+	border-radius: 15px;
+	text-align: center;
+}
+.nam2{
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: 14% 10%;
+}
+.dd{
+	width: 50%;
+}
+.dd1{width: 50%;
+     margin-left: 5%;}
+
+@media only screen and (max-width: 1000px)  {
+    .icons{width: 45%;}
+    .date{height: 95%;
+          width: 21%;
+          margin:0% 2%;}
+    .num{font-size:37px;}
+    .dat{margin: -11%;
+         font-size: 24px;}
+}
+@media only screen and (max-width: 650px){
+    .icon1,.icon5{
+        height: 20px;
+        width: 20px;
+        line-height: 25px;
+    }
+    .icon2,.icon4{
+        height: 28px;
+        width: 28px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .icon3{
+        font-size: 29px;
+        height: 44px;
+        width: 44px;
+        line-height: 47px;
+    }
+    .leftarrow{
+        height: 13px;
+    }
+    .timing-icons{width: 21%;}
+    .nam{font-size: 28px;}
+    .spec{
+        width: 18%;
+        margin-bottom: -5%;
+}
+    .dat{
+        margin: -19%;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .timing{
+        height: 156px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .timing{height: 285px;
+            flex-wrap: wrap;}
+    .date {
+    width: 40%;
+    height: 47%;
+}   
+    .timing-icons{width: 17%;}
+    .dat{font-size:13px;
+         margin: -9%;}
+    .nam{font-size: 22px;}
+
+     .icon1,.icon5{
+        height: 16px;
+        width: 16px;
+        line-height: 16px;
+    }
+    .icon2,.icon4{
+        height: 24px;
+        width: 24px;
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .icon3{
+        font-size: 25px;
+        height: 40px;
+        width: 40px;
+        line-height: 42px;
+    }
+    .leftarrow{
+        height: 10px;
+    }
+}
