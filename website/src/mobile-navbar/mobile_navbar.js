@@ -30,14 +30,14 @@ class MobileNavbar extends React.Component{
                         <div className="raionzo-mobile-header">Raionzo</div> 
                     </div>
                     <div className="mobile_index_right">
-                        <div className="Hamburger_icon" onClick={this.onHamburgerClick} ><i  class="fas fa-bars"></i></div>
+                        <div className="Hamburger_icon" onClick={this.onHamburgerClick} ><i  className="fas fa-bars"></i></div>
                     </div>
                 </div>
             
 
 
                 <div  className={this.state.isHidden ?   'mobile_navbar_data_after' : 'mobile_navbar_data_before'}>
-                    <div className="mobileNavbarCloseButton" onClick={this.onCrossClick} ><i className="mobilebarCross" class="fas fa-times"></i></div>
+                    <div className="mobileNavbarCloseButton" onClick={this.onCrossClick} ><i className="mobilebarCross" className="fas fa-times"></i></div>
                         <div className="mobileNavbar">
                         <NavLink activeClassName="mobilehome_active" to ="/"><div className="mobileNavbar-home" onClick={this.onCrossClick}>HOME</div></NavLink>
                         <NavLink  activeClassName="mobileEvent_active" to ="/Events/"><div className="mobileNavbar-event" onClick={this.onCrossClick}>EVENTS</div></NavLink>

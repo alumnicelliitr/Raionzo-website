@@ -1,0 +1,262 @@
+.about-speaker{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+
+.sidebox{
+	width: 7%;
+	height: 400px;
+	border: 0.5px solid #000000;
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebox-cont{
+	height: 80%;
+	background-color: #CECCCC;
+}
+
+.sidebox-foot{
+	height: 20%;
+	background-color: black;
+}
+
+.speaker-box{
+	height: 470px;
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+.speaker-main{
+	display: flex;
+	flex: 1;
+}
+
+.speaker-left{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	width: 40%;
+}
+
+.speaker-img{
+	width: 70%;
+	border-radius: 100px;
+}
+
+.speaker-right{
+	padding: 1em;
+	width: 60%;
+}
+
+.speaker-name{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 54px;
+	line-height: 68px;
+	color: #000000;
+	margin-bottom: 0.4em;
+}
+
+.speaker-cont{
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 36px;
+	color: #000000;
+}
+
+.speaker-footer{
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+
+.speaker-footer-blackbox{
+	background-color: black;
+	height: 70px;
+	flex: 1;
+}
+
+@media only screen and (max-width: 1310px) {
+	.speaker-name{
+		font-size: 48px;
+		line-height: 60px;
+	}
+	.speaker-cont{
+		font-size: 25px;
+		line-height: 31px;
+	}
+	.sidebox{
+		height: 370px;
+	}
+	.speaker-box{
+		height: 440px;
+	}
+	.speaker-footer-img{
+		height: 120px;
+		width: auto;
+	}
+	.speaker-footer-blackbox{
+		height: 59px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.speaker-name{
+		font-size: 42px;
+		line-height: 52px;
+		color: white;
+	}
+	.speaker-cont{
+		font-size: 21px;
+		line-height: 26px;
+	}
+	.sidebox{
+		height: 330px;
+		border: none;
+	}
+	.speaker-box{
+		height: 400px;
+	}
+	.speaker-footer{
+		background-image: linear-gradient(to right, #C4C4C4 41.1%, #C4C4C4 20%, #F9BC1E 10%, #F9BC1E 28.9%)
+	}
+	.speaker-footer-img{
+		height: 105px;
+		width: auto;
+	}
+	.speaker-footer-blackbox{
+		height: 51px;
+	}
+	.speaker-left{
+		background-color: #C4C4C4;
+	}
+	.speaker-right{
+		background-color: #F9BC1E;
+	}
+	.speaker-img{
+		border-right: 0px;
+	}
+	.sidebox-cont{
+		background-color: #F9BC1E;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.speaker-name{
+		font-size: 33px;
+		line-height: 42px;
+	}
+	.speaker-cont{
+		font-size: 17px;
+		line-height: 23px;
+	}
+	.sidebox{
+		height: 300px;
+	}
+	.speaker-box{
+		height: 370px;
+	}
+	.speaker-footer-img{
+		height: 90px;
+		width: auto;
+	}
+	.speaker-footer-blackbox{
+		height: 44px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.speaker-name{
+		font-size: 29px;
+		line-height: 37px;
+	}
+	.speaker-cont{
+		font-size: 15px;
+		line-height: 21px;
+	}
+	.sidebox{
+		height: 270px;
+	}
+	.speaker-box{
+		height: 340px;
+	}
+	.speaker-footer{
+		background-image: linear-gradient(to right, #C4C4C4 41.8%, #C4C4C4 20%, #F9BC1E 10%, #F9BC1E 28.2%)
+	}
+	.speaker-footer-img{
+		height: 70px;
+		width: auto;
+	}
+	.speaker-footer-blackbox{
+		height: 34px;
+	}
+	.about-speaker{
+		margin-top: 1em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.sidebox{
+		height: 240px;
+	}
+	.speaker-box{
+		height: 310px;
+	}
+	.speaker-name{
+		font-size: 23px;
+		line-height: 31px;
+	}
+	.speaker-cont{
+		font-size: 13px;
+		line-height: 18px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.sidebox{
+		height: 210px;
+	}
+	.speaker-box{
+		height: 280px;
+	}
+	.speaker-name{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.speaker-cont{
+		font-size: 10px;
+		line-height: 15px;
+	}
+	.speaker-footer{
+		background-image: linear-gradient(to right, #C4C4C4 42%, #C4C4C4 20%, #F9BC1E 10%, #F9BC1E 28%)
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.speaker-footer{
+		background-image: linear-gradient(to right, #C4C4C4 42.3%, #C4C4C4 20%, #F9BC1E 10%, #F9BC1E 27.7%)
+	}
+	.speaker-box{
+		height: 240px;
+	}
+	.sidebox{
+		height: 180px;
+	}
+	.speaker-name{
+		font-size: 17px;
+		line-height: 20px;
+	}
+	.speaker-cont{
+		font-size: 10px;
+		line-height: 12px;
+	}
+}
