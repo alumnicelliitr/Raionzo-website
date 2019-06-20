@@ -1,6 +1,8 @@
 import React from 'react';
-import imgthomso from './images/im.png'
-import './css/container_1.css';
+
+import im from './../components/images/im.png'
+import './container_1.css';
+
 
 
 function CONTAINER1(props) {
@@ -8,7 +10,7 @@ function CONTAINER1(props) {
     <div className="container">
    <div className="boxforheading"/>
    <div className="heading" style={{color:`${props.colr}`}}> {props.heading} </div>  
-   <div className="imgthomso"><img  className=" imgthomso1" src={imgthomso} alt=""/></div>
+   <div className="imgthomso"><img  className=" imgthomso1" src={im} alt=""/></div>
     </div>
   );
 }
