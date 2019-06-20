@@ -60,17 +60,17 @@ class  SCHEDULE extends React.Component {
             <div className="schedule_heading">Schedule</div>
                 <div className="schedule_switchbar">
                         <div className="schedule_switchbar_previous">
-                            <button className={this.state.isActive ?   'activescheduleclass' : 'schedulebutton'}   onClick={this.daySchedule}>
+                            <div className={this.state.isActive ?   'activescheduleclass' : 'schedulebutton'}   onClick={this.daySchedule}>
                             <i  className="fa fa-arrow-left" style={{color:"white",fontSize:"4vw",marginTop:"1vw"}}></i>
-                            </button>
+                            </div>
                           </div>
                         <div className="schedule_switchbar_daydata">
-                          <button className={this.state.isActive ?  'schedulebutton' : "activescheduleclass"} onClick={this.daySchedule}>Day1</button>
-                          /<button className={this.state.isActive ?   'activescheduleclass' : 'schedulebutton'} onClick={this.nextDaySchedule}>Day2</button>
+                          <div className={this.state.isActive ?  'schedulebutton' : "activescheduleclass"} onClick={this.daySchedule}>Day1</div>
+                          /<div className={this.state.isActive ?   'activescheduleclass' : 'schedulebutton'} onClick={this.nextDaySchedule}>Day2</div>
                           </div>
                         <div className="schedule_switchbar_next">
-                          <button className={this.state.isActive ?  'schedulebutton' : "activescheduleclass"} onClick={this.nextDaySchedule}>
-                            <i  className="fa fa-arrow-right" style={{color:"white",fontSize:"4vw",marginTop:"1vw"}}></i></button>
+                          <div className={this.state.isActive ?  'schedulebutton' : "activescheduleclass"} onClick={this.nextDaySchedule}>
+                            <i  className="fa fa-arrow-right" style={{color:"white",fontSize:"4vw",marginTop:"1vw"}}></i></div>
                             </div>
                 </div>
                 {this.renderSchedule()}

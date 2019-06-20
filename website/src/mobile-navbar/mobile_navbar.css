@@ -1,0 +1,147 @@
+.MOBILEVIEW{
+  
+}
+.mobile_nav_before{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    border:1px solid black;
+    background-color: black;
+    height:52px;
+    align-items:baseline;
+    width:100vw;
+}
+.mobile_nav_after{
+    display:none;
+}
+.mobile-raionzo-logo{
+    height:40px;
+    width:40px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.mobile_index_left{
+    display:flex;
+    align-items:center;
+}
+
+.mobile_index_right{
+    
+}
+.raionzo-mobile-header{
+    font-size: 20px;
+}
+.Hamburger_icon{
+    font-size: 30px;
+}
+
+
+
+
+.mobile_navbar_data_after{
+    display: ;
+    background-color: #E7A908;
+    margin-left: 15%;
+    height:100vh;
+    padding-left:15%;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius:10px;
+    color: #FFFFFF;
+    z-index: 100;
+    position:absolute;
+    margin-right: 0%;
+    width:70%;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+    
+}
+.mobile_navbar_data_before{
+    opacity: 0;
+
+    background-color: #E7A908;
+    margin-left: 15%;
+    height:100vh;
+    padding-left:15%;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius:10px;
+    color: #FFFFFF;
+    z-index: 100;
+    position:absolute;
+    margin-right: 0%;
+    width:70%;
+    
+
+}
+
+
+
+
+
+
+.mobileNavbar{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+    padding-top: 40%;
+
+}
+.mobileNavbarCloseButton{
+    float:right;
+    font-size:30px;
+    color:black;
+}
+.mobileNavbar-event{
+    padding-top: 8%;
+}
+.mobileNavbar-schedule{
+    padding-top: 8%; 
+}
+.mobileNavbar-contactus{
+    padding-top: 8%;  
+}
+.mobilebarCross{
+    font-size: 40px;
+    
+}
+.mobile_register{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    width: 104px;
+    height: 38px;
+    background-color: transparent;
+    color:white;
+    font-weight: 600;
+}
+.mobileNavbarFooter{
+        display:flex;
+        margin-top: 50%;
+        justify-content: space-evenly;
+}
+
+.mobile_logo{
+    display: flex;
+    justify-items: space-between;
+    margin-left:-40px;
+   
+}
+.mobile_logo_instagram{
+    font-size: 40px;
+    color:white;
+}
+.mobile_logo_linkedin{
+    font-size: 40px;
+    margin-left: 10px;
+    color:white;
+}
+.mobile_logo_facebook{
+    font-size: 40px;
+    margin-left: 10px;
+    color:white;
+}
+.mobilehome_active{
+
+}

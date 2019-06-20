@@ -9,10 +9,13 @@ import Navlink from './components/navlink.js';
 import { Route, NavLink, BrowserRouter as Router } from 'react-router-dom'
 import Footer from './components/Footer.js'
 import events from './Events/events.js'
+import MediaQuery from 'react-responsive';
+import MobileNavbar from './mobile-navbar/mobile_navbar.js'
 
 
 const routing = (
     <Router>
+        <MediaQuery query="(min-device-width: 600px)">
 			<div className="nav-bar">
                 <img className="raionzo-logo" src={raionzoLogo} alt="Raionzo Logo" />
                 <div className="head">Raionzo</div>
@@ -23,9 +26,14 @@ const routing = (
                     <NavLink activeClassName="active" className="navbar-link" ><Navlink name="Contact Us" /></NavLink>
                 </div>
 			    <div className="reg-link">Register</div>
-	
     		</div>
-            <Route exact path="/Home" component={App} />
+
+            </MediaQuery>
+            <MediaQuery query="(max-device-width: 600px)">
+              <MobileNavbar/>  
+            </MediaQuery>
+            <Route exact path="/" component={App} />
+
             <Route path="/schedule/" component={SCHEDULE} />
             <Route path="/Events/" component={events} />
             
