@@ -49,3 +49,15 @@
         margin-left:2vw;   
     }
 }
+@media only screen and (max-width:414px)
+{
+    .container4{
+        background-color: #FFFFFF;
+    }
+    .container-4-child-heading {
+    line-height: 70px;
+}
+.container-4-child-body {
+    color: black;
+}
+}

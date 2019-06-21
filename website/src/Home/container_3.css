@@ -59,3 +59,22 @@
     width:35vw;
     }
 }   
+@media only screen and (max-width:414px){
+.container3{
+    margin-top: -1px;
+    background-color: #E7A908;
+}
+.container-3-child-heading {
+    font-weight: bold;
+    color: black;
+}
+.container-3-child-1 {
+    display: none;
+}
+.container-3-child-2 {
+    margin: 0% 2% 4% 18%;
+}
+.container-3-child-body {
+    color: #FFFFFF;
+}
+}

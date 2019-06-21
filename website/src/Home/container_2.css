@@ -158,3 +158,36 @@
     }
     
 }
+@media only screen and (max-width:414px)
+{
+    .container-2-parent
+{
+    background-color:#FFFFFF; 
+}
+
+.container-2-child-heading
+{ 
+    color: #E7A908;
+}
+.container-2-child-button-1 {
+    font-size: 12px;
+    height: 8vw;
+    margin-left:18%;
+    width: 36vw;
+    border-radius: 4px;
+    font-weight: bold;
+    background: black;
+}
+.container-2-child-button-2 {
+    margin-left: 40%;
+    color: #E7A908;
+    border: 2px solid #E7A908;
+    font-size: 3vw;
+    height: 8vw;
+    width: 36vw;
+    border-radius: 4px;
+}
+.triangle-topleft-0 {
+    border-top: 10vw solid #FFFFFF;
+}
+}
