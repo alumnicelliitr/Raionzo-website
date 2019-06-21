@@ -36,6 +36,7 @@ const routing = (
 
             <Route path="/schedule/" component={SCHEDULE} />
             <Route path="/Events/" component={events} />
+            <Route path='/Home' component={App}/>
             
             <Footer/>
     </Router>

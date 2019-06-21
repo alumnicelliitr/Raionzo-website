@@ -5,14 +5,6 @@
     height: 3150px;
     background: #E7A908;
 }
-.first
-{ 
-    display: flex;
-    align-items: flex-end;
-    flex-direction: row;
-    height: 6%;
-    width: 100%;
-}
 h1 {margin: 0% 2% 0% 2%;
     width: 20%;
     font-family: Montserrat;
@@ -48,10 +40,18 @@ h1 {margin: 0% 2% 0% 2%;
     color: #FFFFFF;
     margin: 1% 0% 1% 6%;
 }
+.eventmobile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.eventcontainer{
+    height: 87%;
+}
 .box1{
     display: flex;
     flex-wrap: wrap;
-    height: 12%;
+    height: 15%;
     width: 92%;
     margin: 3% 4% 2% 4%;
     background-color: #FFFFFF;
@@ -138,7 +138,7 @@ h2{ z-index: 2;
 .two {
     text-align: end;
     width: 82%;
-    margin: -1% 0% 0% 6%;
+    margin: -1% 0% 0% 2%;
 }
 .bb1{
     margin: -6% 6% 0% 25%;
@@ -354,61 +354,44 @@ h2{
     height: 1600px;
 }
 }
-@media only screen and (max-width: 375px)  {
-.first{height: 5%;}
-.box{height: 30px;}
-h1{line-height: 32px;
-   font-size:32px;
-   width:30%;}
-.imgg{height: 60px;
-      width: 63%;}
-.txt {
-    height: 6%;
-    font-size: 16px;
-    line-height: 16px;
-    width: 88%;
-}
-h2 {height: 27%;
-    font-size: 20px;
-    padding-top: 21px;
-}
-.num, .num2 {
-    margin-top: 3%;
-    font-size: 72px;
-}
-.pd {
-    padding: 16% 0% 3% 0%;
-    width: 33%;
-    height: 46%;
-}
+@media only screen and (max-width: 414px)  {
 .eone{
-    height: 1300px;}
-.btn1{
-    font-weight: 700;
-    width: 40%;
-    height: 6%;
+    height: 860px;
 }
-.btn2 {
-    width: 36%;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 10px;
-    height:6%;
-    padding: 2% 4%;
+.txt{
+    height: 10%;
+    font-size: 12px;
 }
+.box1 {
+    margin: 5% 3% 2% 3%;
+    width: 44%;
+    height: 42%;
+}
+.pd,.pd1{
+    display: none;
+}
+.two{
+    font-size: 18px;
+    text-align: start;
+    margin-left: 10%;
+}
+.num2 {
+    font-size: 70px;
+    margin: 7% 0% 0% -62%;
+}
+.side1{width: 100%;}
+.bb2{display: none;}
 .arrow {
-    margin-left: 21%;
-    width: 15%;
-    height: 90%;
-    padding-top: 1px;
+    padding-top: 6px;
 }
-.btnn{    font-size: 10px;
-    line-height: 1px;}
-.bb2,.bb1 {
-    margin: 2% 0% 0% 51%;
+.btnn {
+    font-size: 14px;
+    line-height: 17px;
 }
-.two{padding-top: 35px;}
+.btn1 {
+    width: 60%;
+    height: 14%;
+    margin-left: 18%;
+    border-radius: 3px;
 }
-
-
-
+}

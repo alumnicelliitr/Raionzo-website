@@ -98,3 +98,30 @@
     width: 100%;
 }
 }
+@media only screen and (max-width:414px)
+{.main-data{
+    background-color:  #FFFFFF;}
+    .straightline-0
+{
+      border:.4vw solid white;
+      background-color: white;
+  }
+.triangle-bottomright-0 {
+    border-bottom: 10vw solid #E7A908;
+}
+.straightlineblack-1 {
+    border: .4vw solid black;
+    background-color: black;
+}
+.triangle-topleft-1 {
+    border-top: 10vw solid #E7A908;
+}
+.triangle-bottomright-1 {
+    border-bottom: 10vw solid#FFFFFF;
+    border-left: 100vw solid transparent;
+}
+.triangle-topleft-2 {
+    border-top: 10vw solid #FFFFFF;
+}
+}
+  
