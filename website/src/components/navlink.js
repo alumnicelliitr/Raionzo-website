@@ -2,11 +2,11 @@ import React from 'react';
 import './css/navlink.css'
 
 
-function NavLink(props){
+function Navlink(props){
 	return(
 		<div className="nav-link">
 			{props.name}
 		</div>
 	);
 }
-export default NavLink;
+export default Navlink;

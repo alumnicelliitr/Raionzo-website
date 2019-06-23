@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import im from '../components/images/im.png';
 import './events.css';
 import one from '../components/images/one.png';
 import two from '../components/images/two.png';
@@ -9,25 +8,38 @@ import five from '../components/images/five.png';
 import six from '../components/images/six.png';
 import Contain from './contain';
 import Contain1 from './contain1';
+import CONTAINER1 from '../Home/container_1'
+import MediaQuery from 'react-responsive';
 
 class events extends Component {
 	
 	render(){
  	return(
          <div className="eone">
-         <div className="first">
-             <div className="box"/>
-             <h1>Events</h1> 
-             <img className="imgg" src={im} alt=''/>
-         </div>
+         <CONTAINER1 heading="Events" colr="white"/>
          <div className="txt">A combination of workshops, talks, competitions and much more, infused with thrill and excitement, this fest will undoubtedly leave you with an unforgettable 2-day experience.
          </div>
-         <Contain index='0' num='1' head='Panel Discussions' icon={one}/>
-         <Contain1 index='0' num='2' head='Placement and Intership Talk' icon={two}/> 
-         <Contain index='0' num='3' head='Idea Pitch Competition' icon={three}/> 
-         <Contain1 index='0' num='4' head='Group Interactions and Workshops' icon={four}/> 
-         <Contain index='0' num='5' head='Leadership talks' icon={five}/> 
-         <Contain1 index='0' num='6' head='Cultural Night' icon={six}/>                    
+         <MediaQuery query='(max-width: 414px)'>
+             <div className='eventmobile'>
+                 <Contain1 index='0' num='1' head='Panel Discussions' icon={one}/>
+                 <Contain1 index='0' num='2' head='Placement and Intership Talk' icon={two}/> 
+                 <Contain1 index='0' num='3' head='Idea Pitch Competition' icon={three}/> 
+                 <Contain1 index='0' num='4' head='Group Interactions and Workshops' icon={four}/> 
+                 <Contain1 index='0' num='5' head='Leadership talks' icon={five}/> 
+                 <Contain1 index='0' num='6' head='Cultural Night' icon={six}/>
+             </div>
+         </MediaQuery>    
+         <MediaQuery query='(min-width:414px)'>
+             <div className='eventcontainer'>
+                 <Contain index='0' num='1' head='Panel Discussions' icon={one}/>
+                 <Contain1 index='0' num='2' head='Placement and Intership Talk' icon={two}/> 
+                 <Contain index='0' num='3' head='Idea Pitch Competition' icon={three}/> 
+                 <Contain1 index='0' num='4' head='Group Interactions and Workshops' icon={four}/> 
+                 <Contain index='0' num='5' head='Leadership talks' icon={five}/> 
+                 <Contain1 index='0' num='6' head='Cultural Night' icon={six}/>                    
+             </div>
+         </MediaQuery>    
+
          </div>
  		)
  } 
