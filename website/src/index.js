@@ -11,6 +11,7 @@ import Footer from './components/Footer.js'
 import events from './Events/events.js'
 import MediaQuery from 'react-responsive';
 import MobileNavbar from './mobile-navbar/mobile_navbar.js'
+import MobileSchedule from './mobile-schedule/mobileschedule.js'
 
 
 const routing = (
@@ -20,23 +21,26 @@ const routing = (
                 <img className="raionzo-logo" src={raionzoLogo} alt="Raionzo Logo" />
                 <div className="head">Raionzo</div>
                 <div className="nav-links">
-                    <NavLink activeClassName="active" className="navbar-link" exact to ="/Home"><Navlink name="Home" /></NavLink>
-                    <NavLink activeClassName="active" className="navbar-link" to ="/Events/events"><Navlink name="Events" /></NavLink>
+
+                    <NavLink activeClassName="active" className="navbar-link" exact={true} to ="/"><Navlink name="Home" /></NavLink>
+                    <NavLink activeClassName="active" className="navbar-link" to ="/Events/"><Navlink name="Events" /></NavLink>
                     <NavLink activeClassName="active" className="navbar-link" to="/schedule/"><Navlink name="Schedule" /></NavLink>
-                    <NavLink activeClassName="active" className="navbar-link" ><Navlink name="Contact Us" /></NavLink>
+                    <NavLink activeClassName="active" className="navbar-link" to="" ><Navlink name="Contact Us" /></NavLink>
                 </div>
 			    <div className="reg-link">Register</div>
     		</div>
-
+            <Route path="/schedule/" component={SCHEDULE} />
             </MediaQuery>
-            <MediaQuery query="(max-device-width: 600px)">
+
+
+            <MediaQuery query="(max-device-width: 414px)">
               <MobileNavbar/>  
+              <Route path="/schedule/" component={MobileSchedule} />
             </MediaQuery>
-            <Route exact path="/" component={App} />
 
-            <Route path="/schedule/" exact component={SCHEDULE} />
             <Route path="/Events/" component={events} />
             <Route path='/Home' component={App}/>
+
             
             <Footer/>
     </Router>
