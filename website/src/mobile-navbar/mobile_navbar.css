@@ -36,10 +36,8 @@
 }
 
 
-
-
 .mobile_navbar_data_after{
-    display: ;
+    backdrop-filter: opacity(0);
     background-color: #E7A908;
     margin-left: 15%;
     height:100vh;
@@ -52,32 +50,26 @@
     margin-right: 0%;
     width:70%;
     opacity: 1;
-    transition: opacity .5s ease-in-out;
+    animation-name: move;
+     animation-duration: 1s;  
+    
+
     
 }
+@keyframes move{
+    0% {
+        margin-left: 40%;
+      }
+      100% {
+        margin-left: 15%;
+      }
+    }
 .mobile_navbar_data_before{
     opacity: 0;
+    display:none;
 
-    background-color: #E7A908;
-    margin-left: 15%;
-    height:100vh;
-    padding-left:15%;
-    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.15);
-    border-radius:10px;
-    color: #FFFFFF;
-    z-index: 100;
-    position:absolute;
-    margin-right: 0%;
-    width:70%;
-    
 
 }
-
-
-
-
-
-
 .mobileNavbar{
 
     font-style: normal;
@@ -95,12 +87,22 @@
 }
 .mobileNavbar-event{
     padding-top: 8%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.mobileNavbar-home{
+    color:white;
+    text-decoration: none;
 }
 .mobileNavbar-schedule{
-    padding-top: 8%; 
+    padding-top: 8%;
+    color: #FFFFFF; 
+    text-decoration: none;
 }
 .mobileNavbar-contactus{
-    padding-top: 8%;  
+    padding-top: 8%; 
+    color: #FFFFFF; 
+    text-decoration: none;
 }
 .mobilebarCross{
     font-size: 40px;
@@ -142,6 +144,7 @@
     margin-left: 10px;
     color:white;
 }
-.mobilehome_active{
-
+ .mobile_active{
+    border-bottom: 5.5px solid black;
+    border-radius: 10px;
 }

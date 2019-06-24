@@ -1,0 +1,16 @@
+.schedule-col{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+.Schedule-col-3{
+    padding-bottom: 5%;
+}
+.Schedule-col-1{
+    width:25%;
+}
