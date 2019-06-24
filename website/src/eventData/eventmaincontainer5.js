@@ -6,7 +6,9 @@ import  EventComponent1  from './eventcomponent1.js';
 
 class EventMainContainer extends React.Component{
 	state={
-	num:1
+	num:5,
+	date:'31 August',
+	time:'10 AM'
 };
     render(){
   return (
@@ -14,8 +16,8 @@ class EventMainContainer extends React.Component{
   <EventComponent1 
    eventinfodata=" Panel discussions on the topics “International Affairs of India” and “Women in Tech” where the audience is exposed to new viewpoints and perspectives."
    eventcontainerheading="Panel Discussion"
-   eventcontainerbutton="Panelists"
-   eventcontainericon="one"  />
+   eventcontainerbutton="Panelist"
+   eventcontainericon="paneldiscussion"  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}

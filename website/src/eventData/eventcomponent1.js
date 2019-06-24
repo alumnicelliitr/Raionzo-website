@@ -1,9 +1,8 @@
 
 import React from 'react';
 import './eventcomponent1.css';
+import MediaQuery from 'react-responsive';
 import Speaker from './speaker.js';
-
-
 
 class EventComponent1 extends React.Component{
     
@@ -16,9 +15,18 @@ class EventComponent1 extends React.Component{
                        <div className="eventcontainer1-subcontainer-eventinfo">
                        {this.props.eventinfodata}</div>
                     </div>
+                    <MediaQuery query='(min-width:414px)'>
                     <div className="eventcontainer1-subcontainer-2">   
-                       <div className=""> <img className="eventcontainer1-subcontainer-image" src={require('./../components/images/' + this.props.eventcontainericon + '.png')} alt=""/> </div> 
+                       <div className=""> <img className="eventcontainer1-subcontainer-image" src={require('../components/images/one.png')} alt=""/> </div> 
                    </div>
+                   </MediaQuery>
+                    <MediaQuery query='(max-width:414px)'>
+                    <div className="eventcontainer1-subcontainer-2">   
+                       <div className=""> <img className="eventcontainer1-subcontainer-image" src={require('../components/images/onehalf.png')} alt=""/> </div> 
+
+                   </div>
+                   </MediaQuery>
+                   
               </div>
  
  
