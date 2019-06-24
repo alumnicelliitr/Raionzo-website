@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './panel.css';
-import date from '../components/images/Date.png'
+import date from '../components/images/date.png'
 import time from '../components/images/time.png'
-import map from '../components/images/map.png'
+import map from '../components/images/venue.png'
 import contact from '../components/images/contact.png'
+import Mediaquery from 'react-responsive'
 
 function timing(props) {
 	if(props.page==1)
@@ -12,20 +13,49 @@ function timing(props) {
 			     <div className ='IA'>
 			         <p className='nam'>International Affairs of India</p>
 			         <div className='nam2'>
+			         <Mediaquery query='(min-width:414px)'>
 			             <p className='dat dd'>31 August<br/>2 PM</p>
 			             <p className='dat dd1'>MAC</p>
+			         </Mediaquery>
+			         <Mediaquery query='(max-width:414px)'>
+			             <p className='dat dd'>31 August</p>
+			             <p className='dat dd'>2 PM</p>
+			             <p className='dat dd1'>MAC</p>
+			         </Mediaquery>    
 			         </div>
 			     </div>
 			     <div className ='IA'>
 			         <p className='nam'>Women in Tech</p>
 			         <div className='nam2'>
-			             <p className='dat dd'>1 September<br/>10 AM</p>
+			             <p className='dat dd'>31 August</p>
+			             <p className='dat dd'>2 PM</p>
+			             <p className='dat dd1'>MAC</p>
 			         </div>
 			     </div>
 			 </div>
 		);
-	    return ( 
-	         <div className='timing'>
+	if(props.page==4)
+		return(<div className='timing'>
+	             <div className='date'>
+	                 <p className='nam'>Finance</p>
+	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
+	             </div>
+	             <div className='date'>
+	                 <p className='nam'>Design</p>
+	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
+	             </div>
+	             <div className='date'>
+	                 <p className='nam'>ML/AL</p>
+	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
+	             </div>
+	             <div className='date'>
+	                 <p className='nam'>Web-D</p>
+	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
+	             </div>    
+	         </div>
+	         );
+
+	return ( <div className='timing'>
 	             <div className='date'>
 	                 <img className='timing-icons' src={date}></img>
 	                 <p className='nam'>Date</p>
@@ -47,6 +77,7 @@ function timing(props) {
 	                 <p className='dat'>9833020496,<br/>9833020496</p>
 	             </div>    
 	         </div>
+	         
 		    );
 
 }

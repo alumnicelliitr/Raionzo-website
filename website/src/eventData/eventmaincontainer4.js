@@ -6,7 +6,7 @@ import  EventComponent1  from './eventcomponent1.js';
 
 class EventMainContainer extends React.Component{
 	state={
-	num:1
+	num:4
 };
     render(){
   return (

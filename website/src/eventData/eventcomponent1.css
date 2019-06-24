@@ -120,3 +120,43 @@ margin-top: 2vw;
         width:24vw;
       }
     } 
+@media only screen and (max-width: 414px){
+      .eventcontainer1-heading{
+    color: black;
+    font-size: 32px;
+    margin-top: 10%;
+      }
+    .eventcontainer1-subcontainer-eventinfo 
+    {
+    font-size: 15px;
+    width: 87%;
+    margin-left: 21px;
+    padding-right: 0;
+}
+    .eventcontainer1-subcontainer-image {
+    width: 30vw;
+    margin-right: -2px;
+    margin-left: -1vw;
+    margin-top: 8%;
+  }
+  .eventcontainer1-subcontainer-button-1 {
+    display: none;
+}
+.eventcontainer1-subcontainer-button-2 {
+    font-weight: bold;
+    height: 7.5vw;
+    border-radius: 2px;
+    width: 25vw;
+    font-size: 12px;
+}
+.eventcontainer1-subcontainer-registernow{
+      font-weight: bold;
+    height: 7.5vw;
+    border-radius: 2px;
+    width: 25vw;
+    color: #E7A908;
+    border: 1px solid #E7A908;
+    background: transparent;
+    font-size: 11px;
+}
+    }

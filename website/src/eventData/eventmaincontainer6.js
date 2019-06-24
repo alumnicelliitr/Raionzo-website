@@ -6,7 +6,9 @@ import  EventComponent1  from './eventcomponent1.js';
 
 class EventMainContainer extends React.Component{
 	state={
-	num:1
+	num:6,
+	date:'01 September',
+	time:'7 PM onwards '
 };
     render(){
   return (

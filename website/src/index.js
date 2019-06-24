@@ -20,7 +20,7 @@ const routing = (
                 <img className="raionzo-logo" src={raionzoLogo} alt="Raionzo Logo" />
                 <div className="head">Raionzo</div>
                 <div className="nav-links">
-                    <NavLink activeClassName="active" className="navbar-link" to ="/Home"><Navlink name="Home" /></NavLink>
+                    <NavLink activeClassName="active" className="navbar-link" exact to ="/Home"><Navlink name="Home" /></NavLink>
                     <NavLink activeClassName="active" className="navbar-link" to ="/Events/events"><Navlink name="Events" /></NavLink>
                     <NavLink activeClassName="active" className="navbar-link" to="/schedule/"><Navlink name="Schedule" /></NavLink>
                     <NavLink activeClassName="active" className="navbar-link" ><Navlink name="Contact Us" /></NavLink>
@@ -34,7 +34,7 @@ const routing = (
             </MediaQuery>
             <Route exact path="/" component={App} />
 
-            <Route path="/schedule/" component={SCHEDULE} />
+            <Route path="/schedule/" exact component={SCHEDULE} />
             <Route path="/Events/" component={events} />
             <Route path='/Home' component={App}/>
             

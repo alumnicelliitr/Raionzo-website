@@ -59,7 +59,7 @@
 }
 .icon5{
 	text-align: center;
-    line-height: 49px;
+    line-height: 43px;
     background-color: #E7A908;
     width: 34px;
     height: 34px;
@@ -87,29 +87,30 @@
     text-align: center;
     margin: 0% 3%;
 }
-.nam{
-	margin-top: 4%;
-	font-size: 40px;
-	color: #E7A908;
+.nam {
+    margin-top: 4%;
+    font-size: 25px;
+    color: #E7A908;
 }
 .dat {
-    margin: -8%;
+    margin: -2%;
     line-height: 34px;
     color: white;
-    font-size: 24px;
+    font-size: 22px;
 }
-.IA{
-	margin:0% 2%;
-	width: 40%;
-	background-color: black;
-	border-radius: 15px;
-	text-align: center;
+.IA {
+    margin: 0% 2%;
+    width: 40%;
+    height: 77%;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
 }
-.nam2{
-	display: flex;
-	flex-direction: row;
-	width: 80%;
-	margin: 14% 10%;
+.nam2 {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 11% 12%;
 }
 .dd{
 	width: 50%;
@@ -118,13 +119,29 @@
      margin-left: 5%;}
 
 @media only screen and (max-width: 1000px)  {
+    .IA {
+    margin: 0% 2%;
+    width: 40%;
+    height: 77%;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nam {
+    margin-top: 4%;
+    font-size: 21px;
+    color: #E7A908;
+}
     .icons{width: 45%;}
     .date{height: 95%;
           width: 21%;
           margin:0% 2%;}
     .num{font-size:37px;}
-    .dat{margin: -11%;
-         font-size: 24px;}
+   .dat {
+    margin: -1%;
+    font-size: 16px;
+}
 }
 @media only screen and (max-width: 650px){
     .icon1,.icon5{
@@ -153,45 +170,92 @@
         width: 18%;
         margin-bottom: -5%;
 }
-    .dat{
-        margin: -19%;
-        font-size: 16px;
-        line-height: 23px;
-    }
+    .dat {
+    margin: -3%;
+    font-size: 16px;
+    line-height: 23px;
+}
     .timing{
         height: 156px;
     }
 }
-@media only screen and (max-width: 400px){
-    .timing{height: 285px;
+@media only screen and (max-width: 414px){
+.timing{height: 285px;
             flex-wrap: wrap;}
-    .date {
+.dat {
+    font-size: 17px;
+    margin: -9%;
+    font-weight: bold;
+}
+.date {
+    border-radius: 4px;
     width: 40%;
     height: 47%;
 }   
-    .timing-icons{width: 17%;}
-    .dat{font-size:13px;
-         margin: -9%;}
-    .nam{font-size: 22px;}
-
-     .icon1,.icon5{
-        height: 16px;
-        width: 16px;
-        line-height: 16px;
+.timing-icons{width: 14%;}
+.nam {
+    font-weight: bold;
+    font-size: 21px;
+}
+.icon5{    width: 75px;
+    font-weight: 800;
+    background: #FFFFFF;
     }
-    .icon2,.icon4{
+.leftarrow{
+    margin-right:5px;
+    height: 10px;
+}
+.icon2,.icon4{
         height: 24px;
         width: 24px;
         font-size: 13px;
         line-height: 26px;
     }
-    .icon3{
+.icon3{
         font-size: 25px;
         height: 40px;
         width: 40px;
         line-height: 42px;
     }
-    .leftarrow{
-        height: 10px;
-    }
+.icons{width: 100%;
+       height:70px;
+       color:#E7A908; }
+.icon5{
+
+    height: 16px;
+    width: 50px;
+    line-height: 16px;
+    margin-left: 316px;
+    font-size: 13px;
+}
+.icon1{
+
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    width: 61px;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 256px;
+}
+.icon6 {
+    font-weight: bold;
+    margin-left: 82px;
+    font-size: 13px;
+}
+.icon7{
+    width: 61px;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 116px;
+    margin-left: 0px;
+}
+.IA {
+    margin: 1% 2%;
+    width: 96%;
+    height: 40%;
+    border-radius: 4px;
+}
 }
