@@ -12,15 +12,10 @@ class Footer extends Component{
 		return(
 			<div className="footer">
 				<Raionzo2019 />
-				<div className="empty-div div1"></div>
 				<UsefulLinks />
-				<div className="empty-div div2"></div>
 				<Events />
-				<div className="empty-div div3"></div>
 				<Contact />
-				<div className="empty-div div4"></div>
 				<Help />
-				<div className="empty-div div5"></div>
 				<Follow />
 			</div>
 		);
@@ -50,11 +45,12 @@ function UsefulLinks() {
 			</div>
 			<div className="footer-links-cont footer-cont-all">
 				<div className="footer-list footer-list-links">
-					<div>Schedule</div>
-					<div>Speakers</div>
-					<div>Register</div>
-					<div>About Us</div>
-					<div>Contact Us</div>
+					<div className="item-a">Schedule</div>
+					<div className="item-b">Speakers</div>
+					<div className="item-c">Register</div>
+					<div className="events-in-links item-d">Events</div>
+					<div className="item-e">About Us</div>
+					<div className="item-f">Contact Us</div>
 				</div>
 			</div>
 		</div>
