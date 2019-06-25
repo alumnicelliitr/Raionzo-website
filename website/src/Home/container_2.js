@@ -3,6 +3,7 @@ import './container_2.css';
 import iitrlogo from './../components/images/iitrlogo.png';
 import iarclogo from './../components/images/iarclogo.png';
 import MediaQuery from 'react-responsive';
+import {NavLink } from 'react-router-dom'
 
 class CONTAINER2 extends React.Component {
     render() {
@@ -14,7 +15,7 @@ class CONTAINER2 extends React.Component {
                 <div className="container-2-child-button">
                   <MediaQuery query='(max-width:414px)'>
                      <div className="">  <button type="button" className="container-2-child-button-1">Register Now</button></div>
-                     <div className=""><button type="button" className="container-2-child-button-2"> Events </button></div>
+                     <div className=""><NavLink to="/Events/"><button type="button" className="container-2-child-button-2"> Events </button></NavLink></div>
                   </MediaQuery>
                   <MediaQuery query='(min-width:414px)'>
                     <div className="">  <button type="button" className="container-2-child-button-1">About</button></div>

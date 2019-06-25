@@ -14,11 +14,11 @@ class EventMainContainer extends React.Component{
     render(){
   return (
   	<div>
-  <EventComponent1 
-   eventinfodata=" Panel discussions on the topics “International Affairs of India” and “Women in Tech” where the audience is exposed to new viewpoints and perspectives."
-   eventcontainerheading="Panel Discussion"
-   eventcontainerbutton="Panelist"
-   eventcontainericon="paneldiscussion"  />
+   <EventComponent1 
+   eventinfodata=" The event ends with a delightful cultural night organized by the students followed by a valedictory session. "
+   eventcontainerheading="Cultral Night"
+   eventcontainerbutton="XYZ "
+   eventcontainericon="six"  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}

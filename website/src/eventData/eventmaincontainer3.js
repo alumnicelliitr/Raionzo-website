@@ -15,10 +15,10 @@ class EventMainContainer extends React.Component{
   return (
   	<div>
   <EventComponent1 
-   eventinfodata=" Panel discussions on the topics “International Affairs of India” and “Women in Tech” where the audience is exposed to new viewpoints and perspectives."
-   eventcontainerheading="Panel Discussion"
-   eventcontainerbutton="Panelist"
-   eventcontainericon="paneldiscussion"  />
+   eventinfodata=" The competition is open to all IITR students, where the students send in amusing, creative and feasible ideas for new initiatives to increase student-alumni interaction in the upcoming years. The most feasible idea wins!"
+   eventcontainerheading="Idea Pitch Competition"
+   eventcontainerbutton="Judge"
+   eventcontainericon="three"  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}

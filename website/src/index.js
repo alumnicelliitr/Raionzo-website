@@ -28,7 +28,7 @@ const routing = (
                 <div className="head">Raionzo</div>
                 <div className="nav-links">
 
-                    <NavLink activeClassName="active" className="navbar-link" exact={true} to ="/Home"><Navlink name="Home" /></NavLink>
+                    <NavLink activeClassName="active" className="navbar-link" exact={true} to ="/"><Navlink name="Home" /></NavLink>
                     <NavLink activeClassName="active" className="navbar-link" to ="/Events/"><Navlink name="Events" /></NavLink>
                     <NavLink activeClassName="active" className="navbar-link" to="/schedule/"><Navlink name="Schedule" /></NavLink>
                     <NavLink activeClassName="active" className="navbar-link" to="" ><Navlink name="Contact Us" /></NavLink>
@@ -45,15 +45,13 @@ const routing = (
             </MediaQuery>
             <Switch>
             <Route path='/PD/' exact component={Panel}/>
-            <Route path='/PIT/' exact component={PIT}/>
-            <Route path='/IPC/' exact component={IPC}/>
-            <Route path='/GIW/' exact component={GIW}/>
-            <Route path='/LT/' exact component={LT}/>
-            <Route path='/CN/' exact component={CN}/>
+            <Route path='/PIT/'  component={PIT}/>
+            <Route path='/IPC/'  component={IPC}/>
+            <Route path='/GIW/'  component={GIW}/>
+            <Route path='/LT/'  component={LT}/>
+            <Route path='/CN/'  component={CN}/>
             <Route path="/Events/" component={events} />
-            <Route path='/Home' component={App}/>
             <Route path='/' exact component={App}/>
-            <Route exact component={App}/>
             </Switch>            
             
             <Footer/>

@@ -16,7 +16,7 @@ class EventComponent1 extends React.Component{
                     </div>
                     <MediaQuery query='(min-width:415px)'>
                     <div className="eventcontainer1-subcontainer-2">   
-                       <div className=""> <img className="eventcontainer1-subcontainer-image" src={require('../components/images/one.png')} alt=""/> </div> 
+                       <div className=""> <img className="eventcontainer1-subcontainer-image" src={require('../components/images/' + this.props.eventcontainericon + '.png')} alt=""/> </div> 
                    </div>
                    </MediaQuery>
                     <MediaQuery query='(max-width:414px)'>

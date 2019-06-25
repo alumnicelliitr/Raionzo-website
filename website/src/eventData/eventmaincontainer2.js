@@ -15,10 +15,10 @@ class EventMainContainer extends React.Component{
   return (
   	<div>
   <EventComponent1 
-   eventinfodata=" Panel discussions on the topics “International Affairs of India” and “Women in Tech” where the audience is exposed to new viewpoints and perspectives."
-   eventcontainerheading="Panel Discussion"
-   eventcontainerbutton="Panelist"
-   eventcontainericon="paneldiscussion"  />
+   eventinfodata=" The 3rd and 4th years of engineering are very crucial in a student’s career as they appear for interns and placements. Every step plays an important role, hence, a talk where the alumni guide them about the dos and don'ts is organized."
+   eventcontainerheading="Placement and Internship Talks"
+   eventcontainerbutton="Speaker"
+   eventcontainericon="two"  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}
