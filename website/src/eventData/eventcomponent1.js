@@ -2,7 +2,6 @@
 import React from 'react';
 import './eventcomponent1.css';
 import MediaQuery from 'react-responsive';
-import Speaker from './speaker.js';
 
 class EventComponent1 extends React.Component{
     
@@ -15,7 +14,7 @@ class EventComponent1 extends React.Component{
                        <div className="eventcontainer1-subcontainer-eventinfo">
                        {this.props.eventinfodata}</div>
                     </div>
-                    <MediaQuery query='(min-width:414px)'>
+                    <MediaQuery query='(min-width:415px)'>
                     <div className="eventcontainer1-subcontainer-2">   
                        <div className=""> <img className="eventcontainer1-subcontainer-image" src={require('../components/images/one.png')} alt=""/> </div> 
                    </div>
@@ -40,17 +39,7 @@ class EventComponent1 extends React.Component{
                             <button className="eventcontainer1-subcontainer-registernow">Register Now</button> 
                          </div>
               </div>
-              <div className="speaker-head">About the {this.props.eventcontainerbutton}</div>
-              <Speaker speakername="Ishant Sharma" speakercontent="asjdhq qqqqq qqqqqqqqqqqqqq qqqqqqqqqqqq qqqqqqqqqqqqqqqq qqqqqqqqqq qqqqqq qqqqqqqqqqq qqqqqqqqqqqqq" speakerimg="one" />
-
-              <div className="event-register">
-                <div className="event-register-text">
-                  To take part in this event
-                </div>
-                <div className="event-register-button">
-                  Register Now
-                </div>
-              </div>
+              
             </div>
           
 

@@ -10,7 +10,7 @@ h1 {margin: 0% 2% 0% 2%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
-    font-size: 90px;
+    font-size: 150px;
     line-height: 74px;
     color: #FFFFFF;
 }
@@ -103,33 +103,34 @@ h2{ z-index: 2;
     font-size: 24px;
 }
 .btn1 {
+    text-decoration: none;
     display: flex;
     flex-wrap: wrap;
     color: white;
     background-color: #E7A908;
-    height: 6%;
+    height: 8%;
     margin: -4% 6% 0% 6%;
     border-radius: 8px;
     padding: 2% 3%;
-    width: 21%;
+    width: 30%;
     font-size: 20px;
 }
 .btn2 {
         line-height: 27px;
     color: white;
     background-color: black;
-    height: 6%;
+    height: 8%;
     margin: -4% 6% 0% 6%;
     border-radius: 8px;
     padding: 2% 7%;
-    width: 14%;
+    width: 20%;
     font-size: 22px;
 }
 .num2 {
     z-index: 1;
     margin: 0%;
     padding: 10% 4%;
-    margin: 0% 0% 0% -20%;
+    margin: 0% 0% 0% -33%;
     font-size: 176px;
     height: 10%;
     width: 23%;
@@ -141,10 +142,11 @@ h2{ z-index: 2;
     margin: -1% 0% 0% 2%;
 }
 .bb1{
+    text-decoration: none;
     margin: -6% 6% 0% 25%;
 }
-.bb2{
-    margin: -6% 6% 0% 6%;
+.bb2 {
+    margin: -4% 6% 0% 6%;
 }
 
 
@@ -156,7 +158,7 @@ h2{ z-index: 2;
     height: 4%;
 }
 h1{
-    line-height: 57px;
+    line-height: 140px;
     font-size:77px;
 }
 .two{
@@ -164,14 +166,14 @@ h1{
     margin: -1% 0% 0% -6%;
 }
 .txt{
-    height: 5%;
+    height: 6%;
     font-size:30px;
 }
 .imgg{
     height: 108px;
 }
-.eone{
-    height: 3000px;
+.eone {
+    height: 3100px;
 }
 .btnn{
     font-size: 21px;
@@ -185,9 +187,6 @@ h1{
 
 @media only screen and (max-width: 1000px)
 {
-    h1{
-        font-size: 60px;
-    }
     .txt {
     font-size: 26px;
     line-height: 43px;
@@ -197,7 +196,7 @@ h1{
 
     }
     .num,.num2{
-     margin-top: 8%;
+     margin-top: -2%;
      font-size: 150px;
     }
     .pd{
@@ -207,8 +206,8 @@ h1{
     .btnn{
         font-size: 19px;
     }
-    .bb1{
-    margin: -6% 6% 0% 14%;
+    .bb1 {
+    margin: -6% 6% 0% 12%;
 }
     .arrow{
             width: 21%;
@@ -226,9 +225,9 @@ h1{
     .pd1 {
     width: 26%;
     padding: 6% 15% 3% 4%;
-}   .two {
+}  .two {
     width: 91%;
-    margin: -1% 0% 0% -21%;
+    margin: 7% 0% 0% -21%;
 }.eone{height: 2700px;}
 .first {
     height: 5%;
@@ -245,8 +244,8 @@ h1{
     font-size: 24px;
     line-height: 35px;
 }
-.num,.num2{
-    font-size: 140px;
+.num, .num2 {
+    font-size: 134px;
 }
 .btn1{width:30%;}
 
@@ -266,7 +265,10 @@ h2{
     height: 12px;
     margin: 3% 0% 0% 18%;
 }   
-.eone{height: 2300px;
+.eone{height: 2700px;
+}
+.num2{
+    margin: 0% 0% 0% -22%;
 }
 }
 @media only screen and (max-width: 625px){
@@ -356,8 +358,7 @@ h2{
 }
 @media only screen and (max-width: 414px)  {
 .eone{
-    height: 670px;
-}
+    height: 910px;}
 .txt{
     height: 10%;
     font-size: 12px;
@@ -376,8 +377,8 @@ h2{
     margin-left: 10%;
 }
 .num2 {
-    font-size: 70px;
-    margin: 7% 0% 0% -62%;
+    font-size: 64px;
+    margin: 7% 0% 0% -67%;
 }
 .side1{width: 100%;}
 .bb2{display: none;}
@@ -393,5 +394,11 @@ h2{
     height: 14%;
     margin-left: 18%;
     border-radius: 3px;
+}
+
+}
+@media only screen and (max-width: 320px)  {
+.arrow{
+    display:none;
 }
 }

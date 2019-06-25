@@ -205,8 +205,12 @@ margin-top: 2vw;
     font-size: 32px;
     margin-top: 10%;
       }
+      .eventcontainer1 {
+    margin-top: 3%;
+}
     .eventcontainer1-subcontainer-eventinfo 
     {
+      line-height: 15px;
     font-size: 15px;
     width: 87%;
     margin-left: 21px;

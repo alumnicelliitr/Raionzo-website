@@ -6,12 +6,18 @@ import * as serviceWorker from './serviceWorker';
 import SCHEDULE from './schedule/schedule_container.js';
 import raionzoLogo from './components/images/raionzologo.png';
 import Navlink from './components/navlink.js';
-import { Route, NavLink, BrowserRouter as Router } from 'react-router-dom'
+import { Route,Switch, NavLink, BrowserRouter as Router } from 'react-router-dom'
 import Footer from './components/Footer.js'
 import events from './Events/events.js'
 import MediaQuery from 'react-responsive';
 import MobileNavbar from './mobile-navbar/mobile_navbar.js'
 import MobileSchedule from './mobile-schedule/mobileschedule.js'
+import Panel from'./eventData/eventmaincontainer'
+import PIT from './eventData/eventmaincontainer2'
+import IPC from'./eventData/eventmaincontainer3'
+import GIW from'./eventData/eventmaincontainer4'
+import LT from'./eventData/eventmaincontainer5'
+import CN from'./eventData/eventmaincontainer6'
 
 
 const routing = (
@@ -37,11 +43,18 @@ const routing = (
               <MobileNavbar/>  
               <Route path="/schedule/" component={MobileSchedule} />
             </MediaQuery>
-
+            <Switch>
+            <Route path='/PD/' exact component={Panel}/>
+            <Route path='/PIT/' exact component={PIT}/>
+            <Route path='/IPC/' exact component={IPC}/>
+            <Route path='/GIW/' exact component={GIW}/>
+            <Route path='/LT/' exact component={LT}/>
+            <Route path='/CN/' exact component={CN}/>
             <Route path="/Events/" component={events} />
             <Route path='/Home' component={App}/>
             <Route path='/' exact component={App}/>
-
+            <Route exact component={App}/>
+            </Switch>            
             
             <Footer/>
     </Router>

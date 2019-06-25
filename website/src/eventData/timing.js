@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './panel.css';
 import date from '../components/images/date.png'
 import time from '../components/images/time.png'
@@ -7,7 +7,7 @@ import contact from '../components/images/contact.png'
 import Mediaquery from 'react-responsive'
 
 function timing(props) {
-	if(props.page==1)
+	if(props.page===1)
 		return(
 			 <div className='timing'>
 			     <div className ='IA'>
@@ -34,22 +34,22 @@ function timing(props) {
 			     </div>
 			 </div>
 		);
-	if(props.page==4)
+	if(props.page===4)
 		return(<div className='timing'>
 	             <div className='date'>
-	                 <p className='nam'>Finance</p>
+	                 <p className='namm'>Finance</p>
 	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
 	             </div>
 	             <div className='date'>
-	                 <p className='nam'>Design</p>
+	                 <p className='namm'>Design</p>
 	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
 	             </div>
 	             <div className='date'>
-	                 <p className='nam'>ML/AL</p>
+	                 <p className='namm'>ML/AL</p>
 	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
 	             </div>
 	             <div className='date'>
-	                 <p className='nam'>Web-D</p>
+	                 <p className='namm'>Web-D</p>
 	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
 	             </div>    
 	         </div>
@@ -57,22 +57,22 @@ function timing(props) {
 
 	return ( <div className='timing'>
 	             <div className='date'>
-	                 <img className='timing-icons' src={date}></img>
+	                 <img className='timing-icons' src={date} alt=''></img>
 	                 <p className='nam'>Date</p>
 	                 <p className='dat'>{props.date}</p>
 	             </div>
 	             <div className='date'>
-	                 <img className='timing-icons' src={time}></img>
+	                 <img className='timing-icons' src={time} alt=''></img>
 	                 <p className='nam'>Time</p>
 	                 <p className='dat'>{props.time}</p>
 	             </div>
 	             <div className='date'>
-	                 <img className='timing-icons spec' src={map}></img>
+	                 <img className='timing-icons spec' src={map} alt=''></img>
 	                 <p className='nam'>Venue</p>
 	                 <p className='dat'>MAC IIT,<br/>Roorkee</p>
 	             </div>
 	             <div className='date'>
-	                 <img className='timing-icons' src={contact}></img>
+	                 <img className='timing-icons' src={contact} alt=''></img>
 	                 <p className='nam'>Contact</p>
 	                 <p className='dat'>9833020496,<br/>9833020496</p>
 	             </div>    
