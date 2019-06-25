@@ -3,6 +3,7 @@ import Panelicons from './panelicons'
 import Timing from './timing'
 import React from 'react';
 import  EventComponent1  from './eventcomponent1.js';
+import Speaker from './speaker.js';
 
 class EventMainContainer extends React.Component{
 	state={
@@ -22,6 +23,16 @@ class EventMainContainer extends React.Component{
 	            time={this.state.time}
 	            page={this.state.num}/>
     </div>
+    <Speaker speakername="Ishant Sharma" speakercontent="asjdhq qqqqq qqqqqqqqqqqqqq qqqqqqqqqqqq qqqqqqqqqqqqqqqq qqqqqqqqqq qqqqqq qqqqqqqqqqq qqqqqqqqqqqqq" speakerimg="one" />
+
+              <div className="event-register">
+                <div className="event-register-text">
+                  To take part in this event
+                </div>
+                <div className="event-register-button">
+                  Register Now
+                </div>
+              </div>
 		</div>
   );
 }

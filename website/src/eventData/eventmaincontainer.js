@@ -2,6 +2,7 @@ import './panel.css';
 import Panelicons from './panelicons'
 import Timing from './timing'
 import React from 'react';
+import Speaker from './speaker.js';
 import  EventComponent1  from './eventcomponent1.js';
 
 class EventMainContainer extends React.Component{
@@ -17,12 +18,22 @@ class EventMainContainer extends React.Component{
    eventcontainerbutton="Panelists"
    eventcontainericon="one"  />
    <div>
-	    <Panelicons  two={this.state.num}/>
-	    <Timing date={this.state.date}
+	 <Panelicons  two={this.state.num}/>
+	 <Timing date={this.state.date}
 	            time={this.state.time}
 	            page={this.state.num}/>
     </div>
-		</div>
+    <Speaker speakername="Ishant Sharma" speakercontent="asjdhq qqqqq qqqqqqqqqqqqqq qqqqqqqqqqqq qqqqqqqqqqqqqqqq qqqqqqqqqq qqqqqq qqqqqqqqqqq qqqqqqqqqqqqq" speakerimg="one" />
+
+              <div className="event-register">
+                <div className="event-register-text">
+                  To take part in this event
+                </div>
+                <div className="event-register-button">
+                  Register Now
+                </div>
+              </div>
+    </div>
   );
 }
 }

@@ -5,20 +5,17 @@
 }
 
 
-.boxforheading
-{
-width: 2vw;
-height: 5vw;
-border:1px solid black;
-background-color:black;
-
+.boxforheading {
+    width: 2vw;
+    height: 5vw;
+    border: 1px solid black;
+    background-color: black;
 }
-.container
-{
-  display:flex;
-align-items: baseline;
-overflow: hidden;
-padding-top: 1.2vw;
+.container {
+    display: flex;
+    align-items: baseline;
+    overflow: hidden;
+    padding-top: 1.2vw;
 }
 
 .heading
@@ -31,17 +28,13 @@ font-size: 7vw;
 width:20vw;
 }
 
-.imgthomso
-{ 
-  margin-left: 10vw;
-  width:65.5vw;
- 
+.imgthomso {
+    margin-left: 10vw;
+    width: 66.5vw;
 }
-.imgthomso1
-{
-  height: 10vw; 
-  width:70vw; 
-
+.imgthomso1 {
+    height: 10vw;
+    width: 65vw;
 }
 @media only screen and (max-width:600px)
 {
