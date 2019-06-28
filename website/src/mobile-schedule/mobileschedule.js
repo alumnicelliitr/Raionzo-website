@@ -14,13 +14,13 @@ class MobileSchedule extends React.Component{
     render(){
   return (
       <Router>
-          <div>
-                <CONTAINER1 heading="Schedule" colr="black"></CONTAINER1>
+          <div className="schedulebody">
+                <CONTAINER1 heading="Schedule" colr="black" widths="20vw" size="6vw"></CONTAINER1>
             <div className="mob-schedule-button">
-               <NavLink  activeClassName="mob-sch-active" className="navbar-link"  exact={true} to ="/Schedule/">
+               <NavLink  activeClassName="mob-sch-active1" className="navbar-link"  exact={true} to ="/Schedule/">
                     <button className="mob-schedule-btn1">Day 1</button>
                  </NavLink> 
-               <NavLink  activeClassName="mob-sch-active" className="navbar-link"  to ="/Schedule/Day-2">
+               <NavLink  activeClassName="mob-sch-active2" className="navbar-link"  to ="/Schedule/Day-2">
                    <button className="mob-schedule-btn2">Day 2</button></NavLink> 
                 </div>
                 <Route  path="/Schedule/" exact component={MobileScheduleDay1} />
