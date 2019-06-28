@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Home/App';
 import * as serviceWorker from './serviceWorker';
-import SCHEDULE from './schedule/schedule_container.js';
 import raionzoLogo from './components/images/raionzologo.png';
 import Navlink from './components/navlink.js';
 import { Route,Switch, NavLink, BrowserRouter as Router } from 'react-router-dom'
@@ -37,7 +36,7 @@ const routing = (
                 </div>
 			    <div className="reg-link">Register</div>
     		</div>
-            <Route path="/schedule/" component={SCHEDULE} />
+            <Route path="/schedule/" component={MobileSchedule} />
             </MediaQuery>
 
 

@@ -1,6 +1,4 @@
-.MOBILEVIEW{
-  
-}
+
 .mobile_nav_before{
     display:flex;
     justify-content: space-between;
@@ -9,7 +7,7 @@
     background-color: black;
     height:52px;
     align-items:baseline;
-    width:100vw;
+    
 }
 .mobile_nav_after{
     display:none;
@@ -51,10 +49,7 @@
     width:70%;
     opacity: 1;
     animation-name: move;
-     animation-duration: 1s;  
-    
-
-    
+     animation-duration: 1s;     
 }
 @keyframes move{
     0% {
@@ -145,8 +140,7 @@
     color:white;
 }
  .mobile_active{
-    border-bottom: 5.5px solid black;
-    border-radius: 10px;
+    background-color: blue;
 }
 
 
