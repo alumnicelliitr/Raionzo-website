@@ -10,18 +10,20 @@ import { Route,Switch, NavLink, BrowserRouter as Router } from 'react-router-dom
 import Footer from './components/Footer.js'
 import events from './Events/events.js'
 import MediaQuery from 'react-responsive';
-import MobileNavbar from './mobile-navbar/mobile_navbar.js'
-import MobileSchedule from './mobile-schedule/mobileschedule.js'
-import Panel from'./eventData/eventmaincontainer'
-import PIT from './eventData/eventmaincontainer2'
-import IPC from'./eventData/eventmaincontainer3'
-import GIW from'./eventData/eventmaincontainer4'
-import LT from'./eventData/eventmaincontainer5'
-import CN from'./eventData/eventmaincontainer6'
+import MobileNavbar from './mobile-navbar/mobile_navbar.js';
+import MobileSchedule from './mobile-schedule/mobileschedule.js';
+import Panel from'./eventData/eventmaincontainer';
+import PIT from './eventData/eventmaincontainer2';
+import IPC from'./eventData/eventmaincontainer3';
+import GIW from'./eventData/eventmaincontainer4';
+import LT from'./eventData/eventmaincontainer5';
+import CN from'./eventData/eventmaincontainer6';
+import ScrollToTop from './ScrollToTop.js';
 
 
 const routing = (
     <Router>
+    <ScrollToTop>
         <MediaQuery query="(min-device-width: 600px)">
 			<div className="nav-bar">
                 <img className="raionzo-logo" src={raionzoLogo} alt="Raionzo Logo" />
@@ -57,6 +59,7 @@ const routing = (
             </Switch>            
             
             <Footer/>
+            </ScrollToTop>
     </Router>
 )	
 
