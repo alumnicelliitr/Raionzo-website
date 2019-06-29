@@ -65,7 +65,7 @@ line-height: 20px;
 
 
 
-    @media only screen and (min-width: 414px) and (max-width:900px){
+    @media only screen and (min-width: 900px){
 
         .mob-Schedule-Box{
             background: #FFFFFF;
@@ -94,7 +94,7 @@ line-height: 20px;
             line-height: 49px;
             color: #FFFFFF; }            
     }
-    @media only screen and (min-width: 900px){
+    @media only screen and (min-width: 600px) and (max-width:900px){
 
         .mob-Schedule-Box{
             background: #FFFFFF;
