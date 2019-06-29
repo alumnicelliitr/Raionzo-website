@@ -22,6 +22,7 @@ import ScrollToTop from './ScrollToTop.js';
 
 const routing = (
     <Router>
+
     <ScrollToTop>
         <MediaQuery query="(min-device-width: 900px)">
 			<div className="nav-bar">
