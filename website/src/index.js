@@ -5,7 +5,7 @@ import App from './Home/App';
 import * as serviceWorker from './serviceWorker';
 import raionzoLogo from './components/images/raionzologo.png';
 import Navlink from './components/navlink.js';
-import { Route,Switch, NavLink, BrowserRouter as Router } from 'react-router-dom'
+import { Route , NavLink, BrowserRouter as Router } from 'react-router-dom'
 import Footer from './components/Footer.js'
 import events from './Events/events.js'
 import MediaQuery from 'react-responsive';
@@ -21,39 +21,36 @@ import CN from'./eventData/eventmaincontainer6'
 
 const routing = (
     <Router>
-        <MediaQuery query="(min-device-width: 600px)">
+        <MediaQuery query="(min-device-width: 900px)">
 			<div className="nav-bar">
                 <img className="raionzo-logo" src={raionzoLogo} alt="Raionzo Logo" />
                 <div className="head">Raionzo</div>
                 <div className="nav-links">
 
-                    <NavLink activeClassName="active" className="navbar-link" exact={true} to ="/Home"><Navlink name="Home" /></NavLink>
+                    <NavLink activeClassName="active" className="navbar-link" exact={true} to ="/"><Navlink name="Home" /></NavLink>
                     <NavLink activeClassName="active" className="navbar-link" to ="/Events/"><Navlink name="Events" /></NavLink>
                     <NavLink activeClassName="active" className="navbar-link" to="/schedule/"><Navlink name="Schedule" /></NavLink>
                     <NavLink activeClassName="active" className="navbar-link" to="" ><Navlink name="Contact Us" /></NavLink>
                 </div>
 			    <div className="reg-link">Register</div>
     		</div>
+         </MediaQuery>
+         <MediaQuery query="(max-device-width: 899.99px)">
+         <MobileNavbar/>
+         </MediaQuery>
+
+
+            
             <Route path="/schedule/" component={MobileSchedule} />
-            </MediaQuery>
-
-
-            <MediaQuery query="(max-device-width: 414px)">
-              <MobileNavbar/>  
-              <Route path="/schedule/" component={MobileSchedule} />
-            </MediaQuery>
-            <Switch>
-            <Route path='/PD/' exact component={Panel}/>
-            <Route path='/PIT/' exact component={PIT}/>
-            <Route path='/IPC/' exact component={IPC}/>
-            <Route path='/GIW/' exact component={GIW}/>
-            <Route path='/LT/' exact component={LT}/>
-            <Route path='/CN/' exact component={CN}/>
+            <Route path='/PD/'  component={Panel}/>
+            <Route path='/PIT/' component={PIT}/>
+            <Route path='/IPC/'  component={IPC}/>
+            <Route path='/GIW/'  component={GIW}/>
+            <Route path='/LT/'  component={LT}/>
+            <Route path='/CN/'  component={CN}/>
             <Route path="/Events/" component={events} />
-            <Route path='/Home' component={App}/>
             <Route path='/' exact component={App}/>
-            <Route exact component={App}/>
-            </Switch>            
+                
             
             <Footer/>
     </Router>

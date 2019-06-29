@@ -6,7 +6,7 @@ import footerfb from './images/footerfb.png';
 import footerlinkedin from './images/footerlinkedin.png';
 import footerinsta from './images/footerinsta.png';
 import './css/Footer.css';
-import { NavLink , Link} from "react-router-dom"
+import { Link} from "react-router-dom"
 
 class Footer extends Component{
 	render(){
