@@ -108,7 +108,7 @@ margin-top: 2vw;
   padding: 1em;
   justify-content: space-around;
   align-items: center;
-  height: 200px;
+  height: 250px;
   margin-bottom: 4.5em;
   margin-top: 4.5em;
  }
@@ -116,7 +116,7 @@ margin-top: 2vw;
  .event-register-text{
   font-family: Montserrat;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 36px;
   line-height: 44px;
   text-align: center;
@@ -126,14 +126,14 @@ margin-top: 2vw;
  .event-register-button{
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 39px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
   text-align: center;
-  color: #FFFFFF;
-  padding: 0.5em 1em 0.5em 1em;
-  background-color: #E7A908;
-  border-radius: 42px;
+  color: #E7A908;
+  padding: 1em 4em 1em 4em;
+  background-color: black;
+  border-radius: 5px;
  }
 
  .event-register-button:hover{
