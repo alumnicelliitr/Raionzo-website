@@ -26,8 +26,10 @@
 
 .speaker-box{
 	height: 470px;
+	background-color: #E7A908;
 	display: flex;
 	flex-direction: column;
+	padding-top: 1.5em;
 	width: 80%;
 }
 
@@ -125,6 +127,7 @@
 	}
 	.speaker-box{
 		height: 400px;
+		padding-top: 0;
 	}
 	.speaker-footer{
 		background-image: linear-gradient(to right, #C4C4C4 41.1%, #C4C4C4 20%, #F9BC1E 10%, #F9BC1E 28.9%)

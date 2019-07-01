@@ -131,7 +131,14 @@
 .follow-img{
 	margin-right: 1em;
 }
-
+a:any-link{
+	color:white;
+	text-decoration: none;
+}
+a:active{
+	text-decoration:underline;
+	color:#E7A908;
+}
 @media only screen and (max-width: 1240px){
 	.footer{
 		grid-template-columns: 40% 20% 40%;

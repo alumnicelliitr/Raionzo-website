@@ -30,7 +30,7 @@ class EventMainContainer extends React.Component{
                   To take part in this event
                 </div>
                 <div className="event-register-button">
-                  Register Now
+                  Register
                 </div>
               </div>
     </div>

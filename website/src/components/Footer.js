@@ -6,6 +6,7 @@ import footerfb from './images/footerfb.png';
 import footerlinkedin from './images/footerlinkedin.png';
 import footerinsta from './images/footerinsta.png';
 import './css/Footer.css';
+import { Link} from "react-router-dom"
 
 class Footer extends Component{
 	render(){
@@ -45,12 +46,12 @@ function UsefulLinks() {
 			</div>
 			<div className="footer-links-cont footer-cont-all">
 				<div className="footer-list footer-list-links">
-					<div className="item-a">Schedule</div>
+					<Link to="/schedule/"><div className="item-a">Schedule</div></Link>
 					<div className="item-b">Speakers</div>
 					<div className="item-c">Register</div>
-					<div className="events-in-links item-d">Events</div>
+					<Link to="/Events/"><div className="events-in-links item-d">Events</div></Link>
 					<div className="item-e">About Us</div>
-					<div className="item-f">Contact Us</div>
+					<Link t0="/Contact-Us/"><div className="item-f">Contact Us</div></Link>
 				</div>
 			</div>
 		</div>
@@ -65,12 +66,12 @@ function Events() {
 			</div>
 			<div className="footer-events-cont footer-cont-all">
 				<div className="footer-list footer-list-events">
-					<div>Group interactions and workshops</div>
-					<div>Leadership talk</div>
-					<div>Panel discussions</div>
-					<div>Placement and Internship talk</div>
-					<div>Idea pitch competition</div>
-					<div>Cultural night</div>
+				<Link to="/GIW/"><div>Group interactions and workshops</div></Link>
+					<Link to="/LT/"><div>Leadership talk</div></Link>
+					<Link to="/PD/"><div>Panel discussions</div></Link>
+					<Link to="/PIT/"><div>Placement and Internship talk</div></Link>
+					<Link to="/IPC/"><div>Idea pitch competition</div></Link>
+					<Link to="/CN/"><div>Cultural night</div></Link>
 				</div>
 			</div>
 		</div>
