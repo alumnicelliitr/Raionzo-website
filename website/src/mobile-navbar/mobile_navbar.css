@@ -23,14 +23,12 @@
     align-items:center;
 }
 
-.mobile_index_right{
-    
-}
 .raionzo-mobile-header{
     font-size: 20px;
 }
 .Hamburger_icon{
     font-size: 30px;
+    margin-right: 0.5em;
 }
 
 
@@ -44,8 +42,9 @@
     border-radius:10px;
     color: #FFFFFF;
     z-index: 100;
-    position:absolute;
+    position: fixed;
     margin-right: 0%;
+    margin-top: 0px;
     width:70%;
     opacity: 1;
     animation-name: move;
@@ -79,6 +78,8 @@
     float:right;
     font-size:30px;
     color:black;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
 }
 .mobileNavbar-event{
     padding-top: 8%;
@@ -101,14 +102,13 @@
 }
 .mobilebarCross{
     font-size: 40px;
-    
 }
 .mobile_register{
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 4px; 
-    width: 104px;
-    height: 38px;
+    padding: 0.3em 1em 0.3em 1em;
+    font-size: 22px;
     background-color: transparent;
     color:white;
     font-weight: 600;
