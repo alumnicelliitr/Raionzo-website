@@ -15,9 +15,20 @@ class EventMainContainer extends React.Component{
   return (
   	<div>
   <EventComponent1 
-   eventinfodata=" Panel discussions on the topics “International Affairs of India” and “Women in Tech” where the audience is exposed to new viewpoints and perspectives."
-   eventcontainerheading="Panel Discussion"
-   eventcontainerbutton="Panelist"
+   eventinfodata="The inaugural ceremony of the fest will begin with talks by
+ the Director of IITR 
+and the DORA, IITR. This will be
+ followed by a talk delivered by alumni mainly 
+focusing on
+ leadership skills where the alumni also share their experiences.
+The purpose of the talk is to inculcate Leadership skills
+ within the students
+and also the guidance to freshers
+ about how to spend their time effectively 
+during their
+ journey of IITR."
+   eventcontainerheading="Leadership Talk"
+   eventcontainerbutton="Speakers"
    eventcontainericon="paneldiscussion"  />
    <div>
 	    <Panelicons  two={this.state.num}/>

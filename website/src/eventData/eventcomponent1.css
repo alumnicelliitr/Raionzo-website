@@ -18,7 +18,6 @@ margin-left: 4vw;
 padding-top: 1em;
 }
 
-
 .eventcontainer1-subcontainer-eventinfo{
 font-family: Raleway;
 font-style: normal;
@@ -45,16 +44,15 @@ margin-top: 2vw;
   widows: 28vw;
   margin-left:20vw ;
   }
-.eventcontainer1-subcontainer-registernow
-{
+.eventcontainer1-subcontainer-registernow {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 2vw;
     line-height: 4vw;
     text-align: center;
-    background-color: #E7A908;
-    color: #FFFFFF;
+    background-color: black;
+    color: #E7A908;
     margin-right: 4vw;
     width: 20vw;
     height: 5vw;
@@ -62,8 +60,8 @@ margin-top: 2vw;
     border-radius: 1vw;
 }
 
-.eventcontainer1-subcontainer-button-1{
-    background: #000000;
+.eventcontainer1-subcontainer-button-1 {
+    background: none;
     border-radius: 6px;
     font-family: Montserrat;
     font-style: normal;
@@ -74,12 +72,12 @@ margin-top: 2vw;
     width: 12vw;
     height: 5vw;
     color: #E7A908;
-    border: #000000;
-    }
+    border: 3px solid;
+  }
 
 
-.eventcontainer1-subcontainer-button-2{
-    background: #000000;
+.eventcontainer1-subcontainer-button-2 {
+    background: none;
     border-radius: 6px;
     font-family: Montserrat;
     font-style: normal;
@@ -90,9 +88,9 @@ margin-top: 2vw;
     width: 12vw;
     height: 5vw;
     color: #E7A908;
-    border: #000000;
-    margin-left:2vw;
- }
+    border: 3px solid #E7A908;
+    margin-left: 2vw;
+}
 
  .speaker-head{
   font-family: Montserrat;
@@ -233,6 +231,7 @@ margin-top: 2vw;
     border-radius: 2px;
     width: 25vw;
     font-size: 12px;
+    border: 1px solid #E7A908;
 }
 .eventcontainer1-subcontainer-registernow{
       font-weight: bold;

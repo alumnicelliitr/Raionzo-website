@@ -149,8 +149,21 @@ h2{ z-index: 2;
     margin: -4% 6% 0% 6%;
 }
 
+@media only screen and (min-width: 1500px)  {
+    .eone{
+        height: 3800px;
+    }
+}
+@media only screen and (min-width: 2000px)  {
+    .eone{
+        height: 4400px;
+    }
+}
 
 @media only screen and (max-width: 1305px)  {
+    .eone{
+        height: 3500px;
+    }
 .box {
     height: 53px;
 }
@@ -171,9 +184,6 @@ h1{
 }
 .imgg{
     height: 108px;
-}
-.eone {
-    height: 3100px;
 }
 .btnn{
     font-size: 21px;
@@ -228,7 +238,7 @@ h1{
 }  .two {
     width: 91%;
     margin: 7% 0% 0% -21%;
-}.eone{height: 2700px;}
+}.eone{height: 2900px;}
 .first {
     height: 5%;
 }
