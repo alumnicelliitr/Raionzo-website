@@ -11,37 +11,6 @@ import Contain from './contain';
 import Contain1 from './contain1';
 
 class EVENTS extends Component {
-	state={
-		boxes:[ {num:1,
-				 head:'Panel Discussions',
-				 icon:one
-			    },
-			    {num:2,
-				head:'Placement and Intership Talk',
-				 icon:two
-			    },
-				{			    
-				num:3,
-				head:'Idea Pitch Competition',
-				 icon:three
-			    },
-			    {
-				num:4,
-				head:'Group Interactions and Workshops',
-				 icon:four
-			    },
-			    {
-				num:5,
-				head:'Leadership talks',
-				 icon:five
-			    },
-			    {
-				num:6,
-				head:'Cultural Night',
-				icon:six
-			}    
-		]
-		};
 	render(){
  	return(
          <div className="eone">

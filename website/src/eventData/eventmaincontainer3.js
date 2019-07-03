@@ -8,16 +8,19 @@ import Speaker from './speaker.js';
 class EventMainContainer extends React.Component{
 	state={
 	num:3,
-	date:'30 September',
+	date:'31 August',
 	time:'2:00 - 5:00 PM'
 };
     render(){
   return (
   	<div>
   <EventComponent1 
-   eventinfodata=" Panel discussions on the topics “International Affairs of India” and “Women in Tech” where the audience is exposed to new viewpoints and perspectives."
-   eventcontainerheading="Panel Discussion"
-   eventcontainerbutton="Panelist"
+   eventinfodata=" The competition is open to all IITR students, where the
+students send in amusing, creative and feasible ideas for new
+initiatives to increase student-alumni interaction in the
+upcoming years. The most feasible idea wins!"
+   eventcontainerheading="Idea Pitch Competition"
+   eventcontainerbutton="Judges"
    eventcontainericon="paneldiscussion"  />
    <div>
 	    <Panelicons  two={this.state.num}/>

@@ -10,8 +10,11 @@ import leftarrowtwo from '../components/images/leftarrowtwo.png'
 function panelicons(props) {
 	var state={
 	     url:['/PD','/PIT','IPC','/GIW','/LT','/CN']
-};
+};  
+		
 	var num= props.two;
+	var nex=num;
+		var prev=num-2;
 	if(props.two===1)
 	{var url=num;
 		return (
@@ -29,10 +32,10 @@ function panelicons(props) {
 	 		        </Mediaquery>
 	 		        <Mediaquery query='(max-width:414px)'>
 			         <div className='icons'>
-			    	<div className='icon1 iconfirst'>
+			    	<Link to={state.url[url]} className='icon1 iconfirst'>
 			    	<img className="leftarrow" src={rightarrowtwo} alt=''/>
 			    	NEXT
-			        </div>
+			        </Link>
 	 		    </div>
 	 		        </Mediaquery>
 	 		    </div>  
@@ -54,16 +57,17 @@ function panelicons(props) {
 	 		    </Mediaquery>
 	 		    <Mediaquery query='(max-width:414px)'>
 	 		    <div className='icons'>
-			    	<div className='icon1 iconlast'>
+			    	<Link to={state.url[url]} className='icon1 iconlast'>
 			    	<img className="leftarrow" src={rightarrowtwo} alt=''/>
 			    	PREV
-			        </div>
+			        </Link>
 	 		    </div>
 	 		    </Mediaquery>
 	 		</div>    
 		);}
     else
-	{  url=num-2;
+	{   
+		url=num-2;
 		return (
 			<div className='main'>
 			     <Mediaquery query='(min-width:414px)'>
@@ -81,14 +85,14 @@ function panelicons(props) {
 	 		     </Mediaquery>
 	 		     <Mediaquery query='(max-width:414px)'>
 	 		    <div className='icons'>
-			    	<div className='icon7'>
+			    	<Link to={state.url[prev]} className='icon7'>
 			    	<img className="leftarrow" src={leftarrowtwo} alt=''/>
 			    	PREV
-			        </div>
-			        <div className='icon6'>
+			        </Link>
+			        <Link to={state.url[nex]}  className='icon6'>
 			             	<img className="leftarrow" src={rightarrowtwo} alt=''/>
 			             	NEXT
-			             </div>
+			             </Link>
 	 		    </div>
 	 		    </Mediaquery>
 	 		</div>
