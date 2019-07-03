@@ -93,7 +93,7 @@
     margin: 0% 3%;
 }
 .nam {
-    margin-top: 7%;
+    margin-top: 20px;
     font-size: 25px;
     color: #E7A908;
 }
@@ -110,12 +110,16 @@
     background-color: black;
     border-radius: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 .nam2 {
     display: flex;
     flex-direction: row;
     width: 80%;
-    margin: 11% 12%;
+    margin-bottom: 20px;
 }
 .dd{
 	width: 50%;
@@ -124,19 +128,12 @@
      margin-left: 5%;}
 
 @media only screen and (max-width: 1000px)  {
-    .IA {
-    margin: 0% 2%;
-    width: 40%;
-    height: 77%;
-    background-color: black;
-    border-radius: 5px;
-    text-align: center;
-}
 
 .nam {
-    margin-top: 7%;
     font-size: 21px;
-    color: #E7A908;
+}
+.timing{
+    height: 200px;
 }
 .namm {
     margin-top: 35%;
@@ -186,6 +183,9 @@
 }
     .timing{
         height: 156px;
+    }
+    .nam, .nam2{
+        margin: 0;
     }
 }
 @media only screen and (max-width: 414px){

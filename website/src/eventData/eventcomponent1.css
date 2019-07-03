@@ -8,21 +8,23 @@
 
 
 
-.eventcontainer1-heading {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 4.5vw;
-    line-height: 6vw;
-    color: #E7A908;
-    margin-left: 4vw;
-  }
+
+.eventcontainer1-heading{
+font-style: normal;
+font-weight: bold;
+font-size: 4.5vw;
+line-height: 6vw;
+color:#E7A908;
+margin-left: 4vw;
+padding-top: 1em;
+}
 
 
 .eventcontainer1-subcontainer-eventinfo{
 font-family: Raleway;
 font-style: normal;
 font-weight: normal;
-font-size: 1.5vw;
+font-size: 2vw;
 line-height: 3vw;
 margin-left: ;
 width: 40vw;
@@ -211,7 +213,7 @@ margin-top: 2vw;
     .eventcontainer1-subcontainer-eventinfo 
     {
       line-height: 15px;
-    font-size: 15px;
+    font-size: 13.5px;
     width: 87%;
     margin-left: 21px;
     padding-right: 0;
