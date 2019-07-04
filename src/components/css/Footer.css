@@ -1,3 +1,12 @@
+a:any-link{
+	color:white;
+	text-decoration: none;
+}
+a:active{
+	text-decoration:underline;
+	color:#E7A908;
+}
+
 .footer{
 	padding: 6em 7em 0em 7em;
 	background-color: black;
@@ -6,7 +15,7 @@
 	grid-template-columns: 24% 19% 22% 13% 22%;
 	grid-template-areas: 
 		"Raionzo . Links . Events"
-		"Contact . Help . Follow";
+		"Contact . Follow . .";
 }
 
 .grid-item{
@@ -54,10 +63,6 @@
 	height: 220px;
 }
 
-.footer-list-help{
-	height: 70px;
-}
-
 .footer-subhead{
 	font-family: Raleway;
 	font-style: normal;
@@ -101,11 +106,6 @@
 	grid-area: Contact;
 }
 
-.footer-help{
-	padding-top: 0.3em;
-	grid-area: Help;
-}
-
 .footer-events{
 	grid-area: Events;
 }
@@ -145,7 +145,7 @@ a:active{
 		grid-template-areas: 
 			"Raionzo . Links"
 			"Events . Contact"
-			"Help . Follow";
+			"Follow . .";
 	}
 
 	.grid-item{
@@ -163,11 +163,12 @@ a:active{
 @media only screen and (max-width: 800px){
 	.footer{
 		padding: 5em 3em 0em 3em;
-		grid-template-areas: 
-			"Raionzo Raionzo Raionzo"
-			"Links Links Links"
-			"Contact Contact Contact"
-			"Help . Follow"
+		grid-template-columns: 100%;
+		grid-template-areas:
+			"Raionzo"
+			"Links"
+			"Contact"
+			"Follow";
 	}
 
 	.footer-list{
@@ -182,40 +183,14 @@ a:active{
 		display: block;
 	}
 
-	.item-a{
-		grid-area: Itema;
-	}
-
-	.item-b{
-		grid-area: Itemb;
-	}
-
-	.item-c{
-		grid-area: Itemc;
-	}
-
-	.item-d{
-		grid-area: Itemd;
-	}
-
-	.item-e{
-		grid-area: Iteme;
-	}
-
-	.item-f{
-		grid-area: Itemf;
+	.footer-links-cont{
+		width: 100%;
 	}
 
 	.footer-list-links{
-		height: 150px;
 		display: grid;
-		width: 200%;
+		width: 100%;
 		grid-template-columns: 50% 50%;
-		grid-auto-flow: column;
-		grid-template-areas: 
-			"Itema Itemb"
-			"Itemc Itemd"
-			"Iteme Itemf";
 	}
 
 	.footer-raionzo-cont{
@@ -224,14 +199,6 @@ a:active{
 
 	.grid-item{
 		margin-bottom: 2em;
-	}
-
-	.footer-list-links{
-		height: 140px;
-	}
-	
-	.footer-list-help{
-		height: 50px;
 	}
 }
 

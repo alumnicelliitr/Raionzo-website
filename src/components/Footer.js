@@ -4,9 +4,8 @@ import footerno from './images/footerno.png';
 import footerweb from './images/footerweb.png';
 import footerfb from './images/footerfb.png';
 import footerlinkedin from './images/footerlinkedin.png';
-import footerinsta from './images/footerinsta.png';
 import './css/Footer.css';
-import { Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
 class Footer extends Component{
 	render(){
@@ -16,7 +15,6 @@ class Footer extends Component{
 				<UsefulLinks />
 				<Events />
 				<Contact />
-				<Help />
 				<Follow />
 			</div>
 		);
@@ -46,12 +44,12 @@ function UsefulLinks() {
 			</div>
 			<div className="footer-links-cont footer-cont-all">
 				<div className="footer-list footer-list-links">
-					<Link to="/schedule/"><div className="item-a">Schedule</div></Link>
-					<div className="item-b">Speakers</div>
-					<div className="item-c">Register</div>
-					<Link to="/Events/"><div className="events-in-links item-d">Events</div></Link>
-					<div className="item-e">About Us</div>
-					<Link t0="/Contact-Us/"><div className="item-f">Contact Us</div></Link>
+					<Link to="/schedule/"><div>Schedule</div></Link>
+					<div>Speakers</div>
+					<Link to="/Events/"><div>Register</div></Link>
+					<Link to="/Events/"><div className="events-in-links">Events</div></Link>
+					<div>About Us</div>
+					<Link t0="/Contact-Us/"><div>Contact Us</div></Link>
 				</div>
 			</div>
 		</div>
@@ -106,22 +104,6 @@ function Contact() {
 	);
 }
 
-function Help() {
-	return(
-		<div className="footer-help footer-child-1 grid-item">
-			<div className="footer-help-head footer-subhead">
-				Help
-			</div>
-			<div className="footer-help-cont footer-cont-all">
-				<div className="footer-list footer-list-help">
-					<div>Feedback</div>
-					<div>Support</div>
-				</div>
-			</div>
-		</div>
-	);
-}
-
 function Follow() {
 	return(
 		<div className="footer-follow footer-child-1 grid-item">
@@ -130,7 +112,6 @@ function Follow() {
 				<div className="follow-links">
 					<img src={footerfb} alt="Facebook" className="follow-img" />
 					<img src={footerlinkedin} alt="LinkedIn" className="follow-img" />
-					<img src={footerinsta} alt="Instagram" className="follow-img" />
 				</div>
 			</div>
 		</div>
