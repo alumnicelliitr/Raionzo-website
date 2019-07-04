@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './maincontainer.css';
 import CONTAINER1 from './container_1';

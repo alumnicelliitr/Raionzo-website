@@ -18,6 +18,7 @@ import GIW from'./eventData/eventmaincontainer4';
 import LT from'./eventData/eventmaincontainer5';
 import CN from'./eventData/eventmaincontainer6';
 import ScrollToTop from './ScrollToTop.js';
+import {Link} from "react-router-dom";
 
 
 const routing = (
@@ -34,7 +35,7 @@ const routing = (
                     <NavLink activeClassName="active" className="navbar-link" to="/schedule/"><Navlink name="Schedule" /></NavLink>
                     <NavLink activeClassName="active" className="navbar-link" to="" ><Navlink name="Contact Us" /></NavLink>
                 </div>
-			    <div className="reg-link">Register</div>
+			    <Link to="/Events/"><div className="reg-link">Register</div></Link>
     		</div>
          </MediaQuery>
          <MediaQuery query="(max-device-width: 899.99px)">

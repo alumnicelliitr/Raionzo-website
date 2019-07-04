@@ -1,6 +1,6 @@
 import React from 'react';
 import './mobile_navbar.css'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import raionzoLogo from '../components/images/raionzologo.png';
 
 
@@ -48,11 +48,10 @@ class MobileNavbar extends React.Component{
 
                         <div className="mobileNavbarFooter">
                             <div className="mobile_logo">
-                              <div className="mobile_logo_instagram"> <i  className="fab fa-instagram"></i></div>
                                <div className="mobile_logo_linkedin"> <i  className="fab fa-linkedin"></i></div>
                                <div className="mobile_logo_facebook"> <i  className="fab fa-facebook-square"></i></div>
                             </div>
-                            <div> <button className="mobile_register">Register</button></div>
+                            <Link to="/Events/" onClick={this.onCrossClick}><div> <button className="mobile_register">Register</button></div></Link>
                         </div>
 
 
