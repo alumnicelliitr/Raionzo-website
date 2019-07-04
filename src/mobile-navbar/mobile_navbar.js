@@ -26,7 +26,7 @@ class MobileNavbar extends React.Component{
             <div className="MOBILEVIEW">
                 <div className={this.state.isHidden ?   'mobile_nav_after' : 'mobile_nav_before'}>
                     <div className="mobile_index_left">
-                        <div className="raionzo-mobile-logo"><img className="mobile-raionzo-logo" src={raionzoLogo} alt="Raionzo Logo" /></div>
+                        <div className="raionzo-mobile-logo"> <NavLink to="/"><img className="mobile-raionzo-logo" src={raionzoLogo} alt="Raionzo Logo" /></NavLink></div>
                         <div className="raionzo-mobile-header">Raionzo</div> 
                     </div>
                     <div className="mobile_index_right">
@@ -48,11 +48,11 @@ class MobileNavbar extends React.Component{
 
                         <div className="mobileNavbarFooter">
                             <div className="mobile_logo">
-                              <div className="mobile_logo_instagram"> <i  className="fab fa-instagram"></i></div>
+                              
                                <div className="mobile_logo_linkedin"> <i  className="fab fa-linkedin"></i></div>
                                <div className="mobile_logo_facebook"> <i  className="fab fa-facebook-square"></i></div>
                             </div>
-                            <div> <button className="mobile_register">Register</button></div>
+                            <div> <NavLink to="/Events/"><button onClick={this.onCrossClick} className="mobile_register">Register</button></NavLink></div>
                         </div>
 
 

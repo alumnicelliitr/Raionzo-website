@@ -124,4 +124,13 @@
     border-top: 10vw solid #FFFFFF;
 }
 }
+@media only screen and (min-width:414px)and (max-width:1000px){
+  .triangle-bottomright-0 {
   
+    border-right: 100vw solid transparent;
+}
+.triangle-bottomright-2 {
+
+  border-right: 100vw solid transparent;
+}
+}
