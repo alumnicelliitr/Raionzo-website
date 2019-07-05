@@ -26,7 +26,7 @@ class MobileNavbar extends React.Component{
             <div className="MOBILEVIEW">
                 <div className={this.state.isHidden ?   'mobile_nav_after' : 'mobile_nav_before'}>
                     <div className="mobile_index_left">
-                        <div className="raionzo-mobile-logo"><img className="mobile-raionzo-logo" src={raionzoLogo} alt="Raionzo Logo" /></div>
+                       <Link to='/'> <div className="raionzo-mobile-logo"><img className="mobile-raionzo-logo" src={raionzoLogo} alt="Raionzo Logo" /></div></Link>
                         <div className="raionzo-mobile-header">Raionzo</div> 
                     </div>
                     <div className="mobile_index_right">
