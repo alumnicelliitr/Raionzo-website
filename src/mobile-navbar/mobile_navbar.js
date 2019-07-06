@@ -1,6 +1,6 @@
 import React from 'react';
 import './mobile_navbar.css'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import raionzoLogo from '../components/images/raionzologo.png';
 
 
@@ -26,7 +26,7 @@ class MobileNavbar extends React.Component{
             <div className="MOBILEVIEW">
                 <div className={this.state.isHidden ?   'mobile_nav_after' : 'mobile_nav_before'}>
                     <div className="mobile_index_left">
-                        <div className="raionzo-mobile-logo"><img className="mobile-raionzo-logo" src={raionzoLogo} alt="Raionzo Logo" /></div>
+                       <Link to='/'> <div className="raionzo-mobile-logo"><img className="mobile-raionzo-logo" src={raionzoLogo} alt="Raionzo Logo" /></div></Link>
                         <div className="raionzo-mobile-header">Raionzo</div> 
                     </div>
                     <div className="mobile_index_right">
@@ -42,17 +42,16 @@ class MobileNavbar extends React.Component{
                         <NavLink activeClassName="mobile_active" exact={true} to ="/"><div className="mobileNavbar-home" onClick={this.onCrossClick}>HOME</div></NavLink>
                         <NavLink  activeClassName="mobile_active" to ="/Events/"><div className="mobileNavbar-event" onClick={this.onCrossClick}>EVENTS</div></NavLink>
                         <NavLink  activeClassName="mobile_active" to="/schedule/"> <div className="mobileNavbar-schedule" onClick={this.onCrossClick}>SCHEDULE</div></NavLink>
-                            <div className="mobileNavbar-contactus" onClick={this.onCrossClick}>CONTACT US</div>
+                        <NavLink  activeClassName="mobile_active" to="/ContactUs/">   <div className="mobileNavbar-contactus" onClick={this.onCrossClick}>CONTACT US</div></NavLink>
                         </div>
                     
 
                         <div className="mobileNavbarFooter">
                             <div className="mobile_logo">
-                              <div className="mobile_logo_instagram"> <i  className="fab fa-instagram"></i></div>
                                <div className="mobile_logo_linkedin"> <i  className="fab fa-linkedin"></i></div>
                                <div className="mobile_logo_facebook"> <i  className="fab fa-facebook-square"></i></div>
                             </div>
-                            <div> <button className="mobile_register">Register</button></div>
+                            <Link to="/Events/" onClick={this.onCrossClick}><div> <button className="mobile_register">Register</button></div></Link>
                         </div>
 
 

@@ -1,0 +1,188 @@
+
+
+.Contact-us-2
+{ margin-top:6vw;
+  display:flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.fbandlink-logo{
+  display: flex;
+}
+
+.Contact-call{
+  background:;
+  height:60px;
+  width:60px;
+  border:2px solid black;
+  font-size: 80px;
+  display: block;
+}
+
+.contact-email-logo{
+  border:2px solid black;
+  height:160px;
+  width:160px;
+  font-size: 80px;
+  color: #FFB800;
+  background: #000000;
+  border-radius: ;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  display:table-cell 
+}
+.contact-call-logo{
+  border:2px solid black;
+  height:160px;
+  width:160px;
+  font-size: 80px;
+  color: #FFB800;
+  background: #000000;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  display:table-cell 
+}
+
+.fb-logo-1{
+  font-size: 80px;
+  color: #FFB800;
+}
+.lin-logo-2{
+  font-size: 80px; 
+  color: #FFB800;
+  margin-left: 3vw;
+}
+
+.fbandlink-logo{
+  border:2px solid black;
+  height:160px;
+  width:300px;
+  background: #000000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius:6px;
+}
+.contact-call-text{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 49px;
+margin-left: 20px;
+margin-top: 20px;
+color: #000000;
+}
+
+.contact-email-text{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 49px;
+margin-left: 20px;
+margin-top: 20px;
+color: #000000;
+}
+
+.fbandlink-text{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 49px;
+margin-left: 40px;
+margin-top: 20px;
+color: #000000;
+}
+
+
+@media only screen and (max-width:414px){
+  .contact-call-logo{
+    height:50px;
+    width:50px;
+    font-size: 20px;
+  } 
+  .contact-email-logo{
+    height:50px;
+    width:50px;
+    font-size: 20px;
+  }
+  .fbandlink-logo{
+    height:50px;
+    width:120px;
+    
+  }
+  .lin-logo-2{
+    height:50px;
+    width:50px;
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .fb-logo-1{
+    height:50px;
+    width:50px;
+    font-size: 25px;
+    margin-top: 12px;
+    margin-left: 20px;
+  }
+  .contact-call-text{
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .contact-email-text{
+  font-size: 10px;
+  line-height: 12px;
+  }
+  .fbandlink-text{
+  font-size: 10px;
+  line-height: 12px;
+    }
+    .Contact-us-2{
+      margin-bottom: 50px;
+    }
+}
+
+
+
+
+@media only screen and (min-width:414px) and (max-width:900px){
+  .contact-call-logo{
+    height:80px;
+    width:80px;
+    font-size: 30px;
+  } 
+  .contact-email-logo{
+    height:80px;
+    width:80px;
+    font-size: 30px;
+  }
+  .fbandlink-logo{
+    height:80px;
+    width:160px;
+    
+  }
+  .lin-logo-2{
+  
+    font-size: 32px;
+    
+  }
+  .fb-logo-1{ 
+    font-size: 32px;
+  }
+  .contact-call-text{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .contact-email-text{
+  font-size: 16px;
+  line-height: 24px;
+  }
+  .fbandlink-text{
+  font-size: 16px;
+  line-height: 24px;
+    }
+
+}
