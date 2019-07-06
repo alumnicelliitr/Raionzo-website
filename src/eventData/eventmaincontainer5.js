@@ -29,7 +29,7 @@ during their
  journey of IITR."
    eventcontainerheading="Leadership Talk"
    eventcontainerbutton="Speakers"
-   eventcontainericon="paneldiscussion"  />
+   eventcontainericon="five"  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}

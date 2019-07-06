@@ -26,7 +26,7 @@ class EventMainContainer extends React.Component{
    eventcontainerheading="Group Interactions and
 Workshops"
    eventcontainerbutton="Speakers"
-   eventcontainericon="paneldiscussion"  />
+   eventcontainericon="four"  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}
