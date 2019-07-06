@@ -49,7 +49,7 @@ function UsefulLinks() {
 					<Link to="/Events/"><div>Register</div></Link>
 					<Link to="/Events/"><div className="events-in-links">Events</div></Link>
 					<div>About Us</div>
-					<Link t0="/Contact-Us/"><div>Contact Us</div></Link>
+					<Link to="/ContactUs/"><div>Contact Us</div></Link>
 				</div>
 			</div>
 		</div>
