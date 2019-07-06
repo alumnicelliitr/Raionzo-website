@@ -12,7 +12,11 @@
     align-items: center;
     background-color: white;
 }
-
+.namm {
+    margin-top: 26%;
+    font-size: 35px;
+    color: #E7A908;
+}
 .icon1{
 	background-color: #F0F0F0;
     width: 34px;
@@ -94,7 +98,7 @@
 }
 .nam {
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 33px;
     color: #E7A908;
 }
 .dat {
@@ -144,9 +148,10 @@
     .date{height: 95%;
           width: 21%;
           margin:0% 2%;}
-   .dat {
-    margin: -1%;
+.dat {
+    margin: -6%;
     font-size: 16px;
+    line-height: 21px;
 }
 }
 @media only screen and (max-width: 650px){
@@ -187,6 +192,14 @@
     .nam, .nam2{
         margin: 0;
     }
+.nam {
+    font-size: 21px;
+}
+.dat {
+    margin: 17% 1%;
+    font-size: 15px;
+    line-height: 22px;
+}
 }
 @media only screen and (max-width: 414px){
 .timing{height: 285px;

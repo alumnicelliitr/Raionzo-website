@@ -23,7 +23,7 @@ font-weight: normal;
 font-size: 2vw;
 line-height: 3vw;
 margin-left: ;
-width: 40vw;
+width: 60vw;
 margin-top: 2vw;
 }
 
@@ -33,14 +33,14 @@ margin-top: 2vw;
 { margin-top: 2vw;
   display: flex;
   justify-content: space-between;
-  margin-left: 4vw;
+  margin-left: 3vw;
 }
 
 .eventcontainer1-subcontainer-image
   {
   height:20vw;
   widows: 28vw;
-  margin-left:20vw ;
+  margin-left:-1vw ;
   }
 .eventcontainer1-subcontainer-registernow {
     font-family: Montserrat;
@@ -179,7 +179,7 @@ margin-top: 2vw;
       .eventcontainer1-subcontainer-image
       {
       height:24vw;
-      width:24vw;
+      width:29vw;
       margin-right: 1vw;
       }
       .eventcontainer1-subcontainer-button-1{
@@ -198,19 +198,20 @@ margin-top: 2vw;
 
     } 
 @media only screen and (max-width: 414px){
-      .eventcontainer1-heading{
+      .eventcontainer1-heading {
     color: black;
-    font-size: 32px;
+    font-size: 28px;
     margin-top: 0em;
+    line-height: 29px;
     padding-top: 1em;
-      }
+}
       .eventcontainer1 {
     margin-top: 3%;
 }
     .eventcontainer1-subcontainer-eventinfo 
     {
       line-height: 15px;
-    font-size: 13.5px;
+    font-size: 12.5px;
     width: 87%;
     margin-left: 21px;
     padding-right: 0;
@@ -252,3 +253,39 @@ margin-top: 2vw;
         margin: 1.2em 0em 0.2em 0em;
       }
     } 
+@media only screen and (max-width: 350px){
+.eventcontainer1-heading {
+    font-size: 22px;
+  }
+  .eventcontainer1-subcontainer-eventinfo {
+    line-height: 12px;
+    font-size: 9.5px;
+    width: 87%;
+    margin-left: 16px;
+    padding-right: 0;
+}
+.eventcontainer1-subcontainer-button-2 {
+    width: 30vw;
+    font-size: 10px;
+    }
+.eventcontainer1-subcontainer-registernow {
+    width: 30vw;
+    font-size: 10px;
+}
+.leftarrow {
+    height: 7px;
+}
+.icon7,.icon6{
+    font-size: 10px;
+}
+.icon7 {
+    margin-right: 76px;
+}
+.dat {
+    font-size: 15px;
+    margin: 6%;
+}
+.namm {
+    margin-top: 17%;
+}
+}
