@@ -42,7 +42,7 @@ class MobileNavbar extends React.Component{
                         <NavLink activeClassName="mobile_active" exact={true} to ="/"><div className="mobileNavbar-home" onClick={this.onCrossClick}>HOME</div></NavLink>
                         <NavLink  activeClassName="mobile_active" to ="/Events/"><div className="mobileNavbar-event" onClick={this.onCrossClick}>EVENTS</div></NavLink>
                         <NavLink  activeClassName="mobile_active" to="/schedule/"> <div className="mobileNavbar-schedule" onClick={this.onCrossClick}>SCHEDULE</div></NavLink>
-                            <div className="mobileNavbar-contactus" onClick={this.onCrossClick}>CONTACT US</div>
+                        <NavLink  activeClassName="mobile_active" to="/ContactUs/">   <div className="mobileNavbar-contactus" onClick={this.onCrossClick}>CONTACT US</div></NavLink>
                         </div>
                     
 
