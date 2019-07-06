@@ -28,8 +28,8 @@ class CONTAINER2 extends React.Component {
                    <div className="container-2-child-presentedby"> Presented By</div>
                    <div className="container-2-parent-logo">
                      <div className="container-2-child-logos ">
-                       <img className="container-2-child-logo-1 " src={iarclogo} alt=""/>
-                       <img className="container-2-child-logo-2" src={iitrlogo} alt=""/>
+                       <img className="container-2-child-logo-1 " src={iitrlogo} alt=""/>
+                       <img className="container-2-child-logo-2" src={iarclogo} alt=""/>
                      </div>
                    </div>
                    <div className="registernowbutton">
