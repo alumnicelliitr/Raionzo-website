@@ -1,6 +1,10 @@
 
+.contact-us-1{
+  padding-top: 40px;
+}
+
   .form{
-    margin-top: 5vw;
+    margin-top: 6vw;
     margin-left: 10%;
     
 }
@@ -26,7 +30,7 @@
     line-height: 88px;
     color: #FFFFFF;
     margin: auto;
-    margin-top: 50px;
+    
   }
   .contactuscontent{
     display:flex;
