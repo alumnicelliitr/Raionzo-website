@@ -7,7 +7,7 @@ class ContactPart1 extends React.Component {
  
 	render() {
   
-  	return (<div>
+  	return (<div className="contact-us-1"> 
 
         <div className="ContactusHeading">How can we help? </div>
     <form id="gform" method="POST" 
