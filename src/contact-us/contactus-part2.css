@@ -19,7 +19,7 @@
   display: block;
 }
 
-.contact-email-logo{
+.contact-email-logo , .contact-call-logo{
   border:2px solid black;
   height:160px;
   width:160px;
@@ -32,18 +32,7 @@
   border-radius: 50%;
   display:table-cell 
 }
-.contact-call-logo{
-  border:2px solid black;
-  height:160px;
-  width:160px;
-  font-size: 80px;
-  color: #FFB800;
-  background: #000000;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%;
-  display:table-cell 
-}
+
 
 .fb-logo-1{
   font-size: 80px;
@@ -65,27 +54,17 @@
   align-items: center;
   border-radius:6px;
 }
-.contact-call-text{
+.contact-call-text , .contact-email-text{
   font-family: Montserrat;
 font-style: normal;
 font-weight: 300;
 font-size: 40px;
 line-height: 49px;
-margin-left: 20px;
 margin-top: 20px;
 color: #000000;
+margin-left: 6px;
 }
 
-.contact-email-text{
-  font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 40px;
-line-height: 49px;
-margin-left: 20px;
-margin-top: 20px;
-color: #000000;
-}
 
 .fbandlink-text{
   font-family: Montserrat;
@@ -131,14 +110,17 @@ color: #000000;
   .contact-call-text{
     font-size: 10px;
     line-height: 12px;
+    margin-left: 8px;
   }
   .contact-email-text{
   font-size: 10px;
   line-height: 12px;
+  margin-left: 6px;
   }
   .fbandlink-text{
   font-size: 10px;
   line-height: 12px;
+  margin-left: 26px;
     }
     .Contact-us-2{
       margin-bottom: 50px;
