@@ -14,7 +14,7 @@
 	height: 4%;
 	width: 100%;
 }
-h1 {margin: 0% 2% 0% 2%;
+.event-main-head {margin: 0% 2% 0% 2%;
     width: 20%;
     font-family: Montserrat;
     font-style: normal;
@@ -149,7 +149,7 @@ h2{	z-index: 2;
 .pd1{display: none;}
 .imgg{display: none;}
 .first{height: 2%;}
-h1{font-size: 100%;
+.event-main-head{font-size: 100%;
     margin: 0% 2% -3% 2%;
     font-size: 69px;}
 .txt{
