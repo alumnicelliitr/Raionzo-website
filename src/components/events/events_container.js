@@ -16,7 +16,7 @@ class EVENTS extends Component {
          <div className="eone">
          <div className="first">
              <div className="box"/>
-             <h1>Events</h1> 
+             <div className="event-main-head">Events</div> 
              <img className="imgg" src={im} />
          </div>
          <div className="txt">A combination of workshops, talks, competitions and much more, infused with thrill and excitement, this fest will undoubtedly leave you with an unforgettable 2-day experience.

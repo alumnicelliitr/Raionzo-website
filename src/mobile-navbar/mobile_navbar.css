@@ -7,7 +7,6 @@
     background-color: black;
     height:52px;
     align-items:baseline;
-    
 }
 .mobile_nav_after{
     display:none;
@@ -25,10 +24,15 @@
 
 .raionzo-mobile-header{
     font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    color: #E7A908;
 }
 .Hamburger_icon{
     font-size: 30px;
     margin-right: 0.5em;
+    color: #E7A908;
 }
 
 
