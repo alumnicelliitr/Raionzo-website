@@ -4,7 +4,6 @@ import './speaker.css';
 
 class Speaker extends Component {
 	render(){
-		console.log(this.props.speakername);
 		return(
 			<div className="about-speaker">
 				<div className="sidebox-left sidebox">
