@@ -87,11 +87,11 @@ function panelicons(props) {
 	 		    <div className='icons'>
 			    	<Link to={state.url[prev]} className='icon7'>
 			    	<img className="leftarrow" src={leftarrowtwo} alt=''/>
-			    	PREV
+			    	<div className='icon7-text'>PREV</div>
 			        </Link>
 			        <Link to={state.url[nex]}  className='icon6'>
 			             	<img className="leftarrow" src={rightarrowtwo} alt=''/>
-			             	NEXT
+			             	<div className='icon6-text'>NEXT</div>
 			             </Link>
 	 		    </div>
 	 		    </Mediaquery>
