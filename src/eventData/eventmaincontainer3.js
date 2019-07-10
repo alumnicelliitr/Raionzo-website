@@ -11,6 +11,10 @@ class EventMainContainer extends React.Component{
 	date:'31 August',
 	time:'2:00 - 5:00 PM'
 };
+
+openLink(){
+    window.open("", "_blank");
+  }
     render(){
   return (
   	<div>
@@ -34,8 +38,8 @@ upcoming years. The most feasible idea wins!"
                 <div className="event-register-text">
                   To take part in this event
                 </div>
-                <div className="event-register-button">
-                  Register Now
+                <div onClick={this.openLink} className="event-register-button">
+                  Register
                 </div>
               </div>
 		</div>

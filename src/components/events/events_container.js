@@ -26,7 +26,7 @@ class EVENTS extends Component {
          <Contain index='0' num='3' head='Idea Pitch Competition' icon={three}/> 
          <Contain1 index='0' num='4' head='Group Interactions and Workshops' icon={four}/> 
          <Contain index='0' num='5' head='Leadership talks' icon={five}/> 
-         <Contain1 index='0' num='6' head='Cultural Night' icon={six}/>                    
+         <Contain1 index='0' num='6' head='Cultural Nit' icon={six}/>                    
          </div>
  		)
  } 

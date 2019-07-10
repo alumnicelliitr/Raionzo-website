@@ -86,10 +86,10 @@ margin-top: 1em;
     font-size: 2vw;
     line-height: 4vw;
     text-align: center;
-    width: 12vw;
     height: 5vw;
     color: #E7A908;
     border: 3px solid #E7A908;
+    padding: 0 0.7em 0 0.7em;
     margin-left: 2vw;
 }
 
