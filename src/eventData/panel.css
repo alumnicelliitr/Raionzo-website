@@ -75,6 +75,9 @@
     border-radius: 31px;
     margin-left: 6%;
 }
+.icon6{display: flex;}
+.icon7{display: flex;}
+.icon7-text, .icon6-text{color:#E7A908;}
 .timing{
 	justify-content: center;
 	height: 260px;
@@ -281,10 +284,7 @@
     color: #E7A908;
     text-decoration: none;
 }
-a:any-link {
-    color: #E7A908;
-    text-decoration: none;
-}
+
 .IA {
     margin: 1% 2%;
     width: 96%;

@@ -19,7 +19,7 @@ class EventMainContainer extends React.Component{
 students followed by a valedictory session."
    eventcontainerheading="Cultural Night"
    eventcontainerbutton="Performers"
-   eventcontainericon="paneldiscussion"  />
+   eventcontainericon="six"  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}

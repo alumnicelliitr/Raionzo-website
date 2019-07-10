@@ -21,7 +21,7 @@ initiatives to increase student-alumni interaction in the
 upcoming years. The most feasible idea wins!"
    eventcontainerheading="Idea Pitch Competition"
    eventcontainerbutton="Judges"
-   eventcontainericon="paneldiscussion"  />
+   eventcontainericon="three"  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}

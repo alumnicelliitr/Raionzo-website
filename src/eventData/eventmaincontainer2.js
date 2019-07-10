@@ -21,7 +21,7 @@ alumni guide them about the dos and don'ts is organized."
    eventcontainerheading="Placement and Internship
 Talk"
    eventcontainerbutton="Speaker"
-   eventcontainericon="paneldiscussion"  />
+   eventcontainericon="two"  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}

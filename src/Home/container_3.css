@@ -7,7 +7,7 @@
 {
     font-family: Montserrat;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 5vw;
     float:right;
     color: #E7A908;
@@ -49,6 +49,7 @@
 {
     .container-3-child-heading{
         font-size: 5vw;
+        font-weight: 800;
     }
     .container-3-child-body
     {
@@ -68,7 +69,6 @@
     background-color: #E7A908;
 }
 .container-3-child-heading {
-    font-weight: bold;
     color: black;
 }
 .container-3-child-1 {
