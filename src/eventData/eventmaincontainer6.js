@@ -11,6 +11,10 @@ class EventMainContainer extends React.Component{
 	date:'31 August',
 	time:'7:00 PM Onwards '
 };
+
+openLink(){
+    window.open("https://forms.gle/WXibEXz7xSgZDELt7", "_blank");
+  }
     render(){
   return (
   	<div>
@@ -32,8 +36,8 @@ students followed by a valedictory session."
                 <div className="event-register-text">
                   To take part in this event
                 </div>
-                <div className="event-register-button">
-                  Register Now
+                <div onClick={this.openLink} className="event-register-button">
+                  Register
                 </div>
               </div>
 		</div>

@@ -4,7 +4,12 @@ import './eventcomponent1.css';
 import MediaQuery from 'react-responsive';
 
 class EventComponent1 extends React.Component{
-    
+    openLink(name){
+      if (name==="Idea Pitch Competition")
+        window.open("", "_blank");
+      else
+        window.open("https://forms.gle/WXibEXz7xSgZDELt7", "_blank");
+    }
     render(){
   return (<div>
            <div className="eventcontainer1-heading">{this.props.eventcontainerheading} </div>
@@ -36,7 +41,7 @@ class EventComponent1 extends React.Component{
                            <button className="eventcontainer1-subcontainer-button-2">{this.props.eventcontainerbutton}</button>
                          </div>
                          <div className="eventcontainer1-buttons">
-                            <button className="eventcontainer1-subcontainer-registernow">Register Now</button> 
+                            <button onClick={this.openLink.bind(this, this.props.eventcontainerheading)} className="eventcontainer1-subcontainer-registernow">Register Now</button> 
                          </div>
               </div>
               
