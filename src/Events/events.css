@@ -48,6 +48,7 @@ h1 {margin: 0% 2% 0% 2%;
 .eventcontainer{
     height: 87%;
 }
+
 .box1{
     display: flex;
     flex-wrap: wrap;
@@ -131,6 +132,14 @@ h2{ z-index: 2;
     text-align: center;
     vertical-align: middle;
 }
+
+.btn2:hover{
+    cursor: pointer;
+}
+
+.btn1:hover{
+    cursor: pointer;
+}
 .num2 {
     z-index: 1;
     margin: 0%;
@@ -152,6 +161,14 @@ h2{ z-index: 2;
 }
 .bb2 {
     margin: -4% 6% 0% 6%;
+}
+
+.cult-night-reg{
+    display: none;
+}
+
+.cult-night-exp{
+    margin-right: 0%;
 }
 
 @media only screen and (min-width: 1500px)  {

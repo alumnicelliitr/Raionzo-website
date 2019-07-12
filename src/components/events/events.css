@@ -103,6 +103,10 @@ h2{	z-index: 2;
     color: white;  
     font-size: 24px;
 }
+
+.cult-night{
+    display: none;
+}
 .btn1 {
     display: flex;
     flex-wrap: wrap;

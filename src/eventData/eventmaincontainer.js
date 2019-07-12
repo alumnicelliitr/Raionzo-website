@@ -7,11 +7,16 @@ import  EventComponent1  from './eventcomponent1.js';
 
 class EventMainContainer extends React.Component{
 	state={
-	num:1,
-  date:'31 August',
-  time:'10 AM'
-};
-    render(){
+	 num:1,
+    date:'31 August',
+    time:'10 AM'
+  };
+
+  openLink(){
+    window.open("https://forms.gle/WXibEXz7xSgZDELt7", "_blank");
+  }
+
+  render(){
   return (
   	<div>
   <EventComponent1 
@@ -31,7 +36,7 @@ class EventMainContainer extends React.Component{
                 <div className="event-register-text">
                   To take part in this event
                 </div>
-                <div className="event-register-button">
+                <div onClick={this.openLink} className="event-register-button">
                   Register
                 </div>
               </div>
