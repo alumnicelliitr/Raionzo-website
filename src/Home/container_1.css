@@ -11,7 +11,7 @@
     border: 1px solid black;
     background-color: black;
 }
-.container {
+.containerhead{
     display: flex;
     align-items: baseline;
     overflow: hidden;
@@ -26,6 +26,7 @@ font-weight: 800;
 margin-left: 2vw;
 font-size: 7vw;
 width:20vw;
+box-sizing: default;
 }
 
 .imgthomso {
@@ -35,6 +36,7 @@ width:20vw;
 .imgthomso1 {
     height: 10vw;
     width: 65vw;
+    vertical-align: bottom;
 }
 @media only screen and (max-width:600px)
 {

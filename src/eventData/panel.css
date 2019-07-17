@@ -1,3 +1,7 @@
+*{
+    box-sizing: content-box;
+}
+
 .main{
     display: flex;
     justify-content: center;
@@ -51,8 +55,22 @@
     height: 68px;
     border-radius: 52px;
     margin-left: 6%;
-
 }
+
+.car-control{
+    /*background-color: none !important;
+    background-image: none !important;*/
+    width: 8%;
+}
+
+.control-but{
+    font-size: 60px !important;
+    color: black;
+}
+.car-indicators{
+    bottom: 40px;
+}
+
 .icon4{    
     text-decoration: none;
 	color: black;
@@ -169,6 +187,9 @@
         font-size: 16px;
         line-height: 30px;
     }
+    .control-but{
+        font-size: 45px !important;
+    }
     .icon3{
         font-size: 29px;
         height: 44px;
@@ -211,6 +232,9 @@
     font-size: 17px;
     margin: -9%;
     font-weight: bold;
+}
+.control-but{
+    font-size: 30px !important;
 }
 .date {
     border-radius: 4px;
