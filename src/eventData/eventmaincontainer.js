@@ -4,7 +4,6 @@ import Timing from './timing'
 import React from 'react';
 import Speaker from './speaker.js';
 import  EventComponent1  from './eventcomponent1.js';
-import speaker from './../components/images/speaker.png';
 
 class EventMainContainer extends React.Component{
 	state={
