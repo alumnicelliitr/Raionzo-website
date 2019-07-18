@@ -1,67 +1,64 @@
 
 .mob-Schedule-Box{
-    border:1px solid white;
-    height:80%;
-    width:80%;
-    margin-left: 10%;
-    background: #FFFFFF;
-    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    margin-top: 5%;
-    margin-bottom: 8%;
-    font-family: Montserrat;
-}
-
-.mobile_schedule_heading{
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-color: #E7A908;
-}
+                border:1px solid white;
+                height:80%;
+                width:80%;
+                margin-left: 10%;
+                background: #FFFFFF;
+                box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.15);
+                border-radius: 10px;
+                margin-top: 5%;
+                margin-bottom: 8%;
+                font-family: Montserrat;
+            }
+ .mobile_schedule_heading{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #E7A908;
+            }
 .mob-schedule-button{
-    text-align: center;
-    margin-top: 5%;
-}
-.mob-schedule-btn1{
-
-    background: transparent;
-border-radius: 6px;
-width: 98px;
-height: 34px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 20px;
-border:2px solid #E7A908;
-
-
-}
-.mob-schedule-btn2{
-
-    background:  transparent;
-    border-radius: 6px;
-    width: 98px;
-    height: 34px;
-    margin-left: 5%;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    border:2px solid #E7A908;
+                text-align: center;
+                margin-top: 5%;
+                display: flex;
+                justify-content: space-evenly;
+            }
+ .mob-schedule-btn1 ,.mob-schedule-btn2{
+            background: transparent;
+            border-radius: 6px;
+            width: 98px;
+            height: 34px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            border:2px solid #E7A908;
+            background: #E7A908;
+            color:white;
+            }
+    .btnsch{
+        margin-left:  -8%;
     }
-    .mob-sch-active1{
-        color:red;
-        font-size: 20px;
+
+
+    .inactivescheduleclass{
+        border: 1px solid #F8E5B5;
+        box-sizing: border-box;
+        border-radius: 6px;
+        background: #FFFFFF;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #F8E5B5;
+        width: 98px;
+        height: 34px;
     }
-    a.mob-sch-active2{
-      color:red;
-     font-size: 20px;
-    }
+  
 
 
 
@@ -78,7 +75,17 @@ border:2px solid #E7A908;
             font-size: 45px;
             line-height: 73px;
         }
-        .mob-schedule-btn1{
+        .mob-schedule-button{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .btnsch{
+            margin-left: 50px;
+        }
+
+        .mob-schedule-btn1 , .mob-schedule-btn2{
             background: #E7A908;
             border-radius: 10px;
             width: 200px;
@@ -87,14 +94,23 @@ border:2px solid #E7A908;
                 line-height: 49px;
                 color: #FFFFFF;
         }
-        .mob-schedule-btn2{
-            background: #E7A908;
+           
+            
+        .inactivescheduleclass{
+            border: 5px solid #F8E5B5;
+            box-sizing: border-box;
             border-radius: 10px;
             width: 200px;
             height: 80px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
             font-size: 30px;
             line-height: 49px;
-            color: #FFFFFF; }            
+            background-color: #FFFFFF;
+            color: #F8E5B5;  
+    
+        }
     }
     @media only screen and (min-width: 600px) and (max-width:900px){
 
@@ -107,7 +123,13 @@ border:2px solid #E7A908;
             font-size: 35px;
             line-height: 50px;
         }
-        .mob-schedule-btn1{
+        .mob-schedule-button{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .mob-schedule-btn1 ,.mob-schedule-btn2{
             background: #E7A908;
             border-radius: 10px;
             width: 160px;
@@ -116,12 +138,21 @@ border:2px solid #E7A908;
                 line-height: 40px;
                 color: #FFFFFF;
         }
-        .mob-schedule-btn2{
-            background: #E7A908;
-            border-radius: 10px;
-            width: 160px;
-            height: 60px;
-            font-size: 20px;
-            line-height: 40px;
-            color: #FFFFFF; }            
+             
+    
+    .inactivescheduleclass{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 49px;
+        background-color: #FFFFFF;
+        color: #F8E5B5;  
+        margin-left: 20px;
+        width: 160px;
+        height: 60px;
     }
+    .btnsch{
+        margin-left: 30px;
+    }
+}
