@@ -1,3 +1,7 @@
+*{
+    box-sizing: content-box;
+}
+
 .main{
     display: flex;
     justify-content: center;
@@ -16,6 +20,10 @@
     margin-top: 26%;
     font-size: 35px;
     color: #E7A908;
+}
+
+.leftarrow{
+    vertical-align: baseline;
 }
 .icon1{
 	background-color: #F0F0F0;
@@ -51,8 +59,31 @@
     height: 68px;
     border-radius: 52px;
     margin-left: 6%;
-
 }
+
+.car-control{
+    background-color: none !important;
+    background-image: none !important;
+    width: 8%;
+    opacity: 1;
+}
+
+.left{
+    left: -1.65em;
+}
+
+.control-but:before{
+    font-size: 40px !important;
+    color: white;
+    opacity: 1 !important;
+    padding: 0.3em;
+    border-radius: 200px;
+    background-color: #E7A908;
+}
+.car-indicators{
+    bottom: 40px;
+}
+
 .icon4{    
     text-decoration: none;
 	color: black;
@@ -84,6 +115,7 @@
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+    margin-bottom: 3em;
 }
 .timing-icons{
 	margin-top: 15%;
@@ -139,6 +171,13 @@
 .nam {
     font-size: 21px;
 }
+.control-but:before{
+        font-size: 32px !important;
+        padding: 0.3em;
+}
+.left{
+   left: -0.3em;
+}
 .timing{
     height: 200px;
 }
@@ -168,6 +207,10 @@
         width: 28px;
         font-size: 16px;
         line-height: 30px;
+    }
+    .control-but:before{
+        font-size: 25px !important;
+        padding: 0.2em;
     }
     .icon3{
         font-size: 29px;
@@ -211,6 +254,14 @@
     font-size: 17px;
     margin: -9%;
     font-weight: bold;
+}
+.control-but:before{
+    font-size: 20px !important;
+    padding: 0.3em;
+}
+
+.left{
+    left: 0em;
 }
 .date {
     border-radius: 4px;

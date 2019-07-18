@@ -31,10 +31,10 @@ const routing = (
                 <div className="head">Raionzo</div>
                 <div className="nav-links">
 
-                    <NavLink activeClassName="active" className="navbar-link" exact={true} to ="/"><Navlink name="Home" /></NavLink>
-                    <NavLink activeClassName="active" className="navbar-link" to ="/Events/"><Navlink name="Events" /></NavLink>
-                    <NavLink activeClassName="active" className="navbar-link" to="/schedule/"><Navlink name="Schedule" /></NavLink>
-                    <NavLink activeClassName="active" className="navbar-link" to="/ContactUs/" ><Navlink name="Contact Us" /></NavLink>
+                    <NavLink activeClassName="activenav" className="navbar-link" exact={true} to ="/"><Navlink name="Home" /></NavLink>
+                    <NavLink activeClassName="activenav" className="navbar-link" to ="/Events/"><Navlink name="Events" /></NavLink>
+                    <NavLink activeClassName="activenav" className="navbar-link" to="/schedule/"><Navlink name="Schedule" /></NavLink>
+                    <NavLink activeClassName="activenav" className="navbar-link" to="/ContactUs/" ><Navlink name="Contact Us" /></NavLink>
                 </div>
 			    <Link to="/Events/"><div className="reg-link">Register</div></Link>
     		</div>
