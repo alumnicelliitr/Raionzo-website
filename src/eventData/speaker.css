@@ -1,6 +1,6 @@
 .about-speaker{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	margin-top: 2em;
 	margin-bottom: 3em;
@@ -12,6 +12,7 @@
 	border: 0.5px solid #000000;
 	display: flex;
 	flex-direction: column;
+	display: none;
 }
 
 .sidebox-cont{

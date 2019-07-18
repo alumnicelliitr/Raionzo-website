@@ -21,6 +21,10 @@
     font-size: 35px;
     color: #E7A908;
 }
+
+.leftarrow{
+    vertical-align: baseline;
+}
 .icon1{
 	background-color: #F0F0F0;
     width: 34px;
@@ -58,14 +62,23 @@
 }
 
 .car-control{
-    /*background-color: none !important;
-    background-image: none !important;*/
+    background-color: none !important;
+    background-image: none !important;
     width: 8%;
+    opacity: 1;
 }
 
-.control-but{
-    font-size: 60px !important;
-    color: black;
+.left{
+    left: -1.65em;
+}
+
+.control-but:before{
+    font-size: 40px !important;
+    color: white;
+    opacity: 1 !important;
+    padding: 0.3em;
+    border-radius: 200px;
+    background-color: #E7A908;
 }
 .car-indicators{
     bottom: 40px;
@@ -102,6 +115,7 @@
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+    margin-bottom: 3em;
 }
 .timing-icons{
 	margin-top: 15%;
@@ -157,6 +171,13 @@
 .nam {
     font-size: 21px;
 }
+.control-but:before{
+        font-size: 32px !important;
+        padding: 0.3em;
+}
+.left{
+   left: -0.3em;
+}
 .timing{
     height: 200px;
 }
@@ -187,8 +208,9 @@
         font-size: 16px;
         line-height: 30px;
     }
-    .control-but{
-        font-size: 45px !important;
+    .control-but:before{
+        font-size: 25px !important;
+        padding: 0.2em;
     }
     .icon3{
         font-size: 29px;
@@ -233,8 +255,13 @@
     margin: -9%;
     font-weight: bold;
 }
-.control-but{
-    font-size: 30px !important;
+.control-but:before{
+    font-size: 20px !important;
+    padding: 0.3em;
+}
+
+.left{
+    left: 0em;
 }
 .date {
     border-radius: 4px;
