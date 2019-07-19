@@ -19,20 +19,22 @@ import ScheduleDATA from './mobScheduleData'
             <div>
                 <div className="mob-Schedule-Box">
                 <div className="mobile_schedule_heading">{this.state.mobScheduleHeadingDay1} </div>
-                    <ScheduleDATA schedulecol1="Speaker" schedulecol2="LHC 101" schedulecol3="10:00 AM"/>
+                <ScheduleDATA schedulecol1="Women in Tech" schedulecol2="LHC 101" schedulecol3="10:00 AM"/>
                 </div>
                 <div className="mob-Schedule-Box">
                 <div className="mobile_schedule_heading">{this.state.mobScheduleHeadingDay2} </div>
-                    <ScheduleDATA schedulecol1="Speaker" schedulecol2="LHC 101" schedulecol3="10:00 AM"/>
+                    <ScheduleDATA schedulecol1="Varun Goel" schedulecol2="LHC 101" schedulecol3="10:00 AM"/>
+                    <ScheduleDATA schedulecol1="Nitesh Jain" schedulecol2="LHC 101" schedulecol3="10:00 AM"/>
+                    <ScheduleDATA schedulecol1="Himanshu Sirohi" schedulecol2="LHC 101" schedulecol3="10:00 AM"/>
                 </div>
                 <div className="mob-Schedule-Box">
                 <div className="mobile_schedule_heading">{this.state.mobScheduleHeadingDay3} </div>
                     <ScheduleDATA schedulecol1="Web-D" schedulecol2="LHC 101" schedulecol3="10:00 AM"/>
-                    <ScheduleDATA schedulecol1="ML/AI" schedulecol2="LHC 101" schedulecol3="10:00 AM"/>
+                    <ScheduleDATA schedulecol1="ML" schedulecol2="LHC 101" schedulecol3="10:00 AM"/>
                 </div>
                 <div className="mob-Schedule-Box">
                 <div className="mobile_schedule_heading">{this.state.mobScheduleHeadingDay4 } </div>
-                    <ScheduleDATA schedulecol1="Cult Night" schedulecol2="Divine" schedulecol3="10:00 PM"/>
+                    <ScheduleDATA schedulecol1="Cult Night" schedulecol2="" schedulecol3="8:00 PM"/>
                 </div>
 
            

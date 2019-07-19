@@ -22,7 +22,7 @@ openLink(){
    eventinfodata="This 2-day event aims for direct student-alumni interaction.
  Different batches of students will be mentored by alumni
  while they finish the given task. The workshops will cover
- Finance, ML/AI, UX/UI and Web-D.
+ Finance, ML, UX/UI and Web-D.
  The students benefit by gaining experience in these fields
  and spending quality time with alumni. The alumni get an
  excellent opportunity to share their past experiences with
