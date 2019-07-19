@@ -6,7 +6,7 @@ import group from './../components/images/Group.png'
 class CONTAINER3 extends React.Component {
     render() {
       return (
-        <div  className="container3">
+        <div  className="container3" id="aboutRaionzo">
             <div className="container-3-child-heading"> About Raionzo</div>
                 <div className="container-3-parent">
                     

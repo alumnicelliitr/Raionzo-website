@@ -88,7 +88,7 @@ function Contact() {
 						</tr>
 						<tr>
 							<td className="footer-contact-data"><img src={footerno} alt="Phone" className="contact-img" /></td>
-							<td className="footer-contact-data">
+							<td className="footer-contact-data" id="phoneNo">
 								<div className="conatct-no">+91 8120792558</div>
 								<div className="conatct-no">+91 8889379722</div>
 							</td>
@@ -103,6 +103,7 @@ function Contact() {
 		</div>
 	);
 }
+
 
 function Follow() {
 	return(
