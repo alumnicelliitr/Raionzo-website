@@ -18,6 +18,7 @@ import GIW from'./eventData/eventmaincontainer4';
 import LT from'./eventData/eventmaincontainer5';
 import CN from'./eventData/eventmaincontainer6';
 import ScrollToTop from './ScrollToTop.js';
+import Team from './Team/team.js';
 import {Link} from "react-router-dom";
 import ContactPart1 from './contact-us/contactus-part1';
 
@@ -55,6 +56,7 @@ const routing = (
             <Route path="/Events/" component={events} />
             <Route path='/' exact component={App}/>
             <Route path="/ContactUs/" component={ContactPart1} /> 
+            <Route path="/Team/" component={Team} />
             
             <Footer/>
             </ScrollToTop>

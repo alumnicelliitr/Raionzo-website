@@ -1,4 +1,3 @@
-
 .line
 {
   border: 1px solid red;
@@ -44,7 +43,7 @@ box-sizing: default;
   width:10vw;}
 }
 @media only screen and (max-width: 414px)  {
-.container{
+.containerhead{
 	padding-top: 6.2vw;
 }
 .boxforheading{

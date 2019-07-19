@@ -1,0 +1,185 @@
+.team-maincontainer{
+	background-color: #E7A908;
+}
+
+.secy-maincontainer{
+	background-color: black;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	margin: 2em 0 2em 0;
+}
+
+.secy-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 65%;
+}
+
+.secy-name{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 88px;
+	color: #FFFFFF;
+}
+
+.secy-post{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 59px;
+	color: #E7A908;
+}
+
+.secy-img{
+	height: 100%;
+	width: auto;
+	background-color: grey;
+}
+
+.addsecy-maincontainer{
+	background-color: black;
+	display: flex;
+	margin: 2em 0 2em 0;
+	height: 400px;
+}
+
+.addsecy-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 30%;
+}
+
+.addsecy-name{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 56px;
+	line-height: 68px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.addsecy-post{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 34px;
+	text-align: center;
+	color: #E7A908;
+}
+
+.addsecy-img{
+	height: 100%;
+	width: 20%;
+	background-color: grey;
+}
+
+.jointsecy-maincontainer{
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.jointsecy-head{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 78px;
+	text-align: center;
+	color: #000000;
+	align-self: center;
+}
+
+.jointsecy-container{
+	display: flex;
+	flex-direction: column;
+	height: 380px;
+	align-self: center;
+}
+
+.jointsecy-img{
+	height: 80%;
+}
+
+.jointsecy-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 20%;
+	background-color: black;
+}
+
+.jointsecy-name{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.jointsecy-post{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 39px;
+	text-align: center;
+	color: #E7A908;
+}
+
+.members-maincontainer{
+	margin: 2em 0 2em 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.members-head{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 78px;
+	color: #000000;
+}
+
+.members-list{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.member-container{
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+}
+
+.member-image{
+	height: 90%;
+	width: 100%;
+	background-color: grey;
+}
+
+.member-name{
+	height: 10%;
+	background-image: black;
+	width: 100%;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+}
