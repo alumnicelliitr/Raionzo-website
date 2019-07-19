@@ -95,7 +95,7 @@ function Contact() {
 						</tr>
 						<tr>
 							<td className="footer-contact-data"><img src={footerweb} alt="Website" className="contact-img" /></td>
-							<td className="footer-contact-data">@website_link</td>
+							<Link to="/ContactUs/" className="footer-contact-data">Mail Us</Link>
 						</tr>
 					</tbody>
 				</table>
