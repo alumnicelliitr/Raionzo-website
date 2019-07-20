@@ -26,8 +26,8 @@ class ContactPart2 extends React.Component{
 
           <div className="fbandlink">
             <div className="fbandlink-logo">
-              <div className="fb-logo-1"><i className="fab fa-facebook-square"></i> </div>
-              <div className="lin-logo-2"><i className="fab fa-linkedin"></i></div>
+            <a href='https://www.facebook.com/alumnicelliitr/'> <div className="fb-logo-1"><i className="fab fa-facebook-square"></i> </div></a>
+            <a href='https://www.linkedin.com/school/iarciitr/'><div className="lin-logo-2"><i className="fab fa-linkedin"></i></div></a>
             </div>
             <div className="fbandlink-text">Social Media</div>
           </div>
