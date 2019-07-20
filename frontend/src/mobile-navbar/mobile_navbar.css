@@ -126,7 +126,7 @@
     display: flex;
     justify-items: space-between;
     margin-left:-40px;
-   
+    cursor: pointer;
 }
 .mobile_logo_linkedin{
     font-size: 40px;
@@ -137,6 +137,7 @@
     font-size: 40px;
     margin-left: 10px;
     color:white;
+    
 }
  .mobile_active{
     background-color: blue;

@@ -1,5 +1,5 @@
 .main-data
-{   margin-top: ;
+{   
     width: 100%;
     background-color:  #E7A908;
 }
@@ -84,7 +84,7 @@
         border-left: 99vw solid transparent;
         margin-top: -10vw;
 }
-@media only screen and (max-width:600px)
+@media only screen and (max-width:1000px)
 {
   .triangle-bottomright-0 {
     border-left: 100vw solid transparent;
