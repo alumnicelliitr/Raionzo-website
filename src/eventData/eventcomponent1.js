@@ -38,7 +38,7 @@ class EventComponent1 extends React.Component{
  
               <div className="eventcontainer1-button">
                          <div className="eventcontainer1-buttons">
-                           <button className="eventcontainer1-subcontainer-button-1">Detail</button>
+                           <button className="eventcontainer1-subcontainer-button-1">Details</button>
                            <Link to="#"><button className="eventcontainer1-subcontainer-button-2">{this.props.eventcontainerbutton}</button></Link>
                          </div>
                          <div className="eventcontainer1-buttons">

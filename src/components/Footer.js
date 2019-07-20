@@ -30,7 +30,7 @@ function Raionzo2019() {
 			<div className="footer-raionzo-cont footer-cont-all">
 				RAIONZO gives alumni an opportunity to share their treasured experiences with 
 				students who are about to step into the corporate world in a few years thus guiding 
-				them towards a better and bright future.
+				them towards a better and brighter future.
 			</div>
 		</div>
 	);
@@ -68,8 +68,8 @@ function Events() {
 					<Link to="/LT/"><div>Leadership talk</div></Link>
 					<Link to="/PD/"><div>Panel discussions</div></Link>
 					<Link to="/PIT/"><div>Placement and Internship talk</div></Link>
-					<Link to="/IPC/"><div>Idea pitch competition</div></Link>
-					<Link to="/CN/"><div>Cultural night</div></Link>
+					<Link to="/IPC/"><div>Idea-pitch competition</div></Link>
+					<Link to="/CN/"><div>Cultural Night</div></Link>
 				</div>
 			</div>
 		</div>
@@ -84,7 +84,7 @@ function Contact() {
 					<tbody>
 						<tr>
 							<td className="footer-contact-data"><img src={footeradd} alt="Location" className="contact-img" /></td>
-							<td className="footer-contact-data">Raionzo Office, Student Activity Centre, IIT Roorkee, Uttrakhand, India</td>
+							<td className="footer-contact-data">Raionzo Office, Student Activity Centre, IIT Roorkee, Uttarakhand, India</td>
 						</tr>
 						<tr>
 							<td className="footer-contact-data"><img src={footerno} alt="Phone" className="contact-img" /></td>
