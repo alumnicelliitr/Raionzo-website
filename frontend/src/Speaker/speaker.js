@@ -7,7 +7,7 @@ function speaker (){
 		         <div>
                  <div className='cont1'>
                  <h1 className='headspeaker'>Panelist</h1>
-                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
+                 <div id="myCarousel1" className="carousel slide" data-ride="carousel">
                    
                    <div className="carousel-inner car-inner">
                     <div className="item active">
@@ -75,11 +75,11 @@ function speaker (){
                             <p className='para'>IG Dehradoon</p>
                        </div></div>
                       </div>
-                      <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
+                      <a className="left carousel-control car-control" href="#myCarousel1" data-slide="prev">
                          <span className="glyphicon glyphicon-chevron-left control-but"></span>
                          <span className="sr-only">Previous</span>
                        </a>
-                       <a className="right carousel-control car-control" href="#myCarousel" data-slide="next">
+                       <a className="right carousel-control car-control" href="#myCarousel1" data-slide="next">
                          <span className="glyphicon glyphicon-chevron-right control-but"></span>
                          <span className="sr-only">Next</span>
                        </a>
@@ -91,7 +91,7 @@ function speaker (){
                  <div>
                  <div className='cont1'>
                  <h1 className='headspeaker'>Speakers</h1>
-                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
+                 <div id="myCarousel2" className="carousel slide" data-ride="carousel">
                    
                    <div className="carousel-inner car-inner">
                     <div className="item active">
@@ -159,11 +159,11 @@ function speaker (){
                             <p className='para'>Business Strategy | Paytm</p>
                        </div></div>
                       </div>
-                      <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
+                      <a className="left carousel-control car-control" href="#myCarousel2" data-slide="prev">
                          <span className="glyphicon glyphicon-chevron-left control-but"></span>
                          <span className="sr-only">Previous</span>
                        </a>
-                       <a className="right carousel-control car-control" href="#myCarousel" data-slide="next">
+                       <a className="right carousel-control car-control" href="#myCarousel2" data-slide="next">
                          <span className="glyphicon glyphicon-chevron-right control-but"></span>
                          <span className="sr-only">Next</span>
                        </a>
@@ -175,7 +175,7 @@ function speaker (){
                  <div>
                  <div className='cont1'>
                  <h1 className='headspeaker'>Judges</h1>
-                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
+                 <div id="myCarousel3" className="carousel slide" data-ride="carousel">
                    
                    <div className="carousel-inner car-inner">
                     <div className="item active">
@@ -243,11 +243,11 @@ function speaker (){
                             <p className='para'>Alumni Association and factory owner </p>
                        </div></div>
                       </div>
-                      <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
+                      <a className="left carousel-control car-control" href="#myCarousel3" data-slide="prev">
                          <span className="glyphicon glyphicon-chevron-left control-but"></span>
                          <span className="sr-only">Previous</span>
                        </a>
-                       <a className="right carousel-control car-control" href="#myCarousel" data-slide="next">
+                       <a className="right carousel-control car-control" href="#myCarousel3" data-slide="next">
                          <span className="glyphicon glyphicon-chevron-right control-but"></span>
                          <span className="sr-only">Next</span>
                        </a>
@@ -259,7 +259,7 @@ function speaker (){
                  <div>
                  <div className='cont1'>
                  <h1 className='headspeaker'>Performers</h1>
-                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
+                 <div id="myCarousel4" className="carousel slide" data-ride="carousel">
                    
                    <div className="carousel-inner car-inner">
                     <div className="item active">
@@ -327,11 +327,11 @@ function speaker (){
                             <p className='para'>Data Scientist | Decision Point Analytics</p>
                        </div></div>
                       </div>
-                      <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
+                      <a className="left carousel-control car-control" href="#myCarousel4" data-slide="prev">
                          <span className="glyphicon glyphicon-chevron-left control-but"></span>
                          <span className="sr-only">Previous</span>
                        </a>
-                       <a className="right carousel-control car-control" href="#myCarousel" data-slide="next">
+                       <a className="right carousel-control car-control" href="#myCarousel4" data-slide="next">
                          <span className="glyphicon glyphicon-chevron-right control-but"></span>
                          <span className="sr-only">Next</span>
                        </a>
