@@ -36,7 +36,7 @@ function speaker (){
                  </div>
                  </div>
                  <div>
-                 <div classname='cont1'>
+                 <div className='cont1'>
                  <h1 className='headspeaker'>Speakers</h1>
                  <div className='mainn'>
                       <div className='icon51'>
@@ -67,7 +67,7 @@ function speaker (){
                  </div>
                  </div>
                  <div>
-                 <div classname='cont1'>
+                 <div className='cont1'>
                  <h1 className='headspeaker'>Judges</h1>
                  <div className='mainn'>
                       <div className='icon51'>
@@ -98,7 +98,7 @@ function speaker (){
                  </div>
                  </div>
                  <div>
-                 <div classname='cont1'>
+                 <div className='cont1'>
                  <h1 className='headspeaker'>Performers</h1>
                  <div className='mainn'>
                       <div className='icon51'>
