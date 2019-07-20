@@ -20,6 +20,7 @@ import CN from'./eventData/eventmaincontainer6';
 import ScrollToTop from './ScrollToTop.js';
 import {Link} from "react-router-dom";
 import ContactPart1 from './contact-us/contactus-part1';
+import speaker from './Speaker/speaker';
 
 
 const routing = (
@@ -44,7 +45,7 @@ const routing = (
          </MediaQuery>
 
 
-            
+            <Route path='/speaker' component={speaker}/>
             <Route path="/schedule/" component={MobileSchedule} />
             <Route path='/PD/'  component={Panel}/>
             <Route path='/PIT/' component={PIT}/>
