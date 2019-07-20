@@ -45,7 +45,7 @@ function UsefulLinks() {
 			<div className="footer-links-cont footer-cont-all">
 				<div className="footer-list footer-list-links">
 					<Link to="/schedule/"><div>Schedule</div></Link>
-					<div>Speakers</div>
+					<Link to="/speaker/"><div>Speakers</div></Link>
 					<Link to="/Events/"><div>Register</div></Link>
 					<Link to="/Events/"><div className="events-in-links">Events</div></Link>
 					<div>About Us</div>
@@ -111,8 +111,12 @@ function Follow() {
 			<div className="footer-follow-cont footer-cont-all">
 				Follow us on
 				<div className="follow-links">
-					<img src={footerfb} alt="Facebook" className="follow-img" />
+				<a href='https://www.facebook.com/alumnicelliitr/'>
+					<img  src={footerfb} alt="Facebook" className="follow-img" />
+					</a>
+				<a href='https://www.linkedin.com/school/iarciitr/'>	
 					<img src={footerlinkedin} alt="LinkedIn" className="follow-img" />
+					</a>
 				</div>
 			</div>
 		</div>

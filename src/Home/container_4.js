@@ -7,6 +7,7 @@ class CONTAINER4 extends React.Component {
     render() {
       return (
         <div className="container4">
+
             <div className="container-4-child-heading" id="aboutIarc"> Team IARC</div>
                 <div className="container-4-parent">
                     <div className="container-4-child-1">
