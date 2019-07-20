@@ -10,7 +10,7 @@ class CONTAINER2 extends React.Component {
       return (
         <div className="container-2-parent">
             <div className="container-2-child-1">
-                <div className="container-2-child-heading">Knitting Thomasonians<br/> together</div>
+                <div className="container-2-child-heading">Revealing the Nexus</div>
                 <div className="container-2-child-date">August 31 - September 1, 2019</div>
                 <div className="container-2-child-button">
                   <MediaQuery query='(max-width:414px)'>

@@ -171,6 +171,9 @@ a:active{
 			"Follow";
 	}
 
+	.footer-raionzo{
+		display: none;
+	}
 	.footer-list{
 		margin-top: 1.5em;
 	}

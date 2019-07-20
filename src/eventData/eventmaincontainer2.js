@@ -21,7 +21,7 @@ openLink(){
   <EventComponent1 
    eventinfodata=" The 3rd and 4th years of engineering are very crucial in a student’s career as they appear for interns and placements.
 Every step plays an important role, hence, a talk where the
-alumni guide them about the dos and don'ts is organized."
+alumni guide them about the do's and don'ts is organized."
    eventcontainerheading="Placement and Internship
 Talk"
    eventcontainerbutton="Speaker"

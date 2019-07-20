@@ -38,7 +38,7 @@ function timing(props) {
 	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
 	             </div>
 	             <div className='date'>
-	                 <p className='namm'>ML/AL</p>
+	                 <p className='namm'>ML/AI</p>
 	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
 	             </div>
 	             <div className='date'>

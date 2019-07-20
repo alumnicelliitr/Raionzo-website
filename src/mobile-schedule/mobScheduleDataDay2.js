@@ -9,8 +9,8 @@ import ScheduleDATA from './mobScheduleData'
             this.state=
                 {
                     mobScheduleHeadingDay1:"Panel Discussion",
-                    mobScheduleHeadingDay2:"Placement And Internship Talks",
-                    mobScheduleHeadingDay3:"Workshop",
+                    mobScheduleHeadingDay2:"Placement And Internship Talk",
+                    mobScheduleHeadingDay3:"Workshops",
                     mobScheduleHeadingDay4:"Cult Night"
                 };
           }
@@ -32,7 +32,7 @@ import ScheduleDATA from './mobScheduleData'
                 </div>
                 <div className="mob-Schedule-Box">
                 <div className="mobile_schedule_heading">{this.state.mobScheduleHeadingDay4 } </div>
-                    <ScheduleDATA schedulecol1="Cult Night" schedulecol2="Divine" schedulecol3="10:00 PM"/>
+                    <ScheduleDATA schedulecol1="Cult Night" schedulecol2="MAC Auditorium" schedulecol3="10:00 PM"/>
                 </div>
 
            

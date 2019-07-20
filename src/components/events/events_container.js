@@ -19,14 +19,17 @@ class EVENTS extends Component {
              <div className="event-main-head">Events</div> 
              <img className="imgg" src={im} />
          </div>
-         <div className="txt">A combination of workshops, talks, competitions and much more, infused with thrill and excitement, this fest will undoubtedly leave you with an unforgettable 2-day experience.
+         <div className="txt">
+         This fest pops out with a blend of workshops, talks, competitions and much more
+         infused with thrill and excitement
+         leaving you with an unforgettable 2-day experience.
          </div>
-         <Contain index='0' num='1' head='Panel Discussions' icon={one}/>
-         <Contain1 index='0' num='2' head='Placement and Intership Talk' icon={two}/> 
-         <Contain index='0' num='3' head='Idea Pitch Competition' icon={three}/> 
+         <Contain index='0' num='1' head='Panel Discussion' icon={one}/>
+         <Contain1 index='0' num='2' head='Placement and Internship Talk' icon={two}/> 
+         <Contain index='0' num='3' head='Idea-Pitch Competition' icon={three}/> 
          <Contain1 index='0' num='4' head='Group Interactions and Workshops' icon={four}/> 
-         <Contain index='0' num='5' head='Leadership talks' icon={five}/> 
-         <Contain1 index='0' num='6' head='Cultural Nit' icon={six}/>                    
+         <Contain index='0' num='5' head='Leadership talk' icon={five}/> 
+         <Contain1 index='0' num='6' head='Cultural Night' icon={six}/>                    
          </div>
  		)
  } 
