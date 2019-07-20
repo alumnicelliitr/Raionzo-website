@@ -5,27 +5,10 @@
     font-family: Montserrat;
 font-style: normal;
 }
-.icon51 {
-    text-align: center;
-    line-height: 78px;
-    background-color: #E7A908;
-    width: 70px;
-    height: 70px;
-        border-radius: 31px;
-        margin: 0px 34px;
-}
 
-.mainn {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    height: 500px;
-}
 .contbox {
     flex-direction: column;
     display: flex;
-    margin: 0px 60px;
     width: 21%;
     height: 370px;
     background-color: #E7A908;
@@ -51,11 +34,20 @@ font-style: normal;
 .para{
     margin: 4%;
     color: #FFFFFF;
+    text-align: center;
 }
+
+.speaker-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 2.5em 0 2.5em;
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+
 @media only screen and (max-width: 1500px)
 {
     .contbox {
-    margin: 0px 29px;
     width: 22%;
     height: 360px;
 }
@@ -63,7 +55,6 @@ font-style: normal;
 @media only screen and (max-width: 1300px)
 {
 .contbox {
-    margin: 0px 18px;
     width: 23%;
     height: 350px;
 }
@@ -71,14 +62,14 @@ font-style: normal;
     width: 43%;
     height: 37%;
 }
+.speaker-item{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
 }
 @media only screen and (max-width: 1100px)
-{.icon51 {
-    width: 70px;
-    height: 70px;
-}
+{
 .contbox {
-    margin: 0px 18px;
     width: 23%;
     height: 306px;
 }
@@ -100,15 +91,12 @@ font-style: normal;
 @media only screen and (max-width: 900px)
 {
     .contbox {
-    margin: 0px 12px;
     width: 27%;
     height: 306px;
 }
-.icon51 {
-    margin: 0 1%;
-    width: 60px;
-    height: 60px;
-    line-height: 71px;
+.speaker-item{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
 }
 .headspeaker {
     margin-top: 0px;
@@ -123,14 +111,7 @@ font-style: normal;
 }
 @media only screen and (max-width: 750px)
 {
-.icon51 {
-    margin: 0 1%;
-    width: 50px;
-    height: 50px;
-    line-height: 61px;
-}
 .contbox {
-    margin: 0px 8px;
     width: 29%;
     height: 237px;
 }
@@ -150,23 +131,12 @@ font-style: normal;
 }
 @media only screen and (max-width: 600px)
 {
-.icon51 {
-    margin: 0px 2px;
-    width: 48px;
-    height: 42px;
-    line-height: 44px;
-}
 .headspeaker {
     line-height: 3px;
     margin-top: 46px;
     font-size: 30px;
 }
-.mainn {
-    height: 289px;
-    margin-top: 20px;
-}
 .contbox {
-    margin: 0px 7px;
     width: 29%;
     height: 210px;
 }
@@ -186,12 +156,7 @@ font-style: normal;
     margin-top: 37px;
     font-size: 28px;
 }
-.mainn {
-    height: 223px;
-    margin-top: 20px;
-}
 .contbox {
-    margin: 0px 7px;
     width: 29%;
     height: 161px;
 }
@@ -203,12 +168,6 @@ font-style: normal;
     margin: 4%;
     font-size: 8px;
 }
-.icon51 {
-    margin: 0px 2px;
-    width: 38px;
-    height: 33px;
-    line-height: 36px;
-}
 }
 @media only screen and (max-width: 414px)
 {
@@ -217,12 +176,7 @@ font-style: normal;
     margin-top: 29px;
     font-size: 20px;
 }
-.icon51 {
-    margin: 0px 2px;
-    width: 25px;
-    height: 25px;
-    line-height: 26px;
-}
+
 .para {
     margin: 4%;
     font-size: 6px;
@@ -232,34 +186,21 @@ font-style: normal;
     font-size: 10px;
 }
 .contbox {
-    margin: 0px 7px;
     width: 29%;
     height: 138px;
 }
-.mainn {
-    height: 159px;
-    margin-top: 20px;
-}
+
 }
 @media only screen and (max-width: 375px)
 {
-.icon51 {
-    margin: 0px 2px;
-    width: 25px;
-    height: 22px;
-    line-height: 24px;
-}
+
 .headspeaker {
     line-height: 0px;
     margin-top: 19px;
     font-size: 18px;
 }
-.mainn {
-    height: 140px;
-    margin-top: 20px;
-}
+
 .contbox {
-    margin: 0px 7px;
     width: 29%;
     height: 121px;
 }
