@@ -56,6 +56,7 @@ const routing = (
             <Route path="/Events/" component={events} />
             <Route path='/' exact component={App}/>
             <Route path="/ContactUs/" component={ContactPart1} /> 
+            <Route path="/Speskers/" /> 
             
             <Footer/>
             </ScrollToTop>
