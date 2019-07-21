@@ -3,7 +3,6 @@ import './speaker.css';
 import rightarrow from '../components/images/rightarrow.png'
 import leftarrow from '../components/images/leftarrow.png'
 import img from '../components/images/dinesh pawar.jpeg'
-import img2 from '../components/images/sumedha.jpeg'
 import img3 from '../components/images/rajnish.jpeg'
 
 function speaker (){
@@ -42,10 +41,10 @@ function speaker (){
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQHgG5KyZdyuqA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=tyLoeUj0A9Ml6iYa_QVoB4veTz6QIkO4lSVzXm1lktE' className='circleimg'>
                             </img>
                              <h3 className='namee'>Reena Dayal Yadav </h3>
-                            <p className='para'> Director at The garage India | IEEE</p>
+                            <p className='para'> Director at The Garage India | IEEE</p>
                        </div>
                        <div className='contbox'>
-                            <img alt='' src={img2} className='circleimg'>
+                            <img alt='' src="https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50" className='circleimg'>
                             </img>
                             <h3 className='namee'>Sumedha Lamaye</h3>
                             <p className='para'>Product Analyst -Dunzo</p>
@@ -144,7 +143,7 @@ function speaker (){
                        <div className='contbox'>
                            <img alt='' src={img3} className='circleimg'>
                             </img>
-                             <h3 className='namee'>Rajnish Khandelwal </h3>
+                             <h3 className='namee'>Rajnish Khandelwal</h3>
                             <p className='para'>Directo KIE Engg</p>
                        </div>
                        <div className='contbox'>
@@ -157,17 +156,17 @@ function speaker (){
                             <img alt='' src={img} className='circleimg'>
                             </img>
                              <h3 className='namee'>Dinesh Pawar</h3>
-                            <p className='para'>Alumni Association and factory owner </p>
+                            <p className='para'>Alumni Association and Entrepreneur</p>
                        </div>
                       </div>
                       </div>
                       
                       
-                      <a className="left carousel-control car-control" href="#myCarousel3" data-slide="prev">
+                      <a className="left carousel-control car-control" href="#myCarousel3" data-slide="prev" style={{opacity: 0.5}}>
                          <span className="glyphicon glyphicon-chevron-left control-but"></span>
                          <span className="sr-only">Previous</span>
                        </a>
-                       <a className="right carousel-control car-control" href="#myCarousel3" data-slide="next">
+                       <a className="right carousel-control car-control" href="#myCarousel3" data-slide="next" style={{opacity: 0.5}}>
                          <span className="glyphicon glyphicon-chevron-right control-but"></span>
                          <span className="sr-only">Next</span>
                        </a>
@@ -194,7 +193,7 @@ function speaker (){
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQFx-nnxFYh-HA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=3PAsS42EJ4rv8KRd878izwWRyWJfQtgt_n4qFkhINLY' className='circleimg'>
                             </img>
                              <h3 className='namee'>Subhash Patel</h3>
-                            <p className='para'>specialist programmer at Infosys</p>
+                            <p className='para'>Specialist Programmer at Infosys</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5603AQHPjb3cxHn4Ow/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=gSLYgYi7T67mMpZC4LIaya0Ap1_2PMeHToi4hJX2KTA' className='circleimg'>
@@ -204,11 +203,11 @@ function speaker (){
                        </div>
                       </div>
                       </div>
-                      <a className="left carousel-control car-control" href="#myCarousel4" data-slide="prev">
+                      <a className="left carousel-control car-control" href="#myCarousel4" data-slide="prev" style={{opacity: 0.5}}>
                          <span className="glyphicon glyphicon-chevron-left control-but"></span>
                          <span className="sr-only">Previous</span>
                        </a>
-                       <a className="right carousel-control car-control" href="#myCarousel4" data-slide="next">
+                       <a className="right carousel-control car-control" href="#myCarousel4" data-slide="next" style={{opacity: 0.5}}>
                          <span className="glyphicon glyphicon-chevron-right control-but"></span>
                          <span className="sr-only">Next</span>
                        </a>

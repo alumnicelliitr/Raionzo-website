@@ -25,7 +25,8 @@ class EventMainContainer extends React.Component{
    and “Women in Tech” where the audience will be exposed to various viewpoints and perspectives of the speakers."
    eventcontainerheading="Panel Discussion"
    eventcontainerbutton="Panelists"
-   eventcontainericon="one"  />
+   eventcontainericon="one"
+   disp="none"  />
    <div>
 	 <Panelicons  two={this.state.num}/>
 	 <Timing date={this.state.date}
@@ -39,19 +40,35 @@ class EventMainContainer extends React.Component{
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
       </ol>
       <div className="carousel-inner">
         <div className="item active">
-         <Speaker speakername="Navniet Sekera" speakercontent="IG Lucknow | Baukhaal Tv Series" speakerimg="https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24" />
+         <Speaker speakername="Rajiv Yadav" speakercontent=" Ministry of Parliamentary Affairs at Indian Administrative Service (IAS)" speakerimg="https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY" />
         </div>
         <div className="item">
-         <Speaker speakername="Himanshu Sirohi " speakercontent="Marketing head | Prega News" speakerimg="https://media.licdn.com/dms/image/C5603AQGBgEi7NRqqnQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p4mpvBFU-raNhy60zEeBLTcMJKpo-XoYqZZ2BzF-QEc" />
+         <Speaker speakername="PN Pandey" speakercontent="IRS , WCO Senior Management" speakerimg="https://media.licdn.com/dms/image/C5603AQGVcdvLGOgOPw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=f-kucYfns74nrW65gb-FMGAHK3wf4z0oRDOw4w0dm_4" />
         </div>
         <div className="item">
-         <Speaker speakername="Nitesh Jain " speakercontent="Business Strategy | Paytm" speakerimg="https://media.licdn.com/dms/image/C5603AQFEhu4P2Xhmkg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=S9VOH6mBskysYb9FKiAfzemVWeGo-VpvDzNep9vfO_s" />
+         <Speaker speakername="Amit Sinha" speakercontent="IG Dehradun" speakerimg="https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50" />
         </div>
         <div className="item">
-         <Speaker speakername="Varun Goel " speakercontent="HR Bhel " speakerimg="https://media.licdn.com/dms/image/C4D03AQGeJnUCBcCJhA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=4nXV_5ez4realEXeJLiDr-QEBjUc-AAyM1JpsRdWjhQ" />
+         <Speaker speakername="Dr. Nirmaljeet Singh Kalsi" speakercontent="Additionnal Chief secretary (Govt of Punjab)" speakerimg="https://media.licdn.com/dms/image/C5103AQE8FabyBM2uKQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=CoFqiqb6p-xvkpBnIuiDtHMNQ3IgGMSrbbbTW-3YGUo" />
+        </div>
+        <div className="item">
+         <Speaker speakername="Reena Dayal Yadav" speakercontent="Director at The garage India | IEEE" speakerimg="https://media.licdn.com/dms/image/C5103AQHgG5KyZdyuqA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=tyLoeUj0A9Ml6iYa_QVoB4veTz6QIkO4lSVzXm1lktE" />
+        </div>
+        <div className="item">
+         <Speaker speakername="Sumedha Lamaye" speakercontent="Sr. Director of Engg at Intel " speakerimg="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/p160x160/53835448_10211102128948114_3046006044867166208_n.jpg?_nc_cat=107&_nc_oc=AQl_HvC7zb0kgYAHBI8X2slSnJ2HPDuok5fD7-kgsFQpvgPcu_ff5JQyOv1zw9rWyq8&_nc_ht=scontent-bom1-1.xx&oh=ddb0f04cc6e0b8cc3b63edfe2d701185&oe=5DB6872C" />
+        </div>
+        <div className="item">
+         <Speaker speakername="Akshita Dhankar" speakercontent="Product Analyst -Dunzo" speakerimg="https://media.licdn.com/dms/image/C4E03AQGROdP6pp7mHg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=IQjq2oQcdqRxfSO7iPsS_-PqFqkL7gNUgCc2eghaIZ8" />
+        </div>
+        <div className="item">
+         <Speaker speakername="Naveen Dhillon" speakercontent="CEO Antriex Technologies" speakerimg="https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0" />
         </div>
         <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
           <span className="glyphicon glyphicon-chevron-left control-but"></span>

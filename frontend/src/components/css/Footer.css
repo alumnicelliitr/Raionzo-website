@@ -52,7 +52,7 @@ a:active{
 }
 
 .footer-list-links{
-	height: 180px;
+	height: 150px;
 }
 
 .events-in-links{
@@ -90,7 +90,8 @@ a:active{
 	margin-top: 30px;
 	vertical-align: middle;
 }
-.footer-contact-data:hover{
+
+.mail:hover{
 	color: #E7A908;
 }
 .footer-links, .footer-events{

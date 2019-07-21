@@ -17,7 +17,9 @@ class events extends Component {
  	return(
          <div className="eone">
          <CONTAINER1 heading="Events" colr="white"/>
-         <div className="txt">A combination of workshops, talks, competitions and much more, infused with thrill and excitement, this fest will undoubtedly leave you with an unforgettable 2-day experience.
+         <div className="txt">Raionzo 2019 pops out with a combination of workshops, talks, 
+         competitions and much more, infused with a blend of thrill and excitement that will 
+         undoubtedly leave you with an unforgettable 2-day experience.
          </div>
          <MediaQuery query='(max-width: 414px)'>
              <div className='eventmobile'>
