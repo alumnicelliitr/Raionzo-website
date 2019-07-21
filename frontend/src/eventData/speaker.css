@@ -43,18 +43,22 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 1em;
+	padding: 0 1em 0 1em;
 	width: 40%;
 }
 
 .speaker-img{
-	width: 70%;
-	border-radius: 100px;
+	width: 60%;
+	border-radius: 200px;
 }
 
 .speaker-right{
 	padding: 1em;
 	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 .speaker-name{
@@ -100,6 +104,9 @@
 	.sidebox{
 		height: 370px;
 	}
+	.speaker-img{
+		width: 80%;
+	}
 	.speaker-box{
 		height: 440px;
 	}
@@ -118,16 +125,20 @@
 		line-height: 52px;
 		color: white;
 	}
+	.speaker-img{
+		width: 90%;
+		border-right: 0px;
+	}
 	.speaker-cont{
 		font-size: 21px;
 		line-height: 26px;
 	}
 	.sidebox{
-		height: 330px;
+		height: 300px;
 		border: none;
 	}
 	.speaker-box{
-		height: 400px;
+		height: 360px;
 		padding-top: 0;
 	}
 	.speaker-footer{
@@ -146,9 +157,6 @@
 	.speaker-right{
 		background-color: #F9BC1E;
 	}
-	.speaker-img{
-		border-right: 0px;
-	}
 	.sidebox-cont{
 		background-color: #F9BC1E;
 	}
@@ -164,10 +172,10 @@
 		line-height: 23px;
 	}
 	.sidebox{
-		height: 300px;
+		height: 270px;
 	}
 	.speaker-box{
-		height: 370px;
+		height: 320px;
 	}
 	.speaker-footer-img{
 		height: 90px;
@@ -188,10 +196,10 @@
 		line-height: 21px;
 	}
 	.sidebox{
-		height: 270px;
+		height: 220px;
 	}
 	.speaker-box{
-		height: 340px;
+		height: 290px;
 	}
 	.speaker-footer{
 		background-image: linear-gradient(to right, #C4C4C4 41.8%, #C4C4C4 20%, #F9BC1E 10%, #F9BC1E 28.2%)
@@ -210,10 +218,10 @@
 
 @media only screen and (max-width: 600px) {
 	.sidebox{
-		height: 240px;
+		height: 180px;
 	}
 	.speaker-box{
-		height: 310px;
+		height: 270px;
 	}
 	.speaker-name{
 		font-size: 23px;
@@ -227,10 +235,10 @@
 
 @media only screen and (max-width: 500px) {
 	.sidebox{
-		height: 210px;
+		height: 140px;
 	}
 	.speaker-box{
-		height: 280px;
+		height: 240px;
 	}
 	.speaker-name{
 		font-size: 18px;
@@ -250,10 +258,10 @@
 		background-image: linear-gradient(to right, #C4C4C4 42.3%, #C4C4C4 20%, #F9BC1E 10%, #F9BC1E 27.7%)
 	}
 	.speaker-box{
-		height: 240px;
+		height: 190px;
 	}
 	.sidebox{
-		height: 180px;
+		height: 100px;
 	}
 	.speaker-name{
 		font-size: 17px;

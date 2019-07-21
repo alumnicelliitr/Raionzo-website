@@ -28,9 +28,10 @@ function Raionzo2019() {
 				Raionzo 2019
 			</div>
 			<div className="footer-raionzo-cont footer-cont-all">
-				RAIONZO gives alumni an opportunity to share their treasured experiences with 
-				students who are about to step into the corporate world in a few years thus guiding 
-				them towards a better and brighter future.
+				RAIONZO gives alumni an opportunity to share their treasured 
+				experiences with students who are about to step into the corporate 
+				world in a few years. It is an excellent platform to cultivate 
+				your skills from the experiences of our notable alumni.
 			</div>
 		</div>
 	);
@@ -48,7 +49,6 @@ function UsefulLinks() {
 					<Link to="/speaker/"><div>Speakers</div></Link>
 					<Link to="/Events/"><div>Register</div></Link>
 					<Link to="/Events/"><div className="events-in-links">Events</div></Link>
-					<div>About Us</div>
 					<Link to="/ContactUs/"><div>Contact Us</div></Link>
 				</div>
 			</div>
@@ -95,7 +95,7 @@ function Contact() {
 						</tr>
 						<tr>
 							<td className="footer-contact-data"><img src={footerweb} alt="Website" className="contact-img" /></td>
-							<Link to="/ContactUs/" className="footer-contact-data">Mail Us</Link>
+							<Link to="/ContactUs/" className="footer-contact-data mail">Mail Us</Link>
 						</tr>
 					</tbody>
 				</table>

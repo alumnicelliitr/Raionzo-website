@@ -19,18 +19,16 @@ openLink(){
   return (
   	<div>
   <EventComponent1 
-   eventinfodata="This 2-day event aims for direct student-alumni interaction.
- Different batches of students will be mentored by alumni
- while they finish the given task. The workshops will cover
- Finance, ML, UX/UI and Web-D.
- The students benefit by gaining experience in these fields
- and spending quality time with alumni. The alumni get an
- excellent opportunity to share their past experiences with
- the students."
-   eventcontainerheading="Group Interactions and
-Workshops"
+   eventinfodata="This 2-day event aims for direct student-alumni interaction 
+   where different batches of students will be mentored by alumni while they 
+   finish the given task. The workshops will cover Finance, ML, UX/UI and Web-D. 
+   The students will be benefited by gaining experience in these fields and 
+   spending quality time with the alumni. Simultaneously, the alumni will get 
+   an excellent opportunity to share their past experiences with the students."
+   eventcontainerheading="Group Interactions and Workshops"
    eventcontainerbutton="Speakers"
-   eventcontainericon="four"  />
+   eventcontainericon="four"
+   disp="none"  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}
@@ -42,21 +40,18 @@ Workshops"
         <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div className="carousel-inner">
         <div className="item active">
-        <Speaker speakername="Navniet Sekera" speakercontent="IG Lucknow | Baukhaal Tv Series" speakerimg="https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24" />
+        <Speaker speakername="Viraj Verma" speakercontent="UX Designer | Microsoft" speakerimg="https://media.licdn.com/dms/image/C5103AQGt8ltIquWWzQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=Q-fWhdHPdP6hJYQhxaVc5aeWJWuqcH-3ljJD1AMp0jc" />
         </div>
         <div className="item">
-         <Speaker speakername="Himanshu Sirohi " speakercontent="Marketing head | Prega News" speakerimg="https://media.licdn.com/dms/image/C5603AQGBgEi7NRqqnQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p4mpvBFU-raNhy60zEeBLTcMJKpo-XoYqZZ2BzF-QEc" />
+         <Speaker speakername="Subhash Patel" speakercontent="Specialist Programmer at Infosys" speakerimg="https://media.licdn.com/dms/image/C5103AQFx-nnxFYh-HA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=3PAsS42EJ4rv8KRd878izwWRyWJfQtgt_n4qFkhINLY" />
         </div>
         <div className="item">
-         <Speaker speakername="Nitesh Jain " speakercontent="Business Strategy | Paytm" speakerimg="https://media.licdn.com/dms/image/C5603AQFEhu4P2Xhmkg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=S9VOH6mBskysYb9FKiAfzemVWeGo-VpvDzNep9vfO_s" />
+         <Speaker speakername="Vishnu Rajoria" speakercontent="Data Scientist | Decision Point Analytics" speakerimg="https://media.licdn.com/dms/image/C5603AQHPjb3cxHn4Ow/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=gSLYgYi7T67mMpZC4LIaya0Ap1_2PMeHToi4hJX2KTA" />
         </div>
-        <div className="item">
-         <Speaker speakername="Varun Goel " speakercontent="HR Bhel " speakerimg="https://media.licdn.com/dms/image/C4D03AQGeJnUCBcCJhA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=4nXV_5ez4realEXeJLiDr-QEBjUc-AAyM1JpsRdWjhQ" />
-        </div>
+        
         <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
           <span className="glyphicon glyphicon-chevron-left control-but"></span>
           <span className="sr-only">Previous</span>

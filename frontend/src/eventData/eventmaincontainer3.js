@@ -4,6 +4,10 @@ import Timing from './timing'
 import React from 'react';
 import  EventComponent1  from './eventcomponent1.js';
 import Speaker from './speaker.js';
+import img3 from '../components/images/rajnish.jpeg';
+import img from '../components/images/dinesh pawar.jpeg';
+import ideapitch from '../components/docs/Idea-pitch.pdf';
+
 
 class EventMainContainer extends React.Component{
 	state={
@@ -13,19 +17,20 @@ class EventMainContainer extends React.Component{
 };
 
 openLink(){
-    window.open("", "_blank");
+    window.open("https://forms.gle/wRKoVb8BhQUKVWj96", "_blank");
   }
     render(){
   return (
   	<div>
   <EventComponent1 
-   eventinfodata=" The competition is open to all IITR students, where the
-students send in amusing, creative and feasible ideas for new
-initiatives to increase student-alumni interaction in the
-upcoming years. The most feasible idea wins!"
-   eventcontainerheading="Idea Pitch Competition"
+   eventinfodata=" The competition is open to all IITR students, where 
+   the students submit amusing, creative and feasible ideas for new 
+   initiatives to increase student-alumni interaction in the upcoming 
+   years. The most feasible & practical idea wins the reward!"
+   eventcontainerheading="Idea-Pitch Competition"
    eventcontainerbutton="Judges"
-   eventcontainericon="three"  />
+   eventcontainericon="three"
+   details={ideapitch}  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}
@@ -37,21 +42,18 @@ upcoming years. The most feasible idea wins!"
         <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div className="carousel-inner">
         <div className="item active">
-        <Speaker speakername="Navniet Sekera" speakercontent="IG Lucknow | Baukhaal Tv Series" speakerimg="https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24" />
+        <Speaker speakername="Rajnish Khandelwal" speakercontent="Directo KIE Engg" speakerimg={img3} />
         </div>
         <div className="item">
-         <Speaker speakername="Himanshu Sirohi " speakercontent="Marketing head | Prega News" speakerimg="https://media.licdn.com/dms/image/C5603AQGBgEi7NRqqnQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p4mpvBFU-raNhy60zEeBLTcMJKpo-XoYqZZ2BzF-QEc" />
+         <Speaker speakername="Rachna Singh" speakercontent="GE Research consultant" speakerimg="https://media.licdn.com/dms/image/C4E03AQEXZkzs41jNwg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=Jg1ZrW6gHOH1uMzqi2MRhawmRqXGrMdjJ0G-d7UAiHE" />
         </div>
         <div className="item">
-         <Speaker speakername="Nitesh Jain " speakercontent="Business Strategy | Paytm" speakerimg="https://media.licdn.com/dms/image/C5603AQFEhu4P2Xhmkg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=S9VOH6mBskysYb9FKiAfzemVWeGo-VpvDzNep9vfO_s" />
+         <Speaker speakername="Dinesh Pawar" speakercontent="Alumni Association Member and Entrepreneur" speakerimg={img} />
         </div>
-        <div className="item">
-         <Speaker speakername="Varun Goel " speakercontent="HR Bhel " speakerimg="https://media.licdn.com/dms/image/C4D03AQGeJnUCBcCJhA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=4nXV_5ez4realEXeJLiDr-QEBjUc-AAyM1JpsRdWjhQ" />
-        </div>
+        
         <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
           <span className="glyphicon glyphicon-chevron-left control-but"></span>
           <span className="sr-only">Previous</span>

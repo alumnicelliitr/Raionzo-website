@@ -14,11 +14,13 @@ class CONTAINER3 extends React.Component {
                     
                     <div className="container-3-child-2">
                         <div className="container-3-child-body">
-                        <p>RAIONZO is a student-alumni fest being organized for the first time this year by the 
-                        Institute Alumni Relations Cell (IARC) under the Dean of Resources and Alumni Affairs (DORA), 
-                        IIT Roorkee. RAIONZO is a magnanimous platform which gives you an incredible opportunity to 
-                        learn from the experiences of our alumni. This knowledge plays a very important role in 
-                        guiding you to choose the right path in the future.
+                        <p>RAIONZO is a student-alumni fest being organized for the 
+                        first time this year by Institute Alumni Relations Cell (IARC) 
+                        under the aegis of Dean of Resources and Alumni Affairs (DORA), 
+                        IIT Roorkee. RAIONZO is a magnanimous platform which gives you an 
+                        incredible opportunity to learn from the experiences and knowledge 
+                        of our alumni which plays an important role in guiding you to choose 
+                        the right path in future.
                         </p></div>
                      </div>
                 </div>

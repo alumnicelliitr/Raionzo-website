@@ -139,7 +139,7 @@
 .dat {
     margin: -2%;
     line-height: 34px;
-    color: white;
+    color: white !important;
     font-size: 22px;
 }
 .IA {

@@ -3,6 +3,7 @@ import React from 'react';
 import './eventcomponent1.css';
 import MediaQuery from 'react-responsive';
 import {Link} from "react-router-dom";
+import ideapitch from '../components/docs/Idea-pitch.pdf';
 
 class EventComponent1 extends React.Component{
     openLink(name){
@@ -38,8 +39,8 @@ class EventComponent1 extends React.Component{
  
               <div className="eventcontainer1-button">
                          <div className="eventcontainer1-buttons">
-                           <button className="eventcontainer1-subcontainer-button-1">Details</button>
-                           <Link to="/speaker"><button className="eventcontainer1-subcontainer-button-2">{this.props.eventcontainerbutton}</button></Link>
+                           <a href={this.props.details} target="_blank"><button className="eventcontainer1-subcontainer-button-1" style={{display: this.props.disp}}>Details</button></a>
+                           <Link to="/speaker"><button className="eventcontainer1-subcontainer-button-2" style={{display: this.props.disp1}}>{this.props.eventcontainerbutton}</button></Link>
                          </div>
                          <div className="eventcontainer1-buttons">
                             <button onClick={this.openLink.bind(this, this.props.eventcontainerheading)} className="eventcontainer1-subcontainer-registernow">Register Now</button> 

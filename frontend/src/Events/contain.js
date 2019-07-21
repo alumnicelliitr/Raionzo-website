@@ -9,7 +9,7 @@ function Contain(props) {
   var urll="/"+name+"/";
   var regLink;
   if(name==="IPC"){
-  	regLink="";
+  	regLink="https://forms.gle/wRKoVb8BhQUKVWj96";
   }
   else regLink="https://forms.gle/WXibEXz7xSgZDELt7";
 

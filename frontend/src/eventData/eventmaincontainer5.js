@@ -19,21 +19,18 @@ openLink(){
   return (
   	<div>
   <EventComponent1 
-   eventinfodata="The inaugural ceremony of the fest will begin with talks by
- the Director of IITR 
-and the DORA, IITR. This will be
- followed by a talk delivered by alumni mainly 
-focusing on
- leadership skills where the alumni also share their experiences.
-The purpose of the talk is to inculcate Leadership skills
- within the students
-and also the guidance to freshers
- about how to spend their time effectively 
-during their
- journey of IITR."
+   eventinfodata="The inaugural ceremony of the fest will begin 
+   with talks by the Director of IITR and the DORA, IITR. This 
+   will be followed by a talk delivered by alumni mainly focusing 
+   on the leadership skills where the alumni will also share their 
+   experiences. The main purpose of the talk is to inculcate 
+   Leadership skills within the students and also to provide guidance 
+   to freshers about how to spend their time effectively during their 
+   stay at IITR."
    eventcontainerheading="Leadership Talk"
    eventcontainerbutton="Speakers"
-   eventcontainericon="five"  />
+   eventcontainericon="five"
+   disp="none"  />
    <div>
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}
@@ -41,30 +38,15 @@ during their
 	            page={this.state.num}/>
     </div>
 <div id="myCarousel" className="carousel slide" data-ride="carousel">
-      <ol className="carousel-indicators car-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
       <div className="carousel-inner">
         <div className="item active">
          <Speaker speakername="Navniet Sekera" speakercontent="IG Lucknow | Baukhaal Tv Series" speakerimg="https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24" />
         </div>
-        <div className="item">
-         <Speaker speakername="Himanshu Sirohi " speakercontent="Marketing head | Prega News" speakerimg="https://media.licdn.com/dms/image/C5603AQGBgEi7NRqqnQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p4mpvBFU-raNhy60zEeBLTcMJKpo-XoYqZZ2BzF-QEc" />
-        </div>
-        <div className="item">
-         <Speaker speakername="Nitesh Jain " speakercontent="Business Strategy | Paytm" speakerimg="https://media.licdn.com/dms/image/C5603AQFEhu4P2Xhmkg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=S9VOH6mBskysYb9FKiAfzemVWeGo-VpvDzNep9vfO_s" />
-        </div>
-        <div className="item">
-         <Speaker speakername="Varun Goel " speakercontent="HR Bhel " speakerimg="https://media.licdn.com/dms/image/C4D03AQGeJnUCBcCJhA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=4nXV_5ez4realEXeJLiDr-QEBjUc-AAyM1JpsRdWjhQ" />
-        </div>
-        <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
+        <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev" style={{opacity: 0.5}}>
           <span className="glyphicon glyphicon-chevron-left control-but"></span>
           <span className="sr-only">Previous</span>
         </a>
-        <a className="right carousel-control car-control" href="#myCarousel" data-slide="next">
+        <a className="right carousel-control car-control" href="#myCarousel" data-slide="next" style={{opacity: 0.5}}>
           <span className="glyphicon glyphicon-chevron-right control-but"></span>
           <span className="sr-only">Next</span>
         </a>
