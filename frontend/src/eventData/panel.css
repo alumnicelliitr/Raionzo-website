@@ -253,6 +253,7 @@
 .dat {
     font-size: 17px;
     margin: -9%;
+    
     font-weight: bold;
 }
 .control-but:before{
@@ -267,8 +268,9 @@
     border-radius: 4px;
     width: 40%;
     height: 47%;
-}   
-.timing-icons{width: 14%;}
+}   .timing-icons {
+    width: 19%;
+}
 .nam {
     font-weight: bold;
     font-size: 21px;

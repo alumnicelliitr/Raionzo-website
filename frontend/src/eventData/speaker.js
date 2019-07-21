@@ -13,7 +13,7 @@ class Speaker extends Component {
 				<div className="speaker-box">
 					<div className="speaker-main">
 						<div className="speaker-left">
-							<img src={require('./../components/images/' + this.props.speakerimg + '.png')} className="speaker-img" alt={this.props.speakername} />
+							<img src={this.props.speakerimg} className="speaker-img" alt={this.props.speakername} />
 						</div>
 						<div className="speaker-right">
 							<div className="speaker-name">{this.props.speakername}</div>
