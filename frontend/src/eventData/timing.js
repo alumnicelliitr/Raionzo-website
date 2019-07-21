@@ -4,6 +4,7 @@ import date from '../components/images/date.png'
 import time from '../components/images/time.png'
 import map from '../components/images/venue.png'
 import contact from '../components/images/contact.png'
+import MediaQuery from 'react-responsive';
 
 function timing(props) {
 	if(props.page===1)
@@ -30,7 +31,7 @@ function timing(props) {
 	if(props.page===4)
 		return(<div className='timing'>
 	             <div className='date'>
-	                 <p className='namm'>Finance</p>
+                     <p className='namm'>Finance</p>
 	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
 	             </div>
 	             <div className='date'>
@@ -51,22 +52,30 @@ function timing(props) {
 	return ( <div className='timing'>
 	             <div className='date'>
 	                 <img className='timing-icons' src={date} alt=''></img>
+	                 <MediaQuery query="(min-device-width: 414px)">
 	                 <p className='nam'>Date</p>
+	                 </MediaQuery>
 	                 <p className='dat'>{props.date}</p>
 	             </div>
 	             <div className='date'>
 	                 <img className='timing-icons' src={time} alt=''></img>
+	                 <MediaQuery query="(min-device-width: 414px)">
 	                 <p className='nam'>Time</p>
+	                  </MediaQuery>
 	                 <p className='dat'>{props.time}</p>
 	             </div>
 	             <div className='date'>
 	                 <img className='timing-icons spec' src={map} alt=''></img>
+	                 <MediaQuery query="(min-device-width: 414px)">
 	                 <p className='nam'>Venue</p>
+	                  </MediaQuery>
 	                 <p className='dat'>MAC IIT,<br/>Roorkee</p>
 	             </div>
 	             <div className='date'>
 	                 <img className='timing-icons' src={contact} alt=''></img>
+	                 <MediaQuery query="(min-device-width: 414px)">
 	                 <p className='nam'>Contact</p>
+	                  </MediaQuery>
 	                 <p className='dat'>9833020496,<br/>9833020496</p>
 	             </div>    
 	         </div>
