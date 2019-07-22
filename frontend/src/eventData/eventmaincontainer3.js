@@ -26,7 +26,7 @@ openLink(){
    eventinfodata=" The competition is open to all IITR students, where 
    the students submit amusing, creative and feasible ideas for new 
    initiatives to increase student-alumni interaction in the upcoming 
-   years. The most feasible & practical idea wins the reward!"
+   years. The most feasible & practical idea wins the reward, worth Rs <b>49,000/-</b> "
    eventcontainerheading="Idea-Pitch Competition"
    eventcontainerbutton="Judges"
    eventcontainericon="three"

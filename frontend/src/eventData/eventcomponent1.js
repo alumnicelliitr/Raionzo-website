@@ -18,8 +18,10 @@ class EventComponent1 extends React.Component{
                     
               <div className="eventcontainer1">
                    <div className="eventcontainer1-subcontainer-1">
-                       <div className="eventcontainer1-subcontainer-eventinfo">
-                       {this.props.eventinfodata}</div>
+                       <div className="eventcontainer1-subcontainer-eventinfo"
+                        dangerouslySetInnerHTML={{  __html: this.props.eventinfodata }}
+                       >
+                       </div>
                     </div>
                     <MediaQuery query='(min-width:415px)'>
                     <div className="eventcontainer1-subcontainer-2">   
