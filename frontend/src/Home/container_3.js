@@ -1,12 +1,25 @@
 import React from 'react';
 import './container_3.css';
 import group from './../components/images/Group.png'
-
-
+import ReactDOM from 'react-dom'
 class CONTAINER3 extends React.Component {
+  componentDidMount() {
+    this.ensureVisible();
+  }
+
+  componentDidUpdate() {
+    this.ensureVisible();
+  }
+
+  ensureVisible() {
+    if (this.props.active === 'aboutRaionzo') {
+      console.log(ReactDOM.findDOMNode(this))
+      this.props.scrollIntoView(ReactDOM.findDOMNode(this));
+    }
+  }
     render() {
       return (
-        <div  className="container3" id="aboutRaionzo">
+        <div  className="container3" >
             <div className="container-3-child-heading"> About Raionzo</div>
                 <div className="container-3-parent">
                     
@@ -25,7 +38,6 @@ class CONTAINER3 extends React.Component {
                      </div>
                 </div>
         </div>
-
       );
     }
   }

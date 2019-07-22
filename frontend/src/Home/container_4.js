@@ -1,9 +1,24 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import './container_4.css';
 import iarcblack from './../components/images/iarcblack.png'
 
 
 class CONTAINER4 extends React.Component {
+  componentDidMount() {
+    this.ensureVisible();
+  }
+
+  componentDidUpdate() {
+    this.ensureVisible();
+  }
+
+  ensureVisible() {
+    if (this.props.active === 'aboutIarc') {
+      console.log(ReactDOM.findDOMNode(this))
+      this.props.scrollIntoView(ReactDOM.findDOMNode(this));
+    }
+  }
     render() {
       return (
         <div className="container4">

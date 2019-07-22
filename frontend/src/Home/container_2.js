@@ -18,8 +18,8 @@ class CONTAINER2 extends React.Component {
                      <Link to="/Events/"><div className=""><button type="button" className="container-2-child-button-2"> Events </button></div></Link>
                   </MediaQuery>
                   <MediaQuery query='(min-width:414px)'>
-                    <div className=""> <a href="#aboutRaionzo"> <button type="button" className="container-2-child-button-1">About</button></a></div>
-                    <div className=""><a href="#aboutIarc"> <button type="button" className="container-2-child-button-2"> IARC </button></a></div>
+                    <div className=""> <div onClick={this.props.handleClick('aboutRaionzo')}> <button type="button" className="container-2-child-button-1">About</button></div></div>
+                    <div className=""><a onClick={this.props.handleClick('aboutIarc')}> <button type="button" className="container-2-child-button-2"> IARC </button></a></div>
                   </MediaQuery>
                 </div>
             </div>
