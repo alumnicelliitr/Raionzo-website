@@ -44,7 +44,7 @@ function timing(props) {
 	                 <p className='dat'>31st August<br/>3 PM</p>
 	             </a>
 	             <a href={ml} className='date' target="_blank">
-	                 <p className='namm'><u>ML/AI</u></p>
+	                 <p className='namm'><u>Machine Learning</u></p>
 	                 <p className='dat'>31st August<br/>3 PM</p>
 	             </a>
 	             <a href="" className='date' target="_blank">
