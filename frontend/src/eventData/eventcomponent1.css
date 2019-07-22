@@ -246,7 +246,11 @@ margin-top: 1em;
     background: transparent;
     font-size: 11px;
 }
-
+.dat {
+    color: #E7A908;
+    font-size: 15px;
+    margin: 15% 7%;
+}
       .event-register{
         display: none;
       }

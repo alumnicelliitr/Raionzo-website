@@ -19,7 +19,7 @@ function panelicons(props) {
 	{var url=num;
 		return (
 			    <div className='main'>
-			        <Mediaquery query='(min-width:414px)'>
+			        <Mediaquery query='(min-width:415px)'>
 			         <div className='icons'>
 			         	<div className='icon1'></div>
 			         	<div className='icon2'></div>
@@ -44,7 +44,7 @@ function panelicons(props) {
 	{url=num-2;
 		return (
 			<div className='main'>
-			    <Mediaquery query='(min-width:414px)'>
+			    <Mediaquery query='(min-width:415px)'>
 			    <div className='icons'>
 			    	<Link to={state.url[url]} className='icon5'>
 			    	<img className="leftarrow" src={leftarrow} alt=''/>
@@ -70,7 +70,7 @@ function panelicons(props) {
 		url=num-2;
 		return (
 			<div className='main'>
-			     <Mediaquery query='(min-width:414px)'>
+			     <Mediaquery query='(min-width:415px)'>
 			     <div className='icons'>
 			     	<Link to={state.url[url]} className='icon5'>
 			     	<img className="leftarrow" src={leftarrow} alt='' />

@@ -52,28 +52,28 @@ function timing(props) {
 	return ( <div className='timing'>
 	             <div className='date'>
 	                 <img className='timing-icons' src={date} alt=''></img>
-	                 <MediaQuery query="(min-device-width: 414px)">
+	                 <MediaQuery query="(min-device-width: 415px)">
 	                 <p className='nam'>Date</p>
 	                 </MediaQuery>
 	                 <p className='dat'>{props.date}</p>
 	             </div>
 	             <div className='date'>
 	                 <img className='timing-icons' src={time} alt=''></img>
-	                 <MediaQuery query="(min-device-width: 414px)">
+	                 <MediaQuery query="(min-device-width: 415px)">
 	                 <p className='nam'>Time</p>
 	                  </MediaQuery>
 	                 <p className='dat'>{props.time}</p>
 	             </div>
 	             <div className='date'>
 	                 <img className='timing-icons spec' src={map} alt=''></img>
-	                 <MediaQuery query="(min-device-width: 414px)">
+	                 <MediaQuery query="(min-device-width: 415px)">
 	                 <p className='nam'>Venue</p>
 	                  </MediaQuery>
 	                 <p className='dat'>MAC IIT,<br/>Roorkee</p>
 	             </div>
 	             <div className='date'>
 	                 <img className='timing-icons' src={contact} alt=''></img>
-	                 <MediaQuery query="(min-device-width: 414px)">
+	                 <MediaQuery query="(min-device-width: 415px)">
 	                 <p className='nam'>Contact</p>
 	                  </MediaQuery>
 	                 <p className='dat'>9833020496,<br/>9833020496</p>

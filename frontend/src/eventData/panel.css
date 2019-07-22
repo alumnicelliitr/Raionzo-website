@@ -235,14 +235,14 @@
     .timing{
         height: 156px;
     }
-    .nam, .nam2{
-        margin: 0;
-    }
+    .nam, .nam2 {
+    margin: 15% 10% 10% 10%;
+}
 .nam {
     font-size: 21px;
 }
 .dat {
-    margin: 17% 1%;
+    margin: 9% 1%;
     font-size: 15px;
     line-height: 22px;
 }
@@ -313,6 +313,7 @@
     margin-left:256px;
 }
 .icon1{
+    color:#E7A908;
     height: 16px;
     width: 16px;
     line-height: 16px;
