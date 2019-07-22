@@ -25,6 +25,12 @@
 	background-color: black;
 }
 
+.speaker-purp{
+	margin-top: 1em;
+	font-size: 25px;
+	font-weight: bold;
+}
+
 .speaker-box{
 	height: 470px;
 	background-color: #E7A908;

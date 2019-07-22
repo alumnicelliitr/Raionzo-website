@@ -8,8 +8,9 @@ import Speaker from './speaker.js';
 class EventMainContainer extends React.Component{
 	state={
 	num:6,
-	date:'31 August',
-	time:'7:00 PM Onwards '
+	date:'1st September',
+	time:'7:00 PM Onwards ',
+  venue: 'MAC Audi'
 };
 
 openLink(){
@@ -30,7 +31,8 @@ students followed by a valedictory session."
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}
 	            time={this.state.time}
-	            page={this.state.num}/>
+	            page={this.state.num}
+              venue={this.state.venue}/>
     </div>
 		</div>
   );

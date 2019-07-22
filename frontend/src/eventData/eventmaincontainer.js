@@ -4,6 +4,7 @@ import Timing from './timing'
 import React from 'react';
 import Speaker from './speaker.js';
 import  EventComponent1  from './eventcomponent1.js';
+import img4 from '../components/images/pankaj.jpeg'
 
 
 class EventMainContainer extends React.Component{
@@ -44,6 +45,7 @@ class EventMainContainer extends React.Component{
         <li data-target="#myCarousel" data-slide-to="5"></li>
         <li data-target="#myCarousel" data-slide-to="6"></li>
         <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
       </ol>
       <div className="carousel-inner">
         <div className="item active">
@@ -53,19 +55,22 @@ class EventMainContainer extends React.Component{
          <Speaker speakername="PN Pandey" speakercontent="IRS , WCO Senior Management" speakerimg="https://media.licdn.com/dms/image/C5603AQGVcdvLGOgOPw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=f-kucYfns74nrW65gb-FMGAHK3wf4z0oRDOw4w0dm_4" />
         </div>
         <div className="item">
-         <Speaker speakername="Amit Sinha" speakercontent="IG Dehradun" speakerimg="https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50" />
+         <Speaker speakername="Amit Sinha" speakercontent="IPS IG Uttarakhand" speakerimg="https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50" />
         </div>
         <div className="item">
-         <Speaker speakername="Dr. Nirmaljeet Singh Kalsi" speakercontent="Additionnal Chief secretary (Govt of Punjab)" speakerimg="https://media.licdn.com/dms/image/C5103AQE8FabyBM2uKQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=CoFqiqb6p-xvkpBnIuiDtHMNQ3IgGMSrbbbTW-3YGUo" />
+         <Speaker speakername="Dr. Nirmaljeet Singh Kalsi" speakercontent="Additional Chief secretary (Govt of Punjab)" speakerimg="https://media.licdn.com/dms/image/C5103AQE8FabyBM2uKQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=CoFqiqb6p-xvkpBnIuiDtHMNQ3IgGMSrbbbTW-3YGUo" />
         </div>
         <div className="item">
-         <Speaker speakername="Reena Dayal Yadav" speakercontent="Director at The garage India | IEEE" speakerimg="https://media.licdn.com/dms/image/C5103AQHgG5KyZdyuqA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=tyLoeUj0A9Ml6iYa_QVoB4veTz6QIkO4lSVzXm1lktE" />
+         <Speaker speakername="Reena Dayal Yadav" speakercontent="Director at The Garage India | IEEE" speakerimg="https://media.licdn.com/dms/image/C5103AQHgG5KyZdyuqA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=tyLoeUj0A9Ml6iYa_QVoB4veTz6QIkO4lSVzXm1lktE" />
         </div>
         <div className="item">
-         <Speaker speakername="Sumedha Lamaye" speakercontent="Sr. Director of Engg at Intel " speakerimg="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/p160x160/53835448_10211102128948114_3046006044867166208_n.jpg?_nc_cat=107&_nc_oc=AQl_HvC7zb0kgYAHBI8X2slSnJ2HPDuok5fD7-kgsFQpvgPcu_ff5JQyOv1zw9rWyq8&_nc_ht=scontent-bom1-1.xx&oh=ddb0f04cc6e0b8cc3b63edfe2d701185&oe=5DB6872C" />
+         <Speaker speakername="Sumedha Lamaye" speakercontent="Sr. Director of Engg at Intel" speakerimg="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/p160x160/53835448_10211102128948114_3046006044867166208_n.jpg?_nc_cat=107&_nc_oc=AQl_HvC7zb0kgYAHBI8X2slSnJ2HPDuok5fD7-kgsFQpvgPcu_ff5JQyOv1zw9rWyq8&_nc_ht=scontent-bom1-1.xx&oh=ddb0f04cc6e0b8cc3b63edfe2d701185&oe=5DB6872C" />
         </div>
         <div className="item">
          <Speaker speakername="Akshita Dhankar" speakercontent="Product Analyst -Dunzo" speakerimg="https://media.licdn.com/dms/image/C4E03AQGROdP6pp7mHg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=IQjq2oQcdqRxfSO7iPsS_-PqFqkL7gNUgCc2eghaIZ8" />
+        </div>
+        <div className="item">
+         <Speaker speakername="Pankaj Shrivastava" speakercontent="Additional Manager-BHEL" speakerimg={img4} />
         </div>
         <div className="item">
          <Speaker speakername="Naveen Dhillon" speakercontent="CEO Antriex Technologies" speakerimg="https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0" />

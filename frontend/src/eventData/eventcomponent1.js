@@ -7,8 +7,8 @@ import ideapitch from '../components/docs/Idea-pitch.pdf';
 
 class EventComponent1 extends React.Component{
     openLink(name){
-      if (name==="Idea Pitch Competition")
-        window.open("", "_blank");
+      if (name==="Idea-Pitch Competition")
+        window.open("https://forms.gle/wRKoVb8BhQUKVWj96", "_blank");
       else
         window.open("https://forms.gle/WXibEXz7xSgZDELt7", "_blank");
     }

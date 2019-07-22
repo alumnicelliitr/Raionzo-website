@@ -33,7 +33,7 @@ class CONTAINER2 extends React.Component {
                      </div>
                    </div>
                    <div className="registernowbutton">
-                   <Link to="/Events/"><button type="button" className="registernow"> Register Now</button></Link>
+                   <Link to="/Events/"><button type="button" className="registernow">Register Now</button></Link>
                    </div>
                </div>
              </MediaQuery>  

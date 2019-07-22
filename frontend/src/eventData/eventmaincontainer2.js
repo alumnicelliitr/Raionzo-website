@@ -8,8 +8,9 @@ import Speaker from './speaker.js';
 class EventMainContainer extends React.Component{
 	state={
 	num:2,
-	date:'01 September',
-	time:'2 PM'
+	date:'1st September',
+	time:'2 PM',
+  venue:'MAC Audi'
 };
 
 openLink(){
@@ -33,7 +34,8 @@ openLink(){
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}
 	            time={this.state.time}
-	            page={this.state.num}/>
+	            page={this.state.num}
+              venue={this.state.venue}/>
     </div>
   
   <div id="myCarousel" className="carousel slide" data-ride="carousel">
@@ -50,7 +52,7 @@ openLink(){
          <Speaker speakername="Nitesh Jain" speakercontent="Business Strategy | Paytm" speakerimg="https://media.licdn.com/dms/image/C5603AQFEhu4P2Xhmkg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=S9VOH6mBskysYb9FKiAfzemVWeGo-VpvDzNep9vfO_s" />
         </div>
         <div className="item">
-         <Speaker speakername="Varun Goel" speakercontent="HR Bhel" speakerimg="https://media.licdn.com/dms/image/C4D03AQGeJnUCBcCJhA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=4nXV_5ez4realEXeJLiDr-QEBjUc-AAyM1JpsRdWjhQ" />
+         <Speaker speakername="Varun Goel" speakercontent="HR BHEL" speakerimg="https://media.licdn.com/dms/image/C4D03AQGeJnUCBcCJhA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=4nXV_5ez4realEXeJLiDr-QEBjUc-AAyM1JpsRdWjhQ" />
         </div>
         <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
           <span className="glyphicon glyphicon-chevron-left control-but"></span>
