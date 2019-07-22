@@ -18,6 +18,7 @@ class Speaker extends Component {
 						<div className="speaker-right">
 							<div className="speaker-name">{this.props.speakername}</div>
 							<div className="speaker-cont">{this.props.speakercontent}</div>
+							<div className="speaker-purp">{this.props.purp}</div>
 						</div>
 					</div>
 					<div className="speaker-footer">

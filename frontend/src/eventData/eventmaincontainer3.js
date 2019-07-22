@@ -12,8 +12,9 @@ import ideapitch from '../components/docs/Idea-pitch.pdf';
 class EventMainContainer extends React.Component{
 	state={
 	num:3,
-	date:'31 August',
-	time:'2:00 - 5:00 PM'
+	date:'1st September',
+	time:'10 AM',
+  venue:'LH'
 };
 
 openLink(){
@@ -23,10 +24,11 @@ openLink(){
   return (
   	<div>
   <EventComponent1 
-   eventinfodata=" The competition is open to all IITR students, where 
+   eventinfodata={`The competition is open to all IITR students, where 
    the students submit amusing, creative and feasible ideas for new 
    initiatives to increase student-alumni interaction in the upcoming 
-   years. The most feasible & practical idea wins the reward, worth Rs <b>49,000/-</b> "
+   years. The most feasible & practical idea wins the reward, worth Rs <b>49,000/-</b>. 
+   You can find the link to guidelines <a style="color: #E7A908" href=${ideapitch} target='_blank' > here </a>`}
    eventcontainerheading="Idea-Pitch Competition"
    eventcontainerbutton="Judges"
    eventcontainericon="three"
@@ -35,7 +37,8 @@ openLink(){
 	    <Panelicons  two={this.state.num}/>
 	    <Timing date={this.state.date}
 	            time={this.state.time}
-	            page={this.state.num}/>
+	            page={this.state.num}
+              venue={this.state.venue}/>
     </div>
 <div id="myCarousel" className="carousel slide" data-ride="carousel">
       <ol className="carousel-indicators car-indicators">
@@ -45,10 +48,10 @@ openLink(){
       </ol>
       <div className="carousel-inner">
         <div className="item active">
-        <Speaker speakername="Rajnish Khandelwal" speakercontent="Directo KIE Engg" speakerimg={img3} />
+        <Speaker speakername="Rajnish Khandelwal" speakercontent="Director KIE Engineering" speakerimg={img3} />
         </div>
         <div className="item">
-         <Speaker speakername="Rachna Singh" speakercontent="GE Research consultant" speakerimg="https://media.licdn.com/dms/image/C4E03AQEXZkzs41jNwg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=Jg1ZrW6gHOH1uMzqi2MRhawmRqXGrMdjJ0G-d7UAiHE" />
+         <Speaker speakername="Rachna Singh" speakercontent="GE Research Consultant" speakerimg="https://media.licdn.com/dms/image/C4E03AQEXZkzs41jNwg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=Jg1ZrW6gHOH1uMzqi2MRhawmRqXGrMdjJ0G-d7UAiHE" />
         </div>
         <div className="item">
          <Speaker speakername="Dinesh Pawar" speakercontent="Alumni Association Member and Entrepreneur" speakerimg={img} />
