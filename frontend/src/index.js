@@ -5,7 +5,7 @@ import App from './Home/App';
 import * as serviceWorker from './serviceWorker';
 import raionzoLogo from './components/images/raionzologo.png';
 import Navlink from './components/navlink.js';
-import { Route , NavLink, BrowserRouter as Router } from 'react-router-dom'
+import { Route , NavLink, HashRouter as Router } from 'react-router-dom'
 import Footer from './components/Footer.js'
 import events from './Events/events.js'
 import MediaQuery from 'react-responsive';
@@ -24,7 +24,7 @@ import speaker from './Speaker/speaker';
 
 
 const routing = (
-    <Router>
+    <Router >
     <ScrollToTop>
         <MediaQuery query="(min-device-width: 900px)">
 			<div className="nav-bar">

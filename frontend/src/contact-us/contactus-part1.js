@@ -49,6 +49,7 @@ class ContactPart1 extends React.Component {
   //   })
   // }
   submission = (e) => {
+    e.preventDefault()
     // this.toggle();
     // if(item.id){
     //   axios
@@ -63,7 +64,7 @@ class ContactPart1 extends React.Component {
    window.alert('Your response has been submitted. We will contact you soon');
    const data = this.state;
     axios
-      .post('http://localhost:8000/email/',{data})
+      .post('https://agile-scrubland-86328.herokuapp.com/email/',{data})
       .then(res => this.success());    
   }
 
