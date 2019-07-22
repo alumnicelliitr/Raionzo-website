@@ -204,11 +204,12 @@ function speaker (){
                             <p className='para'>UX Designer | Microsoft</p>
                        </div>
                        <div className='contbox'>
-                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQELyRrLTSJoJA/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=Yh_Kqzps55LT-HMUPOn69GNETh2J1oxH84E-3_xUnXE' className='circleimg'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C5603AQHPjb3cxHn4Ow/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=gSLYgYi7T67mMpZC4LIaya0Ap1_2PMeHToi4hJX2KTA' className='circleimg'>
                             </img>
-                             <h3 className='namee'>Sachin Kumar Tyagi</h3>
-                            <p className='para'>Business Development Manager, HSBC Global | FMS | CFA L-1</p>
+                             <h3 className='namee'>Vishnu Rajoria</h3>
+                            <p className='para'>Data Scientist | Decision Point Analytics</p>
                        </div>
+                       
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQFx-nnxFYh-HA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=3PAsS42EJ4rv8KRd878izwWRyWJfQtgt_n4qFkhINLY' className='circleimg'>
                             </img>
@@ -219,23 +220,12 @@ function speaker (){
                       </div>
 
                       </div>
-                      <div className="item">
-                      <div className="speaker-item">
-              
-                       <div className='contbox'>
-                            <img alt='' src='https://media.licdn.com/dms/image/C5603AQHPjb3cxHn4Ow/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=gSLYgYi7T67mMpZC4LIaya0Ap1_2PMeHToi4hJX2KTA' className='circleimg'>
-                            </img>
-                             <h3 className='namee'>Vishnu Rajoria</h3>
-                            <p className='para'>Data Scientist | Decision Point Analytics</p>
-                       </div>
-                      </div>
                       
-                      </div>
-                      <a className="left carousel-control car-control" href="#myCarousel4" data-slide="prev">
+                      <a className="left carousel-control car-control" href="#myCarousel4" data-slide="prev" style={{opacity: 0.5}}>
                          <span className="glyphicon glyphicon-chevron-left control-but"></span>
                          <span className="sr-only">Previous</span>
                        </a>
-                       <a className="right carousel-control car-control" href="#myCarousel4" data-slide="next">
+                       <a className="right carousel-control car-control" href="#myCarousel4" data-slide="next" style={{opacity: 0.5}}>
                          <span className="glyphicon glyphicon-chevron-right control-but"></span>
                          <span className="sr-only">Next</span>
                        </a>
@@ -246,4 +236,19 @@ function speaker (){
                  </div>
 		)
 }
-export default speaker
+export default speaker;
+
+/*
+<div className="item">
+                      <div className="speaker-item">
+                        <div className='contbox'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQELyRrLTSJoJA/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=Yh_Kqzps55LT-HMUPOn69GNETh2J1oxH84E-3_xUnXE' className='circleimg'>
+                            </img>
+                             <h3 className='namee'>Sachin Kumar Tyagi</h3>
+                            <p className='para'>Business Development Manager, HSBC Global | FMS | CFA L-1</p>
+                       </div>
+                       
+                      </div>
+                      
+                      </div>
+                      */

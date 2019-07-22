@@ -40,7 +40,6 @@ openLink(){
         <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div className="carousel-inner">
         <div className="item active">
@@ -52,9 +51,7 @@ openLink(){
         <div className="item">
          <Speaker speakername="Vishnu Rajoria" speakercontent="Data Scientist | Decision Point Analytics" purp="Machine Learning Workshop" speakerimg="https://media.licdn.com/dms/image/C5603AQHPjb3cxHn4Ow/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=gSLYgYi7T67mMpZC4LIaya0Ap1_2PMeHToi4hJX2KTA" />
         </div>
-        <div className="item">
-         <Speaker speakername="Sachin Kumar Tyagi" speakercontent="Business Development Manager, HSBC Global | FMS | CFA L-1" purp="Finance Workshop" speakerimg="https://media.licdn.com/dms/image/C5103AQELyRrLTSJoJA/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=Yh_Kqzps55LT-HMUPOn69GNETh2J1oxH84E-3_xUnXE" />
-        </div>
+        
         
         <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
           <span className="glyphicon glyphicon-chevron-left control-but"></span>
@@ -80,3 +77,7 @@ openLink(){
 }
 
 export default EventMainContainer;
+
+/* <div className="item">
+         <Speaker speakername="Sachin Kumar Tyagi" speakercontent="Business Development Manager, HSBC Global | FMS | CFA L-1" purp="Finance Workshop" speakerimg="https://media.licdn.com/dms/image/C5103AQELyRrLTSJoJA/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=Yh_Kqzps55LT-HMUPOn69GNETh2J1oxH84E-3_xUnXE" />
+        </div>*/
