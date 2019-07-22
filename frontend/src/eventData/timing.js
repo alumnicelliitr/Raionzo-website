@@ -16,7 +16,7 @@ function timing(props) {
 		return(
 			 <div className='timing'>
 			     <a href={intaff} className ='IA' target="_blank">
-			         <p className='nam'>International Affairs of India</p>
+			         <p className='nam'><u>International Affairs of India</u></p>
 			         <div className='nam2'>
 			             <p className='dat dd'>31st August</p>
 			             <p className='dat dd'>2 PM</p>
@@ -24,7 +24,7 @@ function timing(props) {
 			         </div>
 			     </a>
 			     <a href={womenintech} className ='IA' target="_blank">
-			         <p className='nam'>Women in Tech</p>
+			         <p className='nam'><u>Women in Tech</u></p>
 			         <div className='nam2'>
 			             <p className='dat dd'>1st September</p>
 			             <p className='dat dd'>11:30 AM</p>
@@ -36,20 +36,20 @@ function timing(props) {
 	if(props.page===4)
 		return(<div className='timing'>
 	             <a href={finance} className='date' target="_blank">
-                     <p className='namm'>Finance</p>
-	                 <p className='dat'>1st September<br/>3 PM</p>
+                     <p className='namm'><u>Finance</u></p>
+	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
 	             </a>
 	             <a href={design} className='date' target="_blank">
-	                 <p className='namm'>Design</p>
-	                 <p className='dat'>31st August<br/>3 PM</p>
+	                 <p className='namm'><u>Design</u></p>
+	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
 	             </a>
 	             <a href={ml} className='date' target="_blank">
-	                 <p className='namm'>ML/AI</p>
-	                 <p className='dat'>31st August<br/>3 PM</p>
+	                 <p className='namm'><u>ML/AI</u></p>
+	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
 	             </a>
 	             <a href="" className='date' target="_blank">
-	                 <p className='namm'>Web-D</p>
-	                 <p className='dat'>1st September<br/>3 PM</p>
+	                 <p className='namm'><u>Web-D</u></p>
+	                 <p className='dat'>31 August<br/>3 - 7 PM</p>
 	             </a>   
 	         </div>
 	         );
