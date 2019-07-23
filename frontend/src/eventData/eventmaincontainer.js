@@ -70,7 +70,7 @@ class EventMainContainer extends React.Component{
          <Speaker speakername="Akshita Dhankar" speakercontent="Product Analyst -Dunzo" speakerimg="https://media.licdn.com/dms/image/C4E03AQGROdP6pp7mHg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=IQjq2oQcdqRxfSO7iPsS_-PqFqkL7gNUgCc2eghaIZ8" />
         </div>
         <div className="item">
-         <Speaker speakername="Pankaj Shrivastava" speakercontent="Additional Manager-BHEL" speakerimg={img4} />
+         <Speaker speakername="Pankaj Srivastava" speakercontent="Additional General Manager-BHEL" speakerimg={img4} />
         </div>
         <div className="item">
          <Speaker speakername="Naveen Dhillon" speakercontent="CEO Antriex Technologies" speakerimg="https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0" />

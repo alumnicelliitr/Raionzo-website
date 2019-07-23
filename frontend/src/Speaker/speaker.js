@@ -41,7 +41,7 @@ function speaker (){
                       <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQE8FabyBM2uKQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=CoFqiqb6p-xvkpBnIuiDtHMNQ3IgGMSrbbbTW-3YGUo' className='circleimg'>
                             </img>
-                             <h3 className='namee'>Dr. Nirmaljeet singh kalsi </h3>
+                             <h3 className='namee'>Dr. Nirmaljeet Singh Kalsi </h3>
                             <p className='para'> Additionnal Chief secretary (Govt of Punjab)</p>
                        </div>
                        <div className='contbox'>
@@ -70,8 +70,8 @@ function speaker (){
                        <div className='contbox'>
                             <img alt='' src={img4} className='circleimg'>
                             </img>
-                             <h3 className='namee'>Pankaj Shrivastava</h3>
-                            <p className='para'>Additional Manager-BHEL</p>
+                             <h3 className='namee'>Pankaj Srivastava</h3>
+                            <p className='para'>Additional General Manager-BHEL</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0' className='circleimg'>
