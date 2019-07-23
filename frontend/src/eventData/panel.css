@@ -1,7 +1,6 @@
 *{
     box-sizing: content-box;
 }
-
 .main{
     display: flex;
     justify-content: center;
@@ -26,7 +25,7 @@
     vertical-align: baseline;
 }
 .icon1{
-	background-color: #F0F0F0;
+    background-color: #F0F0F0;
     width: 34px;
     height: 34px;
     border-radius: 31px;
@@ -34,8 +33,8 @@
 }
 .icon2 {
     text-decoration: none;
-	color: black;
-	text-align: center;
+    color: black;
+    text-align: center;
     line-height: 47px;
     font-size: 20px;
     background-color: #F0F0F0;
@@ -86,11 +85,11 @@
 
 .icon4{    
     text-decoration: none;
-	color: black;
-	text-align: center;
+    color: black;
+    text-align: center;
     line-height: 47px;
     font-size: 20px;
-	 background-color: #F0F0F0;
+     background-color: #F0F0F0;
     width: 44px;
     height: 44px;
     border-radius: 44px;
@@ -98,7 +97,7 @@
 
 }
 .icon5{
-	text-align: center;
+    text-align: center;
     line-height: 43px;
     background-color: #E7A908;
     width: 34px;
@@ -110,21 +109,21 @@
 .icon7{display: flex;}
 .icon7-text, .icon6-text{color:#E7A908;}
 .timing{
-	justify-content: center;
-	height: 260px;
-	width: 100%;
-	display: flex;
-	flex-direction: row;
+    justify-content: center;
+    height: 260px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     margin-bottom: 3em;
 }
 .timing-icons{
-	margin-top: 15%;
+    margin-top: 15%;
 }
 .date{
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-	background-color: black;
+    background-color: black;
     height: 100%;
     width: 18%;
     border-radius: 15px;
@@ -136,10 +135,10 @@
     font-size: 33px;
     color: #E7A908;
 }
-.dat {
+.dat ,.tad {
     margin: -2%;
     line-height: 34px;
-    color: white !important;
+    color: white;
     font-size: 22px;
 }
 .IA {
@@ -161,7 +160,7 @@
     margin-bottom: 20px;
 }
 .dd{
-	width: 50%;
+    width: 50%;
 }
 .dd1{width: 50%;
      margin-left: 5%;}
@@ -190,7 +189,7 @@
     .date{height: 95%;
           width: 21%;
           margin:0% 2%;}
-.dat {
+.dat,.tad {
     margin: -6%;
     font-size: 16px;
     line-height: 21px;
@@ -227,22 +226,31 @@
         width: 18%;
         margin-bottom: -5%;
 }
-    .dat {
+    .dat,.tad {
     margin: -3%;
     font-size: 16px;
     line-height: 23px;
 }
+.timing-icons {
+    margin-top: 8%;
+}
     .timing{
         height: 156px;
     }
-    .nam, .nam2{
-        margin: 0;
-    }
+    .nam {
+    margin: 6% 10% -22% 10%;
+}
+.nam3{
+    margin: -8% 10% -22% 10%;
+}
+.nam2 {
+    margin: -10% 10% -22% 10%;
+}
 .nam {
     font-size: 21px;
 }
-.dat {
-    margin: 17% 1%;
+.dat,.tad {
+    margin: 9% 1%;
     font-size: 15px;
     line-height: 22px;
 }
@@ -250,12 +258,17 @@
 @media only screen and (max-width: 414px){
 .timing{height: 285px;
             flex-wrap: wrap;}
-.dat {
-    font-size: 17px;
-    margin: -9%;
-    
-    font-weight: bold;
+.tad {
+    color: #E7A908;
+    font-size: 14px;
+    margin: 8% 7%;
 }
+.dat {
+    color: #E7A908;
+    font-size: 14px;
+    margin: 21% 7%;
+}
+
 .control-but:before{
     font-size: 20px !important;
     padding: 0.3em;
@@ -269,11 +282,12 @@
     width: 40%;
     height: 47%;
 }   .timing-icons {
-    width: 19%;
+    width: 17%;
 }
+
 .nam {
     font-weight: bold;
-    font-size: 21px;
+    font-size: 19px;
 }
 .icon5{    width: 75px;
     font-weight: 800;
@@ -312,7 +326,12 @@
 .iconfirst{
     margin-left:256px;
 }
+a:any-link {
+    color: #E7A908;
+    text-decoration: none;
+}
 .icon1{
+    color:#E7A908;
     height: 16px;
     width: 16px;
     line-height: 16px;
@@ -337,7 +356,11 @@
     color: #E7A908;
     text-decoration: none;
 }
-
+.namm {
+    text-decoration:none;
+    color: white;
+    margin-top: 18%;
+}
 .IA {
     margin: 1% 2%;
     width: 96%;
