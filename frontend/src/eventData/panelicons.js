@@ -58,7 +58,7 @@ function panelicons(props) {
 	 		    <Mediaquery query='(max-width:414px)'>
 	 		    <div className='icons'>
 			    	<Link to={state.url[url]} className='icon1 iconlast'>
-			    	<img className="leftarrow" src={rightarrowtwo} alt=''/>
+			    	<img className="leftarrow" src={leftarrowtwo} alt=''/>
 			    	PREV
 			        </Link>
 	 		    </div>
