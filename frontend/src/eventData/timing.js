@@ -16,7 +16,7 @@ function timing(props) {
 		return(
 			 <div className='timing'>
 			     <a href={intaff} className ='IA' target="_blank">
-			         <p className='nam'><u>International Affairs of India</u></p>
+			         <p className='nam nam3'><u>International Affairs of India</u></p>
 			         <div className='nam2'>
 			             <p className='dat dd'>31st August</p>
 			             <p className='dat dd'>2 PM</p>
@@ -24,7 +24,7 @@ function timing(props) {
 			         </div>
 			     </a>
 			     <a href={womenintech} className ='IA' target="_blank">
-			         <p className='nam'><u>Women in Tech</u></p>
+			         <p className='nam nam3'><u>Women in Tech</u></p>
 			         <div className='nam2'>
 			             <p className='dat dd'>1st September</p>
 			             <p className='dat dd'>11:30 AM</p>
@@ -37,19 +37,19 @@ function timing(props) {
 		return(<div className='timing'>
 	             <a href={finance} className='date' target="_blank">
                      <p className='namm'><u>Finance</u></p>
-	                 <p className='dat'>1st September<br/>3 PM</p>
+	                 <p className='tad'>1st September<br/>3 PM</p>
 	             </a>
 	             <a href={design} className='date' target="_blank">
 	                 <p className='namm'><u>Design</u></p>
-	                 <p className='dat'>31st August<br/>3 PM</p>
+	                 <p className='tad'>31st August<br/>3 PM</p>
 	             </a>
 	             <a href={ml} className='date' target="_blank">
 	                 <p className='namm'><u>Machine Learning</u></p>
-	                 <p className='dat'>31st August<br/>3 PM</p>
+	                 <p className='tad'>31st August<br/>3 PM</p>
 	             </a>
 	             <a href="" className='date' target="_blank">
 	                 <p className='namm'><u>Web-D</u></p>
-	                 <p className='dat'>1st September<br/>3 PM</p>
+	                 <p className='tad'>1st September<br/>3 PM</p>
 	             </a>   
 	         </div>
 	         );
