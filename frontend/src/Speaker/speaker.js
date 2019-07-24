@@ -65,7 +65,7 @@ function speaker (){
                             <img alt='' src='https://media.licdn.com/dms/image/C4E03AQGROdP6pp7mHg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=IQjq2oQcdqRxfSO7iPsS_-PqFqkL7gNUgCc2eghaIZ8' className='circleimg'>
                             </img>
                              <h3 className='namee'>Akshita Dhankar </h3>
-                            <p className='para'>Product Analyst -Dunzo</p>
+                            <p className='para'>Product Manager -Dunzo</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src={img4} className='circleimg'>

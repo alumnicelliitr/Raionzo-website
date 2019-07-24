@@ -67,7 +67,7 @@ class EventMainContainer extends React.Component{
          <Speaker speakername="Sumedha Lamaye" speakercontent="Sr. Director of Engg at Intel" speakerimg="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/p160x160/53835448_10211102128948114_3046006044867166208_n.jpg?_nc_cat=107&_nc_oc=AQl_HvC7zb0kgYAHBI8X2slSnJ2HPDuok5fD7-kgsFQpvgPcu_ff5JQyOv1zw9rWyq8&_nc_ht=scontent-bom1-1.xx&oh=ddb0f04cc6e0b8cc3b63edfe2d701185&oe=5DB6872C" />
         </div>
         <div className="item">
-         <Speaker speakername="Akshita Dhankar" speakercontent="Product Analyst -Dunzo" speakerimg="https://media.licdn.com/dms/image/C4E03AQGROdP6pp7mHg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=IQjq2oQcdqRxfSO7iPsS_-PqFqkL7gNUgCc2eghaIZ8" />
+         <Speaker speakername="Akshita Dhankar" speakercontent="Product Manager -Dunzo" speakerimg="https://media.licdn.com/dms/image/C4E03AQGROdP6pp7mHg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=IQjq2oQcdqRxfSO7iPsS_-PqFqkL7gNUgCc2eghaIZ8" />
         </div>
         <div className="item">
          <Speaker speakername="Pankaj Srivastava" speakercontent="Additional General Manager-BHEL" speakerimg={img4} />
