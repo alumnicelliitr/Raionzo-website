@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ff0ab9f5.chunk.css",
+    "main.js": "/static/js/main.aeafa7ce.chunk.js",
+    "main.js.map": "/static/js/main.aeafa7ce.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.119b30a4.chunk.js": "/static/js/2.119b30a4.chunk.js",
+    "static/js/2.119b30a4.chunk.js.map": "/static/js/2.119b30a4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.95ae8a467d55e5ccc9c91bb5cf0970a1.js": "/precache-manifest.95ae8a467d55e5ccc9c91bb5cf0970a1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ff0ab9f5.chunk.css.map": "/static/css/main.ff0ab9f5.chunk.css.map",
+    "static/media/Design.pdf": "/static/media/Design.a361f720.pdf",
+    "static/media/Finance.pdf": "/static/media/Finance.5fa06b75.pdf",
+    "static/media/Group.png": "/static/media/Group.01ca965b.png",
+    "static/media/Idea-pitch.pdf": "/static/media/Idea-pitch.4a5ff164.pdf",
+    "static/media/Int Affairs.pdf": "/static/media/Int Affairs.48e2b778.pdf",
+    "static/media/ML.pdf": "/static/media/ML.ae2269b5.pdf",
+    "static/media/Slide9.png": "/static/media/Slide9.eb478776.png",
+    "static/media/Women in Tech.pdf": "/static/media/Women in Tech.851fe701.pdf",
+    "static/media/five.png": "/static/media/five.728b5f85.png",
+    "static/media/four.png": "/static/media/four.0818aea9.png",
+    "static/media/iarcblack.png": "/static/media/iarcblack.3c7ae23e.png",
+    "static/media/iitrlogo.png": "/static/media/iitrlogo.6adbb442.png",
+    "static/media/one.png": "/static/media/one.31f6b199.png",
+    "static/media/pankaj.jpeg": "/static/media/pankaj.5b7ceed6.jpeg",
+    "static/media/rajnish.jpeg": "/static/media/rajnish.ba0b246b.jpeg",
+    "static/media/six.png": "/static/media/six.6c0bd860.png",
+    "static/media/three.png": "/static/media/three.34d8d700.png",
+    "static/media/two.png": "/static/media/two.a634f771.png"
+  }
+}
