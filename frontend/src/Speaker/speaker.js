@@ -10,7 +10,7 @@ function speaker (){
 	return(<div className='mainspeaker'>
 		         <div>
                  <div className='cont1'>
-                 <h1 className='headspeaker'>Panelist</h1>
+                 <h1 className='headspeaker'>Panellists</h1>
                  <div id="myCarousel1" className="carousel slide" data-ride="carousel">
                    
                    <div className="carousel-inner car-inner">
