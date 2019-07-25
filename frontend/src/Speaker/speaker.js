@@ -53,7 +53,7 @@ function speaker (){
                        <div className='contbox'>
                             <img alt='' src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/p160x160/53835448_10211102128948114_3046006044867166208_n.jpg?_nc_cat=107&_nc_oc=AQl_HvC7zb0kgYAHBI8X2slSnJ2HPDuok5fD7-kgsFQpvgPcu_ff5JQyOv1zw9rWyq8&_nc_ht=scontent-bom1-1.xx&oh=ddb0f04cc6e0b8cc3b63edfe2d701185&oe=5DB6872C" className='circleimg'>
                             </img>
-                            <h3 className='namee'>Sumedha Lamaye</h3>
+                            <h3 className='namee'>Sumedha Limaye</h3>
                             <p className='para'>Sr. Director of Engg at Intel</p>
                        </div>
                        
