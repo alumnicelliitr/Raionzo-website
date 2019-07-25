@@ -25,7 +25,7 @@ class EventMainContainer extends React.Component{
    eventinfodata=" Panel discussion will be held on the topics “International Affairs of India” 
    and “Women in Tech” where the audience will be exposed to various viewpoints and perspectives of the speakers."
    eventcontainerheading="Panel Discussion"
-   eventcontainerbutton="Panelists"
+   eventcontainerbutton="Panellists"
    eventcontainericon="one"
    disp="none"  />
    <div>
