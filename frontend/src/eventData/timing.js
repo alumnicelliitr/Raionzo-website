@@ -10,6 +10,7 @@ import design from '../components/docs/Design.pdf';
 import ml from '../components/docs/ML.pdf';
 import intaff from '../components/docs/Int Affairs.pdf';
 import womenintech from '../components/docs/Women in Tech.pdf';
+import webd from '../components/docs/Web-d.pdf';
 
 function timing(props) {
 	if(props.page===1)
@@ -47,7 +48,7 @@ function timing(props) {
 	                 <p className='namm'><u>Machine Learning</u></p>
 	                 <p className='tad'>31st August<br/>3 PM</p>
 	             </a>
-	             <a href="" className='date' target="_blank">
+	             <a href={webd} className='date' target="_blank">
 	                 <p className='namm'><u>Web-D</u></p>
 	                 <p className='tad'>1st September<br/>3 PM</p>
 	             </a>   
