@@ -25,7 +25,7 @@ class EventMainContainer extends React.Component{
    eventinfodata=" Panel discussion will be held on the topics “International Affairs of India” 
    and “Women in Tech” where the audience will be exposed to various viewpoints and perspectives of the speakers."
    eventcontainerheading="Panel Discussion"
-   eventcontainerbutton="Panelists"
+   eventcontainerbutton="Panellists"
    eventcontainericon="one"
    disp="none"  />
    <div>
@@ -45,15 +45,13 @@ class EventMainContainer extends React.Component{
         <li data-target="#myCarousel" data-slide-to="5"></li>
         <li data-target="#myCarousel" data-slide-to="6"></li>
         <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>
+        
       </ol>
       <div className="carousel-inner">
         <div className="item active">
-         <Speaker speakername="Rajiv Yadav" speakercontent=" Ministry of Parliamentary Affairs at Indian Administrative Service (IAS)" speakerimg="https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY" />
+         <Speaker speakername="Rajiv Yadav" speakercontent="Chairman, Brahmaputra Board, Government of India" speakerimg="https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY" />
         </div>
-        <div className="item">
-         <Speaker speakername="PN Pandey" speakercontent="IRS , WCO Senior Management" speakerimg="https://media.licdn.com/dms/image/C5603AQGVcdvLGOgOPw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=f-kucYfns74nrW65gb-FMGAHK3wf4z0oRDOw4w0dm_4" />
-        </div>
+        
         <div className="item">
          <Speaker speakername="Amit Sinha" speakercontent="IPS IG Uttarakhand" speakerimg="https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50" />
         </div>
