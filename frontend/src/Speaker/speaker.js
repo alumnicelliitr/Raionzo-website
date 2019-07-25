@@ -20,13 +20,13 @@ function speaker (){
                             <img alt='' src='https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY' className='circleimg'>
                             </img>
                              <h3 className='namee'>Rajiv Yadav </h3>
-                            <p className='para'> Ministry of Parliamentary Affairs at Indian Administrative Service (IAS)</p>
+                            <p className='para'>Chairman, Brahmaputra Board, Government of India</p>
                        </div>
                        <div className='contbox'>
-                            <img alt='' src='https://media.licdn.com/dms/image/C5603AQGVcdvLGOgOPw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=f-kucYfns74nrW65gb-FMGAHK3wf4z0oRDOw4w0dm_4' className='circleimg'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0' className='circleimg'>
                             </img>
-                            <h3 className='namee'>P.N Pandey</h3>
-                            <p className='para'>IRS , WCO Senior management</p>
+                             <h3 className='namee'>Naveen Dhillon </h3>
+                            <p className='para'>CEO-Antriex Technologies</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50' className='circleimg'>
@@ -73,12 +73,7 @@ function speaker (){
                              <h3 className='namee'>Pankaj Srivastava</h3>
                             <p className='para'>Additional General Manager-BHEL</p>
                        </div>
-                       <div className='contbox'>
-                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0' className='circleimg'>
-                            </img>
-                             <h3 className='namee'>Naveen Dhillon </h3>
-                            <p className='para'>CEO-Antriex Technologies</p>
-                       </div>
+                       
                        </div>
                       </div>
                       <a className="left carousel-control car-control" href="#myCarousel1" data-slide="prev">
