@@ -24,7 +24,7 @@ class events extends Component {
          <MediaQuery query='(max-width: 414px)'>
              <div className='eventmobile'>
                  <Contain1 index='0' num='1' name='PD' head='Panel Discussion' icon={one}/>
-                 <Contain1 index='0' num='2' name='PIT' head='Placement and Intership Talk' icon={two}/> 
+                 <Contain1 index='0' num='2' name='PIT' head='Placement and Internship Talk' icon={two}/> 
                  <Contain1 index='0' num='3' name='IPC' head='Idea-Pitch Competition' icon={three}/> 
                  <Contain1 index='0' num='4' name='GIW' head='Group Interactions and Workshops' icon={four}/> 
                  <Contain1 index='0' num='5' name='LT' head='Leadership Talk' icon={five}/> 
