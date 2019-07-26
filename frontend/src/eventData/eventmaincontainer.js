@@ -5,6 +5,7 @@ import React from 'react';
 import Speaker from './speaker.js';
 import  EventComponent1  from './eventcomponent1.js';
 import img4 from '../components/images/pankaj.jpeg'
+import img5 from '../components/images/manish.jpeg'
 
 
 class EventMainContainer extends React.Component{
@@ -45,6 +46,7 @@ class EventMainContainer extends React.Component{
         <li data-target="#myCarousel" data-slide-to="5"></li>
         <li data-target="#myCarousel" data-slide-to="6"></li>
         <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
         
       </ol>
       <div className="carousel-inner">
@@ -57,6 +59,9 @@ class EventMainContainer extends React.Component{
         </div>
         <div className="item">
          <Speaker speakername="Dr. Nirmaljeet Singh Kalsi" speakercontent="Additional Chief secretary (Govt of Punjab)" speakerimg="https://media.licdn.com/dms/image/C5103AQE8FabyBM2uKQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=CoFqiqb6p-xvkpBnIuiDtHMNQ3IgGMSrbbbTW-3YGUo" />
+        </div>
+        <div className="item">
+         <Speaker speakername="Manish Bhardwaj" speakercontent="Municipal Commissioner, Vadodara Municipal Corporation" speakerimg={img5} />
         </div>
         <div className="item">
          <Speaker speakername="Reena Dayal Yadav" speakercontent="Director at The Garage India | IEEE" speakerimg="https://media.licdn.com/dms/image/C5103AQHgG5KyZdyuqA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=tyLoeUj0A9Ml6iYa_QVoB4veTz6QIkO4lSVzXm1lktE" />

@@ -1,5 +1,5 @@
 a:any-link{
-	color:white;
+	color:white !important;
 	text-decoration: none;
 }
 a:active{
