@@ -6,6 +6,7 @@ import img from '../components/images/dinesh pawar.jpeg'
 import img3 from '../components/images/rajnish.jpeg'
 import img4 from '../components/images/pankaj.jpeg'
 import img5 from '../components/images/manish.jpeg'
+import img6 from '../components/images/umakant.jpeg'
 
 function speaker (){
 	return(<div className='mainspeaker'>
@@ -40,7 +41,7 @@ function speaker (){
                       <div className="item">
                       <div className="speaker-item">
                       <div className='contbox'>
-                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQE8FabyBM2uKQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=CoFqiqb6p-xvkpBnIuiDtHMNQ3IgGMSrbbbTW-3YGUo' className='circleimg'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQEB-ROhiGBP6w/profile-displayphoto-shrink_800_800/0?e=1570060800&v=beta&t=HQJJaMcMOTp7OTg3JHq7sogSthNOta_HSie64Qsl-sc' className='circleimg'>
                             </img>
                              <h3 className='namee'>Dr. Nirmaljeet Singh Kalsi </h3>
                             <p className='para'> Additionnal Chief secretary (Govt of Punjab)</p>
@@ -79,6 +80,17 @@ function speaker (){
                             </img>
                              <h3 className='namee'>Manish Bhardwaj</h3>
                             <p className='para'>Municipal Commissioner, Vadodara Municipal Corporation</p>
+                       </div>
+                       
+                       </div>
+                      </div>
+                      <div className="item">
+                      <div className="speaker-item">
+                      <div className='contbox'>
+                            <img alt='' src={img6} className='circleimg'>
+                            </img>
+                             <h3 className='namee'>Umakant Umarao</h3>
+                            <p className='para'>CEO MPRRA | Senior IAS</p>
                        </div>
                        
                        </div>
