@@ -6,7 +6,7 @@ import Speaker from './speaker.js';
 import  EventComponent1  from './eventcomponent1.js';
 import img4 from '../components/images/pankaj.jpeg'
 import img5 from '../components/images/manish.jpeg'
-
+import img6 from '../components/images/umakant.jpeg'
 
 class EventMainContainer extends React.Component{
 	state={
@@ -47,6 +47,7 @@ class EventMainContainer extends React.Component{
         <li data-target="#myCarousel" data-slide-to="6"></li>
         <li data-target="#myCarousel" data-slide-to="7"></li>
         <li data-target="#myCarousel" data-slide-to="8"></li>
+        <li data-target="#myCarousel" data-slide-to="9"></li>
         
       </ol>
       <div className="carousel-inner">
@@ -58,10 +59,13 @@ class EventMainContainer extends React.Component{
          <Speaker speakername="Amit Sinha" speakercontent="IPS IG Uttarakhand" speakerimg="https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50" />
         </div>
         <div className="item">
-         <Speaker speakername="Dr. Nirmaljeet Singh Kalsi" speakercontent="Additional Chief secretary (Govt of Punjab)" speakerimg="https://media.licdn.com/dms/image/C5103AQE8FabyBM2uKQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=CoFqiqb6p-xvkpBnIuiDtHMNQ3IgGMSrbbbTW-3YGUo" />
+         <Speaker speakername="Dr. Nirmaljeet Singh Kalsi" speakercontent="Additional Chief secretary (Govt of Punjab)" speakerimg="https://media.licdn.com/dms/image/C5103AQEB-ROhiGBP6w/profile-displayphoto-shrink_800_800/0?e=1570060800&v=beta&t=HQJJaMcMOTp7OTg3JHq7sogSthNOta_HSie64Qsl-sc" />
         </div>
         <div className="item">
          <Speaker speakername="Manish Bhardwaj" speakercontent="Municipal Commissioner, Vadodara Municipal Corporation" speakerimg={img5} />
+        </div>
+        <div className="item">
+         <Speaker speakername="Umakant Umarao" speakercontent="CEO MPRRA | Senior IAS" speakerimg={img6} />
         </div>
         <div className="item">
          <Speaker speakername="Reena Dayal Yadav" speakercontent="Director at The Garage India | IEEE" speakerimg="https://media.licdn.com/dms/image/C5103AQHgG5KyZdyuqA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=tyLoeUj0A9Ml6iYa_QVoB4veTz6QIkO4lSVzXm1lktE" />
