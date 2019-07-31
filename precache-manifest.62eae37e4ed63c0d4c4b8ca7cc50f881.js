@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5acfe60c9b60ebdd5704afca707a6f3a",
+    "revision": "e1d8bf259d2699003b63f3686b80101e",
     "url": "/index.html"
   },
   {
-    "revision": "b0f20708ddfdbb54ad7f",
-    "url": "/static/css/main.7a58caa9.chunk.css"
+    "revision": "9ed6467b1b615e24e276",
+    "url": "/static/css/main.3f223c9e.chunk.css"
   },
   {
-    "revision": "d4a9b03b6dc1f32a136f",
-    "url": "/static/js/2.119b30a4.chunk.js"
+    "revision": "7020d5498659c8ae7d10",
+    "url": "/static/js/2.62bef883.chunk.js"
   },
   {
-    "revision": "b0f20708ddfdbb54ad7f",
-    "url": "/static/js/main.95d34a6a.chunk.js"
+    "revision": "9ed6467b1b615e24e276",
+    "url": "/static/js/main.bcbc9239.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Slide9.eb478776.png"
   },
   {
+    "revision": "5b8031e9ec4992992c77d5e6e237db9a",
+    "url": "/static/media/Web-d.5b8031e9.pdf"
+  },
+  {
     "revision": "851fe7014ecba0e82e5f5fc256350bb2",
     "url": "/static/media/Women in Tech.851fe701.pdf"
   },
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6adbb442a0acb6291b773f531a562fb3",
     "url": "/static/media/iitrlogo.6adbb442.png"
+  },
+  {
+    "revision": "d76543509abe0e236d873e6006ddfe9b",
+    "url": "/static/media/manish.d7654350.jpeg"
   },
   {
     "revision": "31f6b199c280f775ae562899191ea601",
@@ -90,5 +98,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a634f7719dab53dc3d3db21ddc0ab5e1",
     "url": "/static/media/two.a634f771.png"
+  },
+  {
+    "revision": "cefea68fd2c0d01ffb428f0b5bc6e797",
+    "url": "/static/media/umakant.cefea68f.jpeg"
   }
 ]);
