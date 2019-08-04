@@ -178,7 +178,7 @@ function speaker (){
                             <img alt='' src='https://media.licdn.com/dms/image/C4E03AQEXZkzs41jNwg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=Jg1ZrW6gHOH1uMzqi2MRhawmRqXGrMdjJ0G-d7UAiHE' className='circleimg'>
                             </img>
                              <h3 className='namee'>Rachna Singh </h3>
-                            <p className='para'>GE Research consultant</p>
+                            <p className='para'>Innovation and Strategy Coach</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src={img} className='circleimg'>

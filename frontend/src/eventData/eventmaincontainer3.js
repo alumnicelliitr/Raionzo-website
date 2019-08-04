@@ -51,7 +51,7 @@ openLink(){
         <Speaker speakername="Rajnish Khandelwal" speakercontent="Director KIE Engineering" speakerimg={img3} />
         </div>
         <div className="item">
-         <Speaker speakername="Rachna Singh" speakercontent="GE Research Consultant" speakerimg="https://media.licdn.com/dms/image/C4E03AQEXZkzs41jNwg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=Jg1ZrW6gHOH1uMzqi2MRhawmRqXGrMdjJ0G-d7UAiHE" />
+         <Speaker speakername="Rachna Singh" speakercontent="Innovation and Strategy Coach" speakerimg="https://media.licdn.com/dms/image/C4E03AQEXZkzs41jNwg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=Jg1ZrW6gHOH1uMzqi2MRhawmRqXGrMdjJ0G-d7UAiHE" />
         </div>
         <div className="item">
          <Speaker speakername="Dinesh Pawar" speakercontent="Alumni Association Member and Entrepreneur" speakerimg={img} />

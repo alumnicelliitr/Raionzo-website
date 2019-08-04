@@ -19,6 +19,10 @@
   display: block;
 }
 
+.contact-call:hover{
+  cursor: pointer;
+}
+
 .contact-email-logo , .contact-call-logo{
   border:2px solid black;
   height:160px;
