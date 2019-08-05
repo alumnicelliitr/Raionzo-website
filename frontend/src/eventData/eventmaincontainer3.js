@@ -28,7 +28,7 @@ openLink(){
    the students submit amusing, creative and feasible ideas for new 
    initiatives to increase student-alumni interaction in the upcoming 
    years. The most feasible & practical idea wins the reward, worth Rs <b>49,000/-</b>. 
-   You can find the link to guidelines <a style="color: #E7A908" href=${ideapitch} target='_blank' > here </a>`}
+   You can find the link to guidelines <a style="color: #E7A908 !important" href=${ideapitch} target='_blank' > here </a>.`}
    eventcontainerheading="Idea-Pitch Competition"
    eventcontainerbutton="Judges"
    eventcontainericon="three"
