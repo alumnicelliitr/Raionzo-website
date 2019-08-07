@@ -3,17 +3,23 @@ import './contactus-part2.css'
 
 
 class ContactPart2 extends React.Component{
- 
+  constructor(props){
+    super(props);
+    this.srcollWin = this.scrollWin.bind(this);
+  }
+
+  scrollWin(x,y){
+    window.scrollBy(x,2000);
+  } 
+
 	render() {
   
   	return (<div>   
       <div className="Contact-us-2">
-      <a href="#phoneNo">
-          <div className="contact-call">
+          <div className="contact-call" onClick={this.scrollWin}>
             <div className="contact-call-logo"><i className="fas fa-phone"></i></div>
             <div className="contact-call-text">Call us</div>
           </div>
-          </a>
 
 
           <a href="#phoneNo">
