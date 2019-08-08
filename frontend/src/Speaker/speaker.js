@@ -44,7 +44,7 @@ function speaker (){
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQEB-ROhiGBP6w/profile-displayphoto-shrink_800_800/0?e=1570060800&v=beta&t=HQJJaMcMOTp7OTg3JHq7sogSthNOta_HSie64Qsl-sc' className='circleimg'>
                             </img>
                              <h3 className='namee'>Dr. Nirmaljeet Singh Kalsi </h3>
-                            <p className='para'> Additionnal Chief secretary (Govt of Punjab)</p>
+                            <p className='para'> Additional Chief secretary (Govt of Punjab)</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQHgG5KyZdyuqA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=tyLoeUj0A9Ml6iYa_QVoB4veTz6QIkO4lSVzXm1lktE' className='circleimg'>
