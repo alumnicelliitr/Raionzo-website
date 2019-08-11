@@ -234,26 +234,7 @@ function speaker (){
                       </div>
 
                       </div>
-                      
-                      <a className="left carousel-control car-control" href="#myCarousel4" data-slide="prev" style={{opacity: 0.5}}>
-                         <span className="glyphicon glyphicon-chevron-left control-but"></span>
-                         <span className="sr-only">Previous</span>
-                       </a>
-                       <a className="right carousel-control car-control" href="#myCarousel4" data-slide="next" style={{opacity: 0.5}}>
-                         <span className="glyphicon glyphicon-chevron-right control-but"></span>
-                         <span className="sr-only">Next</span>
-                       </a>
-                       </div>
-                 </div>
-                 </div>
-                 </div>
-                 </div>
-		)
-}
-export default speaker;
-
-/*
-<div className="item">
+                      <div className="item">
                       <div className="speaker-item">
                         <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQELyRrLTSJoJA/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=Yh_Kqzps55LT-HMUPOn69GNETh2J1oxH84E-3_xUnXE' className='circleimg'>
@@ -265,4 +246,20 @@ export default speaker;
                       </div>
                       
                       </div>
-                      */
+                      
+                      <a className="left carousel-control car-control" href="#myCarousel4" data-slide="prev">
+                         <span className="glyphicon glyphicon-chevron-left control-but"></span>
+                         <span className="sr-only">Previous</span>
+                       </a>
+                       <a className="right carousel-control car-control" href="#myCarousel4" data-slide="next">
+                         <span className="glyphicon glyphicon-chevron-right control-but"></span>
+                         <span className="sr-only">Next</span>
+                       </a>
+                       </div>
+                 </div>
+                 </div>
+                 </div>
+                 </div>
+		)
+}
+export default speaker;
