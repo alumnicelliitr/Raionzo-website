@@ -4,6 +4,7 @@ import Timing from './timing'
 import React from 'react';
 import  EventComponent1  from './eventcomponent1.js';
 import Speaker from './speaker.js';
+import img5 from '../components/images/nitesh.jpeg'
 
 class EventMainContainer extends React.Component{
 	state={
@@ -49,7 +50,7 @@ openLink(){
          <Speaker speakername="Himanshu Sirohi" speakercontent="Marketing head | Prega News" speakerimg="https://media.licdn.com/dms/image/C5603AQGBgEi7NRqqnQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p4mpvBFU-raNhy60zEeBLTcMJKpo-XoYqZZ2BzF-QEc" />
         </div>
         <div className="item">
-         <Speaker speakername="Nitesh Jain" speakercontent="Business Strategy | Paytm" speakerimg="https://media.licdn.com/dms/image/C5603AQFEhu4P2Xhmkg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=S9VOH6mBskysYb9FKiAfzemVWeGo-VpvDzNep9vfO_s" />
+         <Speaker speakername="Nitesh Jain" speakercontent="Business Strategy | Paytm" speakerimg={img5} />
         </div>
         <div className="item">
          <Speaker speakername="Varun Goel" speakercontent="HR BHEL" speakerimg="https://media.licdn.com/dms/image/C4D03AQGeJnUCBcCJhA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=4nXV_5ez4realEXeJLiDr-QEBjUc-AAyM1JpsRdWjhQ" />
