@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3dcfd7c2786bdf63261f996bb7fb6cc",
+    "revision": "078345a2eb5ecdc7807998f6f130e879",
     "url": "/index.html"
   },
   {
-    "revision": "831b5dbacff1d94b9fdc",
-    "url": "/static/css/main.d593d531.chunk.css"
+    "revision": "d6483548bcbb1918428a",
+    "url": "/static/css/main.6c2c3a03.chunk.css"
   },
   {
-    "revision": "32548fa4a1384af1aaf9",
-    "url": "/static/js/2.66c33084.chunk.js"
+    "revision": "8860da72fa083d11cabb",
+    "url": "/static/js/2.3bee7f2e.chunk.js"
   },
   {
-    "revision": "831b5dbacff1d94b9fdc",
-    "url": "/static/js/main.f4e03a0c.chunk.js"
+    "revision": "d6483548bcbb1918428a",
+    "url": "/static/js/main.7e80eeb5.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ML.ae2269b5.pdf"
   },
   {
+    "revision": "82d96cce99809e262816e4461c9dc926",
+    "url": "/static/media/Reena.82d96cce.jpg"
+  },
+  {
     "revision": "eb47877614f063108be299fddbdfdbb7",
     "url": "/static/media/Slide9.eb478776.png"
   },
@@ -72,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/iitrlogo.6adbb442.png"
   },
   {
-    "revision": "d76543509abe0e236d873e6006ddfe9b",
-    "url": "/static/media/manish.d7654350.jpeg"
+    "revision": "71e279f2474d214ac7f153822fb35ff0",
+    "url": "/static/media/nitesh.71e279f2.jpeg"
   },
   {
     "revision": "31f6b199c280f775ae562899191ea601",
