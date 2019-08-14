@@ -5,7 +5,6 @@ import leftarrow from '../components/images/leftarrow.png'
 import img from '../components/images/dinesh pawar.jpeg'
 import img3 from '../components/images/rajnish.jpeg'
 import img4 from '../components/images/pankaj.jpeg'
-import img5 from '../components/images/manish.jpeg'
 import img6 from '../components/images/umakant.jpeg'
 
 function speaker (){
@@ -76,17 +75,6 @@ function speaker (){
                             <p className='para'>Additional General Manager-BHEL</p>
                        </div>
                        <div className='contbox'>
-                            <img alt='' src={img5} className='circleimg'>
-                            </img>
-                             <h3 className='namee'>Manish Bhardwaj</h3>
-                            <p className='para'>Municipal Commissioner, Vadodara Municipal Corporation</p>
-                       </div>
-                       
-                       </div>
-                      </div>
-                      <div className="item">
-                      <div className="speaker-item">
-                      <div className='contbox'>
                             <img alt='' src={img6} className='circleimg'>
                             </img>
                              <h3 className='namee'>Umakant Umarao</h3>

@@ -5,7 +5,6 @@ import React from 'react';
 import Speaker from './speaker.js';
 import  EventComponent1  from './eventcomponent1.js';
 import img4 from '../components/images/pankaj.jpeg'
-import img5 from '../components/images/manish.jpeg'
 import img6 from '../components/images/umakant.jpeg'
 
 class EventMainContainer extends React.Component{
@@ -46,9 +45,7 @@ class EventMainContainer extends React.Component{
         <li data-target="#myCarousel" data-slide-to="5"></li>
         <li data-target="#myCarousel" data-slide-to="6"></li>
         <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>
-        <li data-target="#myCarousel" data-slide-to="9"></li>
-        
+        <li data-target="#myCarousel" data-slide-to="8"></li>        
       </ol>
       <div className="carousel-inner">
         <div className="item active">
@@ -60,9 +57,6 @@ class EventMainContainer extends React.Component{
         </div>
         <div className="item">
          <Speaker speakername="Dr. Nirmaljeet Singh Kalsi" speakercontent="Additional Chief secretary (Govt of Punjab)" speakerimg="https://media.licdn.com/dms/image/C5103AQEB-ROhiGBP6w/profile-displayphoto-shrink_800_800/0?e=1570060800&v=beta&t=HQJJaMcMOTp7OTg3JHq7sogSthNOta_HSie64Qsl-sc" />
-        </div>
-        <div className="item">
-         <Speaker speakername="Manish Bhardwaj" speakercontent="Municipal Commissioner, Vadodara Municipal Corporation" speakerimg={img5} />
         </div>
         <div className="item">
          <Speaker speakername="Umakant Umarao" speakercontent="CEO MPRRA | Senior IAS" speakerimg={img6} />
