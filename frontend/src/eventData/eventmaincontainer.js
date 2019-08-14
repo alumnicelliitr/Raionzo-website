@@ -6,6 +6,7 @@ import Speaker from './speaker.js';
 import  EventComponent1  from './eventcomponent1.js';
 import img4 from '../components/images/pankaj.jpeg'
 import img6 from '../components/images/umakant.jpeg'
+import img5 from '../components/images/Reena.jpg'
 
 class EventMainContainer extends React.Component{
 	state={
@@ -62,7 +63,7 @@ class EventMainContainer extends React.Component{
          <Speaker speakername="Umakant Umarao" speakercontent="CEO MPRRA | Senior IAS" speakerimg={img6} />
         </div>
         <div className="item">
-         <Speaker speakername="Reena Dayal Yadav" speakercontent="Director at The Garage India | IEEE" speakerimg="https://media.licdn.com/dms/image/C5103AQHgG5KyZdyuqA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=tyLoeUj0A9Ml6iYa_QVoB4veTz6QIkO4lSVzXm1lktE" />
+         <Speaker speakername="Reena Dayal Yadav" speakercontent="Director at The Garage India | IEEE" speakerimg={img5} />
         </div>
         <div className="item">
          <Speaker speakername="Sumedha Limaye" speakercontent="Sr. Director of Engg at Intel" speakerimg="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/p160x160/53835448_10211102128948114_3046006044867166208_n.jpg?_nc_cat=107&_nc_oc=AQl_HvC7zb0kgYAHBI8X2slSnJ2HPDuok5fD7-kgsFQpvgPcu_ff5JQyOv1zw9rWyq8&_nc_ht=scontent-bom1-1.xx&oh=ddb0f04cc6e0b8cc3b63edfe2d701185&oe=5DB6872C" />
