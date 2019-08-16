@@ -20,23 +20,26 @@ function speaker (){
                    <div className="carousel-inner car-inner">
                     <div className="item active">
                       <div className="speaker-item">
+                         <div className='contbox'>
+                            <img alt=''  src='https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24' className='circleimg'>
+                            </img>
+                             <h3 className='namee'>Navniet Sekera</h3>
+                            <p className='para'>IG Lucknow</p>
+                            <p className='purp'>International Affairs of India (Impact of Scrapping of Article 370 and 35A)</p>
+                         </div>
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY' className='circleimg'>
                             </img>
                              <h3 className='namee'>Rajiv Yadav </h3>
                             <p className='para'>Chairman, Brahmaputra Board, Government of India</p>
-                       </div>
-                       <div className='contbox'>
-                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0' className='circleimg'>
-                            </img>
-                             <h3 className='namee'>Naveen Dhillon </h3>
-                            <p className='para'>CEO-Antriex Technologies</p>
+                            <p className='purp'>International Affairs of India</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50' className='circleimg'>
                             </img>
                              <h3 className='namee'>Amit Sinha</h3>
-                            <p className='para'>IG Dehradoon</p>
+                            <p className='para'>IG Dehradun</p>
+                            <p className='purp'>International Affairs of India</p>
                        </div>
                       </div>
                       </div>
@@ -47,20 +50,23 @@ function speaker (){
                             </img>
                              <h3 className='namee'>Dr. Nirmaljeet Singh Kalsi </h3>
                             <p className='para'> Additional Chief secretary (Govt of Punjab)</p>
+                            <p className='purp'>International Affairs of India</p>
+                       </div>
+                       <div className='contbox'>
+                            <img alt='' src={img6} className='circleimg'>
+                            </img>
+                             <h3 className='namee'>Umakant Umarao</h3>
+                            <p className='para'>CEO MPRRA | Senior IAS</p>
+                            <p className='purp'>International Affairs of India</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src={img5} className='circleimg'>
                             </img>
-                             <h3 className='namee'>Reena Dayal Yadav </h3>
+                             <h3 className='namee'>Reena Dayal Yadav</h3>
                             <p className='para'> Director at The Garage India | IEEE</p>
+                            <p className='purp'>Women in Tech</p>
                        </div>
-                       <div className='contbox'>
-                            <img alt='' src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/p160x160/53835448_10211102128948114_3046006044867166208_n.jpg?_nc_cat=107&_nc_oc=AQl_HvC7zb0kgYAHBI8X2slSnJ2HPDuok5fD7-kgsFQpvgPcu_ff5JQyOv1zw9rWyq8&_nc_ht=scontent-bom1-1.xx&oh=ddb0f04cc6e0b8cc3b63edfe2d701185&oe=5DB6872C" className='circleimg'>
-                            </img>
-                            <h3 className='namee'>Sumedha Limaye</h3>
-                            <p className='para'>Sr. Director of Engg at Intel</p>
-                       </div>
-                       
+                                             
                        </div>
                       </div>
                       <div className="item">
@@ -68,23 +74,41 @@ function speaker (){
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C4E03AQGROdP6pp7mHg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=IQjq2oQcdqRxfSO7iPsS_-PqFqkL7gNUgCc2eghaIZ8' className='circleimg'>
                             </img>
-                             <h3 className='namee'>Akshita Dhankar </h3>
+                             <h3 className='namee'>Akshita Dhankar</h3>
                             <p className='para'>Product Manager -Dunzo</p>
+                            <p className='purp'>Women in Tech</p>
+
                        </div>
                        <div className='contbox'>
                             <img alt='' src={img4} className='circleimg'>
                             </img>
                              <h3 className='namee'>Pankaj Srivastava</h3>
                             <p className='para'>Additional General Manager-BHEL</p>
+                            <p className='purp'>Women in Tech</p>
+
                        </div>
                        <div className='contbox'>
-                            <img alt='' src={img6} className='circleimg'>
+                            <img alt='' src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/p160x160/53835448_10211102128948114_3046006044867166208_n.jpg?_nc_cat=107&_nc_oc=AQl_HvC7zb0kgYAHBI8X2slSnJ2HPDuok5fD7-kgsFQpvgPcu_ff5JQyOv1zw9rWyq8&_nc_ht=scontent-bom1-1.xx&oh=ddb0f04cc6e0b8cc3b63edfe2d701185&oe=5DB6872C" className='circleimg'>
                             </img>
-                             <h3 className='namee'>Umakant Umarao</h3>
-                            <p className='para'>CEO MPRRA | Senior IAS</p>
+                            <h3 className='namee'>Sumedha Limaye</h3>
+                            <p className='para'>Sr. Director of Engg at Intel</p>
+                            <p className='purp'>Women in Tech</p>
+
                        </div>
                        
                        </div>
+                      </div>
+                      <div className="item">
+                      <div className="speaker-item">
+                         <div className='contbox'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0' className='circleimg'>
+                            </img>
+                             <h3 className='namee'>Naveen Dhillon </h3>
+                            <p className='para'>CEO-Antriex Technologies</p>
+                            <p className='purp'>Women in Tech</p>
+
+                         </div>
+                      </div>     
                       </div>
                       <a className="left carousel-control car-control" href="#myCarousel1" data-slide="prev">
                          <span className="glyphicon glyphicon-chevron-left control-but"></span>
@@ -95,7 +119,7 @@ function speaker (){
                          <span className="sr-only">Next</span>
                        </a>
                        </div>
-
+                         
                        </div>
                  </div>
                  </div>
@@ -111,7 +135,7 @@ function speaker (){
                             <img alt=''  src='https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24' className='circleimg'>
                             </img>
                              <h3 className='namee'>Navniet Sekera</h3>
-                            <p className='para'>IG Lucknow | Baukhaal Tv Series</p>
+                            <p className='para'>IG Lucknow</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5603AQGBgEi7NRqqnQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p4mpvBFU-raNhy60zEeBLTcMJKpo-XoYqZZ2BzF-QEc' className='circleimg'>
@@ -132,7 +156,7 @@ function speaker (){
                        <div className='contbox'>
                             <img alt=''  src='https://media.licdn.com/dms/image/C4D03AQGeJnUCBcCJhA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=4nXV_5ez4realEXeJLiDr-QEBjUc-AAyM1JpsRdWjhQ' className='circleimg'>
                             </img>
-                             <h3 className='namee'>Varun Goel </h3>
+                             <h3 className='namee'>Varun Goel</h3>
                             <p className='para'>HR BHEL</p>
                        </div>
                        
@@ -207,12 +231,15 @@ function speaker (){
                             </img>
                              <h3 className='namee'>Viraj Verma</h3>
                             <p className='para'>UX Designer | Microsoft</p>
+                            <p className='purp'>Design Workshop</p>
+
                        </div>
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5603AQHPjb3cxHn4Ow/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=gSLYgYi7T67mMpZC4LIaya0Ap1_2PMeHToi4hJX2KTA' className='circleimg'>
                             </img>
                              <h3 className='namee'>Vishnu Rajoria</h3>
                             <p className='para'>Data Scientist | Decision Point Analytics</p>
+                            <p className='purp'>Machine Learning Workshop</p>
                        </div>
                        
                        <div className='contbox'>
@@ -220,6 +247,7 @@ function speaker (){
                             </img>
                              <h3 className='namee'>Subhash Patel</h3>
                             <p className='para'>Specialist Programmer at Infosys</p>
+                            <p className='purp'>Web-D Workshop</p>
                        </div>
                       
                       </div>
@@ -231,7 +259,8 @@ function speaker (){
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQELyRrLTSJoJA/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=Yh_Kqzps55LT-HMUPOn69GNETh2J1oxH84E-3_xUnXE' className='circleimg'>
                             </img>
                              <h3 className='namee'>Sachin Kumar Tyagi</h3>
-                            <p className='para'>Business Development Manager, HSBC Global | FMS | CFA L-1</p>
+                            <p className='para'>Business Development Manager, HSBC Global | FMS | CFA L2</p>
+                            <p className='purp'>Finance Workshop</p>
                        </div>
                        
                       </div>
