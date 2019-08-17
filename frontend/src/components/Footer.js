@@ -89,8 +89,9 @@ function Contact() {
 						<tr>
 							<td className="footer-contact-data"><img src={footerno} alt="Phone" className="contact-img" /></td>
 							<td className="footer-contact-data" id="phoneNo">
-								<div className="conatct-no">+91 8120792558</div>
-								<div className="conatct-no">+91 8889379722</div>
+								<div className="conatct-no"><b>Jay Modi (Convener)</b><br />+91 8120792558</div>
+								<div className="conatct-no"><b>Manshish Agrawal (Co-Convener)</b><br />+91 8889379722</div>
+								<div className="conatct-no"><b>Hitendra Singh (Co-Convener)</b><br />+91 7023513035</div>
 							</td>
 						</tr>
 						<tr>
