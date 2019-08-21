@@ -54,16 +54,16 @@ class EventMainContainer extends React.Component{
           <Speaker speakername="Navniet Sekera" purp="International Affairs of India (Impact of Scrapping of Article 370 and 35A)" speakercontent="IG Uttar Pradesh" speakerimg="https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24" />
         </div>
         <div className="item">
-         <Speaker speakername="Rajiv Yadav" purp="International Affairs of India" speakercontent="Chairman, Brahmaputra Board, Government of India" speakerimg="https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY" />
+         <Speaker speakername="Rajiv Yadav" purp="International Affairs of India (Sustainable Development)" speakercontent="Chairman, Brahmaputra Board, Government of India" speakerimg="https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY" />
         </div>
         <div className="item">
-         <Speaker speakername="Amit Sinha" purp="International Affairs of India" speakercontent="IPS IG Dehradun" speakerimg="https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50" />
+         <Speaker speakername="Amit Sinha" purp="International Affairs of India (Military Affairs)" speakercontent="IPS IG Dehradun" speakerimg="https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50" />
         </div>
         <div className="item">
-         <Speaker speakername="Dr. Nirmaljeet Singh Kalsi" purp="International Affairs of India" speakercontent="Additional Chief secretary (Govt of Punjab)" speakerimg="https://media.licdn.com/dms/image/C5103AQEB-ROhiGBP6w/profile-displayphoto-shrink_800_800/0?e=1570060800&v=beta&t=HQJJaMcMOTp7OTg3JHq7sogSthNOta_HSie64Qsl-sc" />
+         <Speaker speakername="Dr. Nirmaljeet Singh Kalsi" purp="International Affairs of India (New style of government and management)" speakercontent="Additional Chief secretary (Govt of Punjab)" speakerimg="https://media.licdn.com/dms/image/C5103AQEB-ROhiGBP6w/profile-displayphoto-shrink_800_800/0?e=1570060800&v=beta&t=HQJJaMcMOTp7OTg3JHq7sogSthNOta_HSie64Qsl-sc" />
         </div>
         <div className="item">
-         <Speaker speakername="Umakant Umarao" purp="International Affairs of India" speakercontent="CEO MPRRA | Senior IAS" speakerimg={img6} />
+         <Speaker speakername="Umakant Umarao" purp="International Affairs of India (Water Disputes)" speakercontent="CEO MPRRA | Senior IAS" speakerimg={img6} />
         </div>
         <div className="item">
          <Speaker speakername="Reena Dayal Yadav" purp="Women in Tech" speakercontent="Director at The Garage India | IEEE" speakerimg={img5} />
