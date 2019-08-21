@@ -32,14 +32,14 @@ function speaker (){
                             </img>
                              <h3 className='namee'>Rajiv Yadav </h3>
                             <p className='para'>Chairman, Brahmaputra Board, Government of India</p>
-                            <p className='purp'>International Affairs of India</p>
+                            <p className='purp'>International Affairs of India (Sustainable Development)</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50' className='circleimg'>
                             </img>
                              <h3 className='namee'>Amit Sinha</h3>
                             <p className='para'>IG Dehradun</p>
-                            <p className='purp'>International Affairs of India</p>
+                            <p className='purp'>International Affairs of India (Military Affairs)</p>
                        </div>
                       </div>
                       </div>
@@ -50,14 +50,14 @@ function speaker (){
                             </img>
                              <h3 className='namee'>Dr. Nirmaljeet Singh Kalsi </h3>
                             <p className='para'> Additional Chief secretary (Govt of Punjab)</p>
-                            <p className='purp'>International Affairs of India</p>
+                            <p className='purp'>International Affairs of India (New style of government and management)</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src={img6} className='circleimg'>
                             </img>
                              <h3 className='namee'>Umakant Umarao</h3>
                             <p className='para'>CEO MPRRA | Senior IAS</p>
-                            <p className='purp'>International Affairs of India</p>
+                            <p className='purp'>International Affairs of India (Water Disputes)</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src={img5} className='circleimg'>

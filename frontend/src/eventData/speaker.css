@@ -256,20 +256,20 @@
 	}
 	.speaker-name{
 		font-size: 18px;
-		line-height: 24px;
+		line-height: 22px;
 	}
 	.speaker-cont{
 		font-size: 10px;
-		line-height: 15px;
+		line-height: 13px;
 	}
 	.speaker-footer{
 		background-image: linear-gradient(to right, #C4C4C4 42%, #C4C4C4 20%, #F9BC1E 10%, #F9BC1E 28%)
 	}
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 400px){
 	.speaker-footer{
-		background-image: linear-gradient(to right, #C4C4C4 42.3%, #C4C4C4 20%, #F9BC1E 10%, #F9BC1E 27.7%)
+		background-image: linear-gradient(to right, #C4C4C4 41.7%, #C4C4C4 20%, #F9BC1E 10%, #F9BC1E 28.3%)
 	}
 	.speaker-box{
 		height: 190px;
@@ -278,11 +278,11 @@
 		height: 100px;
 	}
 	.speaker-name{
-		font-size: 17px;
-		line-height: 20px;
+		font-size: 16px;
+		line-height: 18px;
 	}
 	.speaker-cont{
-		font-size: 10px;
-		line-height: 12px;
+		font-size: 9px;
+		line-height: 10px;
 	}
 }
