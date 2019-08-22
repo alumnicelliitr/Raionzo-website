@@ -172,7 +172,10 @@ font-style: normal;
 }
 .contbox {
     width: 29%;
-    height: 165px;
+    height: 157px;
+}
+.circleimg{
+    height: 34%;
 }
 .namee {
     margin-top: 12%;
@@ -189,7 +192,9 @@ font-style: normal;
     margin-top: 29px;
     font-size: 20px;
 }
-
+.circleimg{
+    height: 30%;
+}
 .para, .purp{
     font-size: 6px;
 }
@@ -199,7 +204,7 @@ font-style: normal;
 }
 .contbox {
     width: 29%;
-    height: 160px;
+    height: 150px;
 }
 
 }
@@ -214,6 +219,6 @@ font-style: normal;
 
 .contbox {
     width: 29%;
-    height: 156px;
+    height: 142px;
 }
 }

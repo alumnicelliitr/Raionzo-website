@@ -32,7 +32,7 @@ import ScheduleDATA from './mobScheduleData'
                 </div>
                 <div className="mob-Schedule-Box">
                 <div className="mobile_schedule_heading">{this.state.mobScheduleHeadingDay3} </div>
-                    <ScheduleDATA schedulecol1="Web-D" schedulecol2="LHC" schedulecol3="3:00 PM"/>
+                    <ScheduleDATA schedulecol1="Machine Learning" schedulecol2="LHC" schedulecol3="3:00 PM"/>
                     <ScheduleDATA schedulecol1="Finance" schedulecol2="LHC" schedulecol3="3:00 PM"/>
                 </div>
                 <div className="mob-Schedule-Box">

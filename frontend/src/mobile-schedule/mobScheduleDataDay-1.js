@@ -29,7 +29,7 @@ class MobileScheduleDay1 extends React.Component{
         </div>
         <div className="mob-Schedule-Box">
             <div className="mobile_schedule_heading">{this.state.mobScheduleHeading3} </div>
-            <ScheduleDATA schedulecol1="Machine Learning" schedulecol2="LHC" schedulecol3="3 PM"/>
+            <ScheduleDATA schedulecol1="Web-D" schedulecol2="LHC" schedulecol3="3 PM"/>
             <ScheduleDATA schedulecol1="Design" schedulecol2="LHC" schedulecol3="3 PM"/>
         </div>
         </div>
