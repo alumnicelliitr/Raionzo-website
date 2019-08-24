@@ -42,7 +42,7 @@ openLink(){
 <div id="myCarousel" className="carousel slide" data-ride="carousel">
       <div className="carousel-inner">
         <div className="item active">
-         <Speaker speakername="Navniet Sekera" speakercontent="IG Uttar Pradesh" speakerimg="https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24" />
+         <Speaker speakername="Navniet Sekera" speakercontent="IG Police HQ, Uttar Pradesh" speakerimg="https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24" />
         </div>
         <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev" style={{opacity: 0.5}}>
           <span className="glyphicon glyphicon-chevron-left control-but"></span>

@@ -47,10 +47,10 @@ openLink(){
         <Speaker speakername="Viraj Verma" speakercontent="UX Designer | Microsoft" purp="Design Workshop" speakerimg="https://media.licdn.com/dms/image/C5103AQGt8ltIquWWzQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=Q-fWhdHPdP6hJYQhxaVc5aeWJWuqcH-3ljJD1AMp0jc" />
         </div>
         <div className="item">
-         <Speaker speakername="Subhash Patel" speakercontent="Specialist Programmer at Infosys" purp="Web-D Workshop" speakerimg="https://media.licdn.com/dms/image/C5103AQFx-nnxFYh-HA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=3PAsS42EJ4rv8KRd878izwWRyWJfQtgt_n4qFkhINLY" />
+         <Speaker speakername="Raj Garg" speakercontent="Founder CTO Chariot" purp="Web-D Workshop" speakerimg="https://media.licdn.com/dms/image/C4E03AQGni2nohgq6rw/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=Kxbw44AdFIqwkvLCHbR1nIGMuuKKtLLH3yqAYoF_5qY" />
         </div>
         <div className="item">
-         <Speaker speakername="Vishnu Rajoria" speakercontent="Data Scientist | Decision Point Analytics" purp="Machine Learning Workshop" speakerimg="https://media.licdn.com/dms/image/C5603AQHPjb3cxHn4Ow/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=gSLYgYi7T67mMpZC4LIaya0Ap1_2PMeHToi4hJX2KTA" />
+         <Speaker speakername="Anurag Sharma" speakercontent="Sr. Data Scientist at Decision Point Analytics" purp="Machine Learning Workshop" speakerimg="https://media.licdn.com/dms/image/C5103AQHr_uZs3R4yGg/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=_q_z0T86KBd_b7uhm1LMI3ktYL7qgYWkGaHFFjeYJuA" />
         </div>
         <div className="item">
          <Speaker speakername="Sachin Kumar Tyagi" speakercontent="Business Development Manager, HSBC Global | FMS | CFA L2" purp="Finance Workshop" speakerimg="https://media.licdn.com/dms/image/C5103AQELyRrLTSJoJA/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=Yh_Kqzps55LT-HMUPOn69GNETh2J1oxH84E-3_xUnXE" />

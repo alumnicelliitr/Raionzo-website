@@ -51,13 +51,13 @@ class EventMainContainer extends React.Component{
       </ol>
       <div className="carousel-inner">
       <div className="item active">
-          <Speaker speakername="Navniet Sekera" purp="International Affairs of India (Impact of Scrapping of Article 370 and 35A)" speakercontent="IG Uttar Pradesh" speakerimg="https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24" />
+          <Speaker speakername="Navniet Sekera" purp="International Affairs of India (Impact of Scrapping of Article 370 and 35A)" speakercontent="IG Police HQ, Uttar Pradesh" speakerimg="https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24" />
         </div>
         <div className="item">
          <Speaker speakername="Rajiv Yadav" purp="International Affairs of India (Sustainable Development)" speakercontent="Chairman, Brahmaputra Board, Government of India" speakerimg="https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY" />
         </div>
         <div className="item">
-         <Speaker speakername="Amit Sinha" purp="International Affairs of India (Military Affairs)" speakercontent="IPS IG Dehradun" speakerimg="https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50" />
+         <Speaker speakername="Amit Kumar Sinha" purp="International Affairs of India (Military Affairs)" speakercontent="IG FSL/Wireless, Dehradun" speakerimg="https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50" />
         </div>
         <div className="item">
          <Speaker speakername="Dr. Nirmaljeet Singh Kalsi" purp="International Affairs of India (New style of government and management)" speakercontent="Additional Chief secretary (Govt of Punjab)" speakerimg="https://media.licdn.com/dms/image/C5103AQEB-ROhiGBP6w/profile-displayphoto-shrink_800_800/0?e=1570060800&v=beta&t=HQJJaMcMOTp7OTg3JHq7sogSthNOta_HSie64Qsl-sc" />
@@ -66,19 +66,19 @@ class EventMainContainer extends React.Component{
          <Speaker speakername="Umakant Umarao" purp="International Affairs of India (Water Disputes)" speakercontent="CEO MPRRA | Senior IAS" speakerimg={img6} />
         </div>
         <div className="item">
-         <Speaker speakername="Reena Dayal Yadav" purp="Women in Tech" speakercontent="Director at The Garage India | IEEE" speakerimg={img5} />
+         <Speaker speakername="Reena Dayal Yadav" purp="Women in Tech (Technology influenced business world)" speakercontent="Director at The Garage India | IEEE" speakerimg={img5} />
         </div>
         <div className="item">
-         <Speaker speakername="Sumedha Limaye" purp="Women in Tech" speakercontent="Sr. Director of Engg at Intel" speakerimg="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/p160x160/53835448_10211102128948114_3046006044867166208_n.jpg?_nc_cat=107&_nc_oc=AQl_HvC7zb0kgYAHBI8X2slSnJ2HPDuok5fD7-kgsFQpvgPcu_ff5JQyOv1zw9rWyq8&_nc_ht=scontent-bom1-1.xx&oh=ddb0f04cc6e0b8cc3b63edfe2d701185&oe=5DB6872C" />
+         <Speaker speakername="Sumedha Limaye" purp="Women in Tech (How to approach work, career & self)" speakercontent="Sr. Director of Engg at Intel, Corp" speakerimg="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/p160x160/53835448_10211102128948114_3046006044867166208_n.jpg?_nc_cat=107&_nc_oc=AQl_HvC7zb0kgYAHBI8X2slSnJ2HPDuok5fD7-kgsFQpvgPcu_ff5JQyOv1zw9rWyq8&_nc_ht=scontent-bom1-1.xx&oh=ddb0f04cc6e0b8cc3b63edfe2d701185&oe=5DB6872C" />
         </div>
         <div className="item">
-         <Speaker speakername="Akshita Dhankar" purp="Women in Tech" speakercontent="Product Manager -Dunzo" speakerimg="https://media.licdn.com/dms/image/C4E03AQGROdP6pp7mHg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=IQjq2oQcdqRxfSO7iPsS_-PqFqkL7gNUgCc2eghaIZ8" />
+         <Speaker speakername="Akshita Dhankar" purp="Women in Tech (Societal influences, biases inequalities at workplace)" speakercontent="Product Manager -Dunzo" speakerimg="https://media.licdn.com/dms/image/C4E03AQGROdP6pp7mHg/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=IQjq2oQcdqRxfSO7iPsS_-PqFqkL7gNUgCc2eghaIZ8" />
         </div>
         <div className="item">
-         <Speaker speakername="Pankaj Srivastava" purp="Women in Tech" speakercontent="Additional General Manager-BHEL" speakerimg={img4} />
+         <Speaker speakername="Pankaj Srivastava" purp="Women in Tech (Perceiving issues of women in tech)" speakercontent="Additional General Manager-BHEL" speakerimg={img4} />
         </div>
         <div className="item">
-         <Speaker speakername="Naveen Dhillon" purp="Women in Tech" speakercontent="CEO Antriex Technologies" speakerimg="https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0" />
+         <Speaker speakername="Naveen Dhillon" purp="Women in Tech (Women in technical(core) entrepreneurship)" speakercontent="CEO Antriex Technologies" speakerimg="https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0" />
         </div>
         <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
           <span className="glyphicon glyphicon-chevron-left control-but"></span>
