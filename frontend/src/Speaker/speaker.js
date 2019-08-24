@@ -24,7 +24,7 @@ function speaker (){
                             <img alt=''  src='https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24' className='circleimg'>
                             </img>
                              <h3 className='namee'>Navniet Sekera</h3>
-                            <p className='para'>IG Lucknow</p>
+                            <p className='para'>IG Police HQ, Uttar Pradesh</p>
                             <p className='purp'>International Affairs of India (Impact of Scrapping of Article 370 and 35A)</p>
                          </div>
                        <div className='contbox'>
@@ -37,8 +37,8 @@ function speaker (){
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C5103AQEeEXWb7xIFNQ/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=YhRaGAMYtT6QvceAul5gaI6bd2txZ3rjP7iSrEWtj50' className='circleimg'>
                             </img>
-                             <h3 className='namee'>Amit Sinha</h3>
-                            <p className='para'>IG Dehradun</p>
+                             <h3 className='namee'>Amit Kumar Sinha</h3>
+                            <p className='para'>IG FSL/Wireless, Dehradun</p>
                             <p className='purp'>International Affairs of India (Military Affairs)</p>
                        </div>
                       </div>
@@ -64,7 +64,7 @@ function speaker (){
                             </img>
                              <h3 className='namee'>Reena Dayal Yadav</h3>
                             <p className='para'> Director at The Garage India | IEEE</p>
-                            <p className='purp'>Women in Tech</p>
+                            <p className='purp'>Women in Tech (Technology influenced business world)</p>
                        </div>
                                              
                        </div>
@@ -76,7 +76,7 @@ function speaker (){
                             </img>
                              <h3 className='namee'>Akshita Dhankar</h3>
                             <p className='para'>Product Manager -Dunzo</p>
-                            <p className='purp'>Women in Tech</p>
+                            <p className='purp'>Women in Tech (Societal influences, biases inequalities at workplace)</p>
 
                        </div>
                        <div className='contbox'>
@@ -84,15 +84,15 @@ function speaker (){
                             </img>
                              <h3 className='namee'>Pankaj Srivastava</h3>
                             <p className='para'>Additional General Manager-BHEL</p>
-                            <p className='purp'>Women in Tech</p>
+                            <p className='purp'>Women in Tech (Perceiving issues of women in tech)</p>
 
                        </div>
                        <div className='contbox'>
                             <img alt='' src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/p160x160/53835448_10211102128948114_3046006044867166208_n.jpg?_nc_cat=107&_nc_oc=AQl_HvC7zb0kgYAHBI8X2slSnJ2HPDuok5fD7-kgsFQpvgPcu_ff5JQyOv1zw9rWyq8&_nc_ht=scontent-bom1-1.xx&oh=ddb0f04cc6e0b8cc3b63edfe2d701185&oe=5DB6872C" className='circleimg'>
                             </img>
                             <h3 className='namee'>Sumedha Limaye</h3>
-                            <p className='para'>Sr. Director of Engg at Intel</p>
-                            <p className='purp'>Women in Tech</p>
+                            <p className='para'>Sr. Director of Engg at Intel, Corp</p>
+                            <p className='purp'>Women in Tech (How to approach work, career & self)</p>
 
                        </div>
                        
@@ -105,7 +105,7 @@ function speaker (){
                             </img>
                              <h3 className='namee'>Naveen Dhillon </h3>
                             <p className='para'>CEO-Antriex Technologies</p>
-                            <p className='purp'>Women in Tech</p>
+                            <p className='purp'>Women in Tech (Women in technical(core) entrepreneurship)</p>
 
                          </div>
                       </div>     
@@ -141,7 +141,7 @@ function speaker (){
                             <img alt='' src='https://media.licdn.com/dms/image/C5603AQGBgEi7NRqqnQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p4mpvBFU-raNhy60zEeBLTcMJKpo-XoYqZZ2BzF-QEc' className='circleimg'>
                             </img>
                              <h3 className='namee'>Himanshu Sirohi </h3>
-                            <p className='para'>Marketing head | Prega News</p>
+                            <p className='para'>Director, Digital Marketing, JLL</p>
                        </div>
                        <div className='contbox'>
                             <img alt='' src={img7} className='circleimg'>
@@ -157,7 +157,7 @@ function speaker (){
                             <img alt=''  src='https://media.licdn.com/dms/image/C4D03AQGeJnUCBcCJhA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=4nXV_5ez4realEXeJLiDr-QEBjUc-AAyM1JpsRdWjhQ' className='circleimg'>
                             </img>
                              <h3 className='namee'>Varun Goel</h3>
-                            <p className='para'>HR BHEL</p>
+                            <p className='para'>Dr. Manager (HR) | BHEL, Haridwar</p>
                        </div>
                        
                        </div>
@@ -198,8 +198,8 @@ function speaker (){
                        <div className='contbox'>
                             <img alt='' src={img} className='circleimg'>
                             </img>
-                             <h3 className='namee'>Dinesh Pawar</h3>
-                            <p className='para'>Alumni Association Member and Entrepreneur</p>
+                             <h3 className='namee'>Dinesh Singh Pawar</h3>
+                            <p className='para'>Joint Secretary, IITRAA</p>
                        </div>
                       </div>
                       </div>
@@ -235,18 +235,18 @@ function speaker (){
 
                        </div>
                        <div className='contbox'>
-                            <img alt='' src='https://media.licdn.com/dms/image/C5603AQHPjb3cxHn4Ow/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=gSLYgYi7T67mMpZC4LIaya0Ap1_2PMeHToi4hJX2KTA' className='circleimg'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQHr_uZs3R4yGg/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=_q_z0T86KBd_b7uhm1LMI3ktYL7qgYWkGaHFFjeYJuA' className='circleimg'>
                             </img>
-                             <h3 className='namee'>Vishnu Rajoria</h3>
-                            <p className='para'>Data Scientist | Decision Point Analytics</p>
+                             <h3 className='namee'>Anurag Sharma</h3>
+                            <p className='para'>Sr. Data Scientist at Decision Point Analytics</p>
                             <p className='purp'>Machine Learning Workshop</p>
                        </div>
                        
                        <div className='contbox'>
-                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQFx-nnxFYh-HA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=3PAsS42EJ4rv8KRd878izwWRyWJfQtgt_n4qFkhINLY' className='circleimg'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C4E03AQGni2nohgq6rw/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=Kxbw44AdFIqwkvLCHbR1nIGMuuKKtLLH3yqAYoF_5qY' className='circleimg'>
                             </img>
-                             <h3 className='namee'>Subhash Patel</h3>
-                            <p className='para'>Specialist Programmer at Infosys</p>
+                             <h3 className='namee'>Raj Garg</h3> 
+                            <p className='para'>Founder CTO Chariot</p>
                             <p className='purp'>Web-D Workshop</p>
                        </div>
                       
