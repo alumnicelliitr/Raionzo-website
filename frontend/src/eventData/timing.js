@@ -38,19 +38,19 @@ function timing(props) {
 		return(<div className='timing'>
 	             <a href={finance} className='date' target="_blank">
                      <p className='namm'><u>Finance</u></p>
-	                 <p className='tad'>1st September<br/>3 PM</p>
+	                 <p className='tad'>1st September<br/>2 PM</p>
 	             </a>
 	             <a href={design} className='date' target="_blank">
 	                 <p className='namm'><u>Design</u></p>
-	                 <p className='tad'>31st August<br/>3 PM</p>
+	                 <p className='tad'>31st August<br/>2 PM</p>
 	             </a>
 	             <a href={ml} className='date' target="_blank">
 	                 <p className='namm'><u>Machine Learning</u></p>
-	                 <p className='tad'>31st August<br/>3 PM</p>
+	                 <p className='tad'>31st August<br/>2 PM</p>
 	             </a>
 	             <a href={webd} className='date' target="_blank">
 	                 <p className='namm'><u>Web-D</u></p>
-	                 <p className='tad'>1st September<br/>3 PM</p>
+	                 <p className='tad'>1st September<br/>2 PM</p>
 	             </a>   
 	         </div>
 	         );
