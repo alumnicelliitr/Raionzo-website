@@ -22,7 +22,7 @@ import ScheduleDATA from './mobScheduleData'
                 <div className="mobile_schedule_heading">{this.state.mobScheduleHeadingDay0} </div>
                 <ScheduleDATA schedulecol1="Idea-pitch Competition" schedulecol2="LH" schedulecol3="10:00 AM"/>
                 <div className="mobile_schedule_heading">{this.state.mobScheduleHeadingDay1} </div>
-                <ScheduleDATA schedulecol1="Women in Tech" schedulecol2="LHC 101" schedulecol3="11:30 AM"/>
+                <ScheduleDATA schedulecol1="Women in Tech" schedulecol2="MAC Audi" schedulecol3="11:30 AM"/>
                 </div>
                 <div className="mob-Schedule-Box">
                 <div className="mobile_schedule_heading">{this.state.mobScheduleHeadingDay2} </div>
