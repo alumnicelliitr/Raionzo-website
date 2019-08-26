@@ -50,7 +50,7 @@ openLink(){
          <Speaker speakername="Raj Garg" speakercontent="Founder CTO Chariot" purp="Web-D Workshop" speakerimg="https://media.licdn.com/dms/image/C4E03AQGni2nohgq6rw/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=Kxbw44AdFIqwkvLCHbR1nIGMuuKKtLLH3yqAYoF_5qY" />
         </div>
         <div className="item">
-         <Speaker speakername="Anurag Sharma" speakercontent="Sr. Data Scientist at Decision Point Analytics" purp="Machine Learning Workshop" speakerimg="https://media.licdn.com/dms/image/C5103AQHr_uZs3R4yGg/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=_q_z0T86KBd_b7uhm1LMI3ktYL7qgYWkGaHFFjeYJuA" />
+         <Speaker speakername="Vishnu Rajoriya" speakercontent="Data Scientist | Decision Point Analytics" purp="Machine Learning Workshop" speakerimg="https://media.licdn.com/dms/image/C5603AQHPjb3cxHn4Ow/profile-displayphoto-shrink_800_800/0?e=1572480000&v=beta&t=QNDXuTLEdUuMP7OQ4a3GVyamD6CfcctLQgWZp-wouEI" />
         </div>
         <div className="item">
          <Speaker speakername="Sachin Kumar Tyagi" speakercontent="Business Development Manager, HSBC Global | FMS | CFA L2" purp="Finance Workshop" speakerimg="https://media.licdn.com/dms/image/C5103AQELyRrLTSJoJA/profile-displayphoto-shrink_800_800/0?e=1569456000&v=beta&t=Yh_Kqzps55LT-HMUPOn69GNETh2J1oxH84E-3_xUnXE" />

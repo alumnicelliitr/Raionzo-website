@@ -235,10 +235,10 @@ function speaker (){
 
                        </div>
                        <div className='contbox'>
-                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQHr_uZs3R4yGg/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=_q_z0T86KBd_b7uhm1LMI3ktYL7qgYWkGaHFFjeYJuA' className='circleimg'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C5603AQHPjb3cxHn4Ow/profile-displayphoto-shrink_800_800/0?e=1572480000&v=beta&t=QNDXuTLEdUuMP7OQ4a3GVyamD6CfcctLQgWZp-wouEI' className='circleimg'>
                             </img>
-                             <h3 className='namee'>Anurag Sharma</h3>
-                            <p className='para'>Sr. Data Scientist at Decision Point Analytics</p>
+                             <h3 className='namee'>Vishnu Rajoriya</h3>
+                            <p className='para'>Data Scientist | Decision Point Analytics</p>
                             <p className='purp'>Machine Learning Workshop</p>
                        </div>
                        
