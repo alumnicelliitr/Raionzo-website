@@ -46,14 +46,10 @@ class EventMainContainer extends React.Component{
         <li data-target="#myCarousel" data-slide-to="5"></li>
         <li data-target="#myCarousel" data-slide-to="6"></li>
         <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>   
-        <li data-target="#myCarousel" data-slide-to="9"></li>     
+        <li data-target="#myCarousel" data-slide-to="8"></li>       
       </ol>
       <div className="carousel-inner">
-      <div className="item active">
-          <Speaker speakername="Navniet Sekera" purp="International Affairs of India (Impact of Scrapping of Article 370 and 35A)" speakercontent="IG Police HQ, Uttar Pradesh" speakerimg="https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24" />
-        </div>
-        <div className="item">
+        <div className="item active">
          <Speaker speakername="Rajiv Yadav" purp="International Affairs of India (Sustainable Development)" speakercontent="Chairman, Brahmaputra Board, Government of India" speakerimg="https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY" />
         </div>
         <div className="item">

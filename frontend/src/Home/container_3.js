@@ -20,7 +20,7 @@ class CONTAINER3 extends React.Component {
     render() {
       return (
         <div  className="container3" >
-            <div className="container-3-child-heading"> About Raionzo</div>
+            <div className="container-3-child-heading">About Raionzo</div>
                 <div className="container-3-parent">
                     
                     <div className="container-3-child-1" ><img className="container-3-child" src={group} alt=""></img></div> 

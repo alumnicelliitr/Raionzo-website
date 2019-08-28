@@ -10,55 +10,98 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 6em;
     line-height: 8vw;
     color: #000000;
-    }
+}
+
 .container-4-parent
 {
     display: flex;
 }
+
 .container-4-image{
-    height:28vw;
-    width:24vw; 
-    margin-left:3vw;    
+    height:35em;
+    width: auto; 
+    margin-left:2em; 
+    margin-bottom: 5em;
+    margin-top: -5em;   
 }
+
 .container-4-child-body{
     margin-left:3vw;
     margin-top: 2vw;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 2vw;
-    line-height: 4vw;
-    color:white;
+    font-size: 2.2em;
+    line-height: 1.8em;
+    color: white;
+    margin-right: 8em;
 }
+
+@media only screen and (max-width:1200px){
+
+    .container-4-child-heading{
+        font-size: 4.7em;
+    }
+
+    .container-4-child-body{
+        font-size: 1.8em;
+        margin-right: 4em;
+    }
+
+    .container-4-image{
+        height:30em;
+        margin-left: 1em;
+    }
+
+}
+
+@media only screen and (max-width:800px){
+    .container-4-child-heading{
+        font-size: 4.7em;
+    }
+
+    .container-4-child-body{
+        font-size: 1.8em;
+        margin-right: 1em;
+    }
+    .container-4-image{
+        height:25em;
+        margin-left: 0.5em;
+    }
+}
+
 @media only screen and (max-width:600px)
 {
-    .container-4-child-heading{
-        font-size: 5vw;
-    }
     .container-4-child-body
     {
         font-weight: 500;
-        font-size: 3vw;
+        font-size: 1.5em;
         line-height: 5vw;
     }
+
+    .container-4-child-heading{
+        font-size: 4.7em;
+    }
+
     .container-4-image{
         height:32vw;
         width:32vw; 
         margin-left:2vw;   
     }
 }
+
 @media only screen and (max-width:414px)
 {
     .container4{
         background-color: #FFFFFF;
     }
     .container-4-child-heading {
-    line-height: 70px;
-}
-.container-4-child-body {
-    color: black;
-}
+        line-height: 70px;
+    }
+    .container-4-child-body {
+        color: black;
+    }
 }

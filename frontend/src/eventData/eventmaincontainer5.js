@@ -4,6 +4,8 @@ import Timing from './timing'
 import React from 'react';
 import  EventComponent1  from './eventcomponent1.js';
 import Speaker from './speaker.js';
+import img8 from '../components/images/ltgen.jpeg';
+
 
 class EventMainContainer extends React.Component{
 	state={
@@ -28,7 +30,7 @@ openLink(){
    Leadership skills within the students and also to provide guidance 
    to freshers about how to spend their time effectively during their 
    stay at IITR."
-   eventcontainerheading="Leadership Talk"
+   eventcontainerheading="Leadership Talks"
    eventcontainerbutton="Speakers"
    eventcontainericon="five"
    disp="none"  />
@@ -41,14 +43,20 @@ openLink(){
     </div>
 <div id="myCarousel" className="carousel slide" data-ride="carousel">
       <div className="carousel-inner">
-        <div className="item active">
-         <Speaker speakername="Navniet Sekera" speakercontent="IG Police HQ, Uttar Pradesh" speakerimg="https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24" />
+      <div className="item active">
+         <Speaker speakername="Retd. Lt. Gen. Vishwambhar Singh" speakercontent="Retired Lieutenant General" speakerimg={img8} />
         </div>
-        <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev" style={{opacity: 0.5}}>
+        <div className="item">
+         <Speaker speakername="Rajiv Yadav" speakercontent="Chairman, Brahmaputra Board, Government of India" speakerimg="https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY" />
+        </div>
+        <div className="item">
+         <Speaker speakername="Dr. Nirmaljeet Singh Kalsi" speakercontent="Additional Chief secretary (Govt of Punjab)" speakerimg="https://media.licdn.com/dms/image/C5103AQEB-ROhiGBP6w/profile-displayphoto-shrink_800_800/0?e=1570060800&v=beta&t=HQJJaMcMOTp7OTg3JHq7sogSthNOta_HSie64Qsl-sc" />
+        </div>
+        <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
           <span className="glyphicon glyphicon-chevron-left control-but"></span>
           <span className="sr-only">Previous</span>
         </a>
-        <a className="right carousel-control car-control" href="#myCarousel" data-slide="next" style={{opacity: 0.5}}>
+        <a className="right carousel-control car-control" href="#myCarousel" data-slide="next">
           <span className="glyphicon glyphicon-chevron-right control-but"></span>
           <span className="sr-only">Next</span>
         </a>

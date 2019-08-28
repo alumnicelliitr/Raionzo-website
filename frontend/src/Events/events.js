@@ -27,7 +27,7 @@ class events extends Component {
                  <Contain1 index='0' num='2' name='PIT' head='Placement and Internship Talk' icon={two}/> 
                  <Contain1 index='0' num='3' name='IPC' head='Idea-Pitch Competition' icon={three}/> 
                  <Contain1 index='0' num='4' name='GIW' head='Group Interactions and Workshops' icon={four}/> 
-                 <Contain1 index='0' num='5' name='LT' head='Leadership Talk' icon={five}/> 
+                 <Contain1 index='0' num='5' name='LT' head='Leadership Talks' icon={five}/> 
                  <Contain1 index='0' num='6' name='CN' head='Cultural Night' icon={six}/>
              </div>
          </MediaQuery>    
@@ -37,7 +37,7 @@ class events extends Component {
                  <Contain1 index='0' num='2' name='PIT' head='Placement and Intership Talk' icon={two}/> 
                  <Contain  index='0' num='3' name='IPC' head='Idea-Pitch Competition' icon={three}/> 
                  <Contain1 index='0' num='4' name='GIW' head='Group Interactions and Workshops' icon={four}/> 
-                 <Contain  index='0' num='5' name='LT' head='Leadership Talk' icon={five}/> 
+                 <Contain  index='0' num='5' name='LT' head='Leadership Talks' icon={five}/> 
                  <Contain1 index='0' num='6' name='CN' head='Cultural Night' icon={six}/>                    
              </div>
          </MediaQuery>    
