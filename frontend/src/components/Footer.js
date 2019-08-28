@@ -65,7 +65,7 @@ function Events() {
 			<div className="footer-events-cont footer-cont-all">
 				<div className="footer-list footer-list-events">
 				<Link to="/GIW/"><div>Group interactions and workshops</div></Link>
-					<Link to="/LT/"><div>Leadership talk</div></Link>
+					<Link to="/LT/"><div>Leadership talks</div></Link>
 					<Link to="/PD/"><div>Panel discussions</div></Link>
 					<Link to="/PIT/"><div>Placement and Internship talk</div></Link>
 					<Link to="/IPC/"><div>Idea-pitch competition</div></Link>

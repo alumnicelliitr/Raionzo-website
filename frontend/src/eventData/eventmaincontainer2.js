@@ -47,13 +47,13 @@ openLink(){
       </ol>
       <div className="carousel-inner">
         <div className="item active">
-         <Speaker speakername="Himanshu Sirohi" speakercontent="Director, Digital Marketing, JLL" speakerimg="https://media.licdn.com/dms/image/C5603AQGBgEi7NRqqnQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p4mpvBFU-raNhy60zEeBLTcMJKpo-XoYqZZ2BzF-QEc" />
+         <Speaker speakername="Himanshu Sirohi" purp="On Campus Internship" speakercontent="Director, Digital Marketing, JLL" speakerimg="https://media.licdn.com/dms/image/C5603AQGBgEi7NRqqnQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p4mpvBFU-raNhy60zEeBLTcMJKpo-XoYqZZ2BzF-QEc" />
         </div>
         <div className="item">
-         <Speaker speakername="Nitesh Jain" speakercontent="Business Strategy | Paytm" speakerimg={img5} />
+         <Speaker speakername="Nitesh Jain" purp="On Campus Placement" speakercontent="Business Strategy | Paytm" speakerimg={img5} />
         </div>
         <div className="item">
-         <Speaker speakername="Varun Goel" speakercontent="Dr. Manager (HR) | BHEL, Haridwar" speakerimg="https://media.licdn.com/dms/image/C4D03AQGeJnUCBcCJhA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=4nXV_5ez4realEXeJLiDr-QEBjUc-AAyM1JpsRdWjhQ" />
+         <Speaker speakername="Varun Goel" purp="Off campus Internship and Placement" speakercontent="Dr. Manager (HR) | BHEL, Haridwar" speakerimg="https://media.licdn.com/dms/image/C4D03AQGeJnUCBcCJhA/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=4nXV_5ez4realEXeJLiDr-QEBjUc-AAyM1JpsRdWjhQ" />
         </div>
         <a className="left carousel-control car-control" href="#myCarousel" data-slide="prev">
           <span className="glyphicon glyphicon-chevron-left control-but"></span>

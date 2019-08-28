@@ -10,10 +10,11 @@
 .container-2-child-heading
 {
     margin-left:3vw;
+    margin-top: 0.6em;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 4vw; 
+    font-size: 4em; 
     color: #FFFFFF;
     
 }
@@ -24,7 +25,7 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 3em;
     line-height: 2vw;
     color: #000000;
 }
@@ -74,7 +75,8 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight:bold;
-    font-size: 2vw;   
+    font-size: 2vw;
+    margin-left: 0.8em;   
 }
 .container-2-child-logos{
     margin-left:-4vw; 
@@ -84,15 +86,16 @@
 .container-2-child-logo-1
 {
 
-    width: 14vw;
-    height: 14vw;
+    height: 21em;
+    width: auto;
 }
 
 .container-2-child-logo-2
 {
 
-    width: 14vw;
-    height: 14vw;
+    width: 19em;
+    height: auto;
+    margin-right: 1em;
 
 }
 
@@ -100,6 +103,7 @@
 .registernow
 {
     margin-top: 1.5vw; 
+    margin-right: 0.9em;
     width: 20vw;
     height: 5vw;   
     color:white;
@@ -112,6 +116,24 @@
     font-weight: bold;
     font-size: 2vw;
 }
+@media only screen and (max-width:1250px){
+    .container-2-child-heading
+    {
+        font-size: 3em;
+    }
+    .container-2-child-date{
+        font-size: 2.2em;
+    }
+}
+@media only screen and (max-width:1000px){
+    .container-2-child-heading
+    {
+        font-size: 2.5em;
+    }
+    .container-2-child-date{
+        font-size: 1.8em;
+    }
+}
 @media only screen and (max-width:600px)
 {
 
@@ -119,6 +141,7 @@
         margin-left: 0px;
         margin-top: 10px;
     }
+
     .registernow
     {
         font-size:3vw;
@@ -134,11 +157,11 @@
     }
     .container-2-child-heading
     {
-        font-size: 5vw;
+        font-size: 1.6em;
     }
     .container-2-child-date
     {
-        font-size: 4vw;
+        font-size: 1.1em;
     }
     .container-2-child-button-1
     {
@@ -157,14 +180,14 @@
     }
     .container-2-child-logo-1
    {
-    width: 14vw;
-    height: 14vw;
+    height: 20em;
+    width: auto;
    }   
     .container-2-child-logo-2
     {
         margin-left: 1vw;
-        width: 14vw;
-        height: 14vw;
+        height: 20em;
+        width: auto;
     }
     .container-2-child-2{
         margin-right:4vw;
@@ -177,6 +200,14 @@
 {
     background-color:#FFFFFF; 
 }
+.container-2-child-heading
+    {
+        font-size: 1.4em;
+    }
+    .container-2-child-date
+    {
+        font-size: 0.9em;
+    }
 
 .container-2-child-heading
 { 

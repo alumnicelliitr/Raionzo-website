@@ -8,6 +8,7 @@ import img4 from '../components/images/pankaj.jpeg'
 import img6 from '../components/images/umakant.jpeg'
 import img5 from '../components/images/Reena.jpg'
 import img7 from '../components/images/nitesh.jpeg'
+import img8 from '../components/images/ltgen.jpeg'
 
 
 function speaker (){
@@ -20,13 +21,7 @@ function speaker (){
                    <div className="carousel-inner car-inner">
                     <div className="item active">
                       <div className="speaker-item">
-                         <div className='contbox'>
-                            <img alt=''  src='https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24' className='circleimg'>
-                            </img>
-                             <h3 className='namee'>Navniet Sekera</h3>
-                            <p className='para'>IG Police HQ, Uttar Pradesh</p>
-                            <p className='purp'>International Affairs of India (Impact of Scrapping of Article 370 and 35A)</p>
-                         </div>
+                         
                        <div className='contbox'>
                             <img alt='' src='https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY' className='circleimg'>
                             </img>
@@ -41,6 +36,13 @@ function speaker (){
                             <p className='para'>IG FSL/Wireless, Dehradun</p>
                             <p className='purp'>International Affairs of India (Military Affairs)</p>
                        </div>
+                       <div className='contbox'>
+                            <img alt='' src={img6} className='circleimg'>
+                            </img>
+                             <h3 className='namee'>Umakant Umarao</h3>
+                            <p className='para'>CEO MPRRA | Senior IAS</p>
+                            <p className='purp'>International Affairs of India (Water Disputes)</p>
+                       </div>
                       </div>
                       </div>
                       <div className="item">
@@ -52,13 +54,7 @@ function speaker (){
                             <p className='para'> Additional Chief secretary (Govt of Punjab)</p>
                             <p className='purp'>International Affairs of India (New style of government and management)</p>
                        </div>
-                       <div className='contbox'>
-                            <img alt='' src={img6} className='circleimg'>
-                            </img>
-                             <h3 className='namee'>Umakant Umarao</h3>
-                            <p className='para'>CEO MPRRA | Senior IAS</p>
-                            <p className='purp'>International Affairs of India (Water Disputes)</p>
-                       </div>
+                       
                        <div className='contbox'>
                             <img alt='' src={img5} className='circleimg'>
                             </img>
@@ -66,6 +62,14 @@ function speaker (){
                             <p className='para'> Director at The Garage India | IEEE</p>
                             <p className='purp'>Women in Tech (Technology influenced business world)</p>
                        </div>
+                       <div className='contbox'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0' className='circleimg'>
+                            </img>
+                             <h3 className='namee'>Naveen Dhillon </h3>
+                            <p className='para'>CEO-Antriex Technologies</p>
+                            <p className='purp'>Women in Tech (Women in technical(core) entrepreneurship)</p>
+
+                         </div>
                                              
                        </div>
                       </div>
@@ -98,18 +102,6 @@ function speaker (){
                        
                        </div>
                       </div>
-                      <div className="item">
-                      <div className="speaker-item">
-                         <div className='contbox'>
-                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQFG8BDxuqcs7g/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=pslVHqzsjpcLWS605HUbpLlIJS8cqV2soj3GtrI5v-0' className='circleimg'>
-                            </img>
-                             <h3 className='namee'>Naveen Dhillon </h3>
-                            <p className='para'>CEO-Antriex Technologies</p>
-                            <p className='purp'>Women in Tech (Women in technical(core) entrepreneurship)</p>
-
-                         </div>
-                      </div>     
-                      </div>
                       <a className="left carousel-control car-control" href="#myCarousel1" data-slide="prev">
                          <span className="glyphicon glyphicon-chevron-left control-but"></span>
                          <span className="sr-only">Previous</span>
@@ -132,22 +124,24 @@ function speaker (){
                     <div className="item active">
                       <div className="speaker-item">
                        <div className='contbox'>
-                            <img alt=''  src='https://media.licdn.com/dms/image/C4E03AQG7kLg4Qu8MXQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p6PWfYk6oPXtlzZWHpeIUHGuCfonLBxZLEQUkp3PK24' className='circleimg'>
+                            <img alt=''  src={img8} className='circleimg'>
                             </img>
-                             <h3 className='namee'>Navniet Sekera</h3>
-                            <p className='para'>IG Lucknow</p>
+                             <h3 className='namee'>Retd. Lt. Gen. Vishwambhar Singh</h3>
+                            <p className='para'>Retired Lieutenant General</p>
                        </div>
                        <div className='contbox'>
-                            <img alt='' src='https://media.licdn.com/dms/image/C5603AQGBgEi7NRqqnQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p4mpvBFU-raNhy60zEeBLTcMJKpo-XoYqZZ2BzF-QEc' className='circleimg'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C5103AQEB-ROhiGBP6w/profile-displayphoto-shrink_800_800/0?e=1570060800&v=beta&t=HQJJaMcMOTp7OTg3JHq7sogSthNOta_HSie64Qsl-sc' className='circleimg'>
                             </img>
-                             <h3 className='namee'>Himanshu Sirohi </h3>
-                            <p className='para'>Director, Digital Marketing, JLL</p>
+                             <h3 className='namee'>Dr. Nirmaljeet Singh Kalsi </h3>
+                            <p className='para'> Additional Chief secretary (Govt of Punjab)</p>
+      
                        </div>
                        <div className='contbox'>
-                            <img alt='' src={img7} className='circleimg'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C4D03AQFMXFiYjMKvdw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=2r6G9Qgcm5FdkiPnQvBbpb5F18lNSat8kKC5JGsrLuY' className='circleimg'>
                             </img>
-                             <h3 className='namee'>Nitesh Jain </h3>
-                            <p className='para'>Business Strategy | Paytm</p>
+                             <h3 className='namee'>Rajiv Yadav </h3>
+                            <p className='para'>Chairman, Brahmaputra Board, Government of India</p>
+                            
                        </div>
                       </div>
                       </div>
@@ -158,8 +152,23 @@ function speaker (){
                             </img>
                              <h3 className='namee'>Varun Goel</h3>
                             <p className='para'>Dr. Manager (HR) | BHEL, Haridwar</p>
+                            <p className='purp'>Off Campus Placement and Internship</p>
                        </div>
                        
+                       <div className='contbox'>
+                            <img alt='' src='https://media.licdn.com/dms/image/C5603AQGBgEi7NRqqnQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=p4mpvBFU-raNhy60zEeBLTcMJKpo-XoYqZZ2BzF-QEc' className='circleimg'>
+                            </img>
+                             <h3 className='namee'>Himanshu Sirohi </h3>
+                            <p className='para'>Director, Digital Marketing, JLL</p>
+                            <p className='purp'>On Campus Internship</p>
+                       </div>
+                       <div className='contbox'>
+                            <img alt='' src={img7} className='circleimg'>
+                            </img>
+                             <h3 className='namee'>Nitesh Jain </h3>
+                            <p className='para'>Business Strategy | Paytm</p>
+                            <p className='purp'>On Campus Placement</p>
+                       </div>
                        </div>
                       </div>
                       <a className="left carousel-control car-control" href="#myCarousel2" data-slide="prev">
