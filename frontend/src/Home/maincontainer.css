@@ -33,6 +33,7 @@
         height: 0;
         border-top: 10vw solid white;
         border-right: 99vw solid transparent;
+        display: none;
  }
 
 .triangle-bottomright-1
@@ -42,6 +43,8 @@
         border-bottom: 10vw solid#E7A908;
         border-left: 99vw solid transparent;
         margin-top: -10vw;
+        z-index: 3;
+        display: none;
 }
 .straightlineblack-1
 {   
@@ -51,6 +54,7 @@
     margin-bottom:-4vw;
     transform: rotate(-6deg);
     background-color: #E7A908;
+    display: none;
 }
 .straightlineblack-2{
   z-index:1;
@@ -83,6 +87,11 @@
         border-bottom: 10vw solid black;
         border-left: 99vw solid transparent;
         margin-top: -10vw;
+}
+@media only screen and (max-width:1000px){
+  .straightlineblack-1, .triangle-bottomright-1, .triangle-topleft-1{
+    display: block;
+  }
 }
 @media only screen and (max-width:1000px)
 {

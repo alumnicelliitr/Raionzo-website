@@ -1,7 +1,7 @@
 .container4
 {
     background-color:#E7A908;
-    padding: 1em 0 2em 0;
+    padding: 4em 0 2em 0;
 }
 
 .container-4-child-heading
@@ -78,18 +78,19 @@
     .container-4-child-body
     {
         font-weight: 500;
-        font-size: 1.5em;
-        line-height: 5vw;
+        font-size: 1em;
+        line-height: 1em;
     }
 
     .container-4-child-heading{
-        font-size: 4.7em;
+        font-size: 3.5em;
     }
 
     .container-4-image{
         height:32vw;
-        width:32vw; 
-        margin-left:2vw;   
+        width: auto;
+        margin-left:1vw;  
+        margin-top: 4em; 
     }
 }
 
@@ -99,7 +100,8 @@
         background-color: #FFFFFF;
     }
     .container-4-child-heading {
-        line-height: 70px;
+        line-height: 50px;
+        font-size: 2em;
     }
     .container-4-child-body {
         color: black;

@@ -124,6 +124,14 @@
     .container-2-child-date{
         font-size: 2.2em;
     }
+    .container-2-child-logo-1{
+        height: 16em;
+    }
+    .container-2-child-logo-2{
+        width: 14em;
+        margin-right: 0.5em
+    }
+
 }
 @media only screen and (max-width:1000px){
     .container-2-child-heading
@@ -132,6 +140,13 @@
     }
     .container-2-child-date{
         font-size: 1.8em;
+    }
+    .container-2-child-logo-1{
+        height: 12em;
+    }
+    .container-2-child-logo-2{
+        width: 10em;
+        margin-right: 0.5em
     }
 }
 @media only screen and (max-width:600px)
@@ -178,19 +193,15 @@
     .container-2-child-button{
             margin-top: 40px;
     }
-    .container-2-child-logo-1
-   {
-    height: 20em;
-    width: auto;
-   }   
-    .container-2-child-logo-2
-    {
-        margin-left: 1vw;
-        height: 20em;
-        width: auto;
-    }
     .container-2-child-2{
         margin-right:4vw;
+    }
+    .container-2-child-logo-1{
+        height: 8em;
+    }
+    .container-2-child-logo-2{
+        width: 6em;
+        margin-right: 0.5em
     }
     
 }
