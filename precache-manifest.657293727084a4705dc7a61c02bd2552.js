@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5e60cfdef22ef1a0e524afb58c09206",
+    "revision": "ac7f3fa8db8e99783a7ed9b930109222",
     "url": "/index.html"
   },
   {
-    "revision": "3276daf4260b62d77870",
-    "url": "/static/css/main.f6c3b09f.chunk.css"
+    "revision": "8f16c53abf52064ae95c",
+    "url": "/static/css/main.9d2d187c.chunk.css"
   },
   {
-    "revision": "8860da72fa083d11cabb",
-    "url": "/static/js/2.3bee7f2e.chunk.js"
+    "revision": "a8bd00df69707f34d93c",
+    "url": "/static/js/2.a893a51f.chunk.js"
   },
   {
-    "revision": "3276daf4260b62d77870",
-    "url": "/static/js/main.3e481e55.chunk.js"
+    "revision": "8f16c53abf52064ae95c",
+    "url": "/static/js/main.a9dd283e.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6adbb442a0acb6291b773f531a562fb3",
     "url": "/static/media/iitrlogo.6adbb442.png"
+  },
+  {
+    "revision": "52227635e074b3417532aa74d22d28ca",
+    "url": "/static/media/ltgen.52227635.jpeg"
   },
   {
     "revision": "71e279f2474d214ac7f153822fb35ff0",
